@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "settings": {
+      }
+    },
+    "bester_articles_section_QePXtL": {
+      "type": "bester-articles-section",
+      "blocks": {
+        "article_jmwLkM": {
+          "type": "article",
+          "settings": {
+            "article": "blog\/osetra-trio-sampler-6"
+          }
+        },
+        "article_4cmWjm": {
+          "type": "article",
+          "settings": {
+            "article": "blog\/osetra-trio-sampler-4"
+          }
+        },
+        "article_9KyGCM": {
+          "type": "article",
+          "settings": {
+            "article": "blog\/osetra-trio-sampler"
+          }
+        }
+      },
+      "block_order": [
+        "article_jmwLkM",
+        "article_4cmWjm",
+        "article_9KyGCM"
+      ],
+      "settings": {
+        "title": "Blog bester caviar",
+        "sub_title": "caviar info"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bester_articles_section_QePXtL"
+  ]
+}

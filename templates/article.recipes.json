@@ -1,0 +1,45 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-article-2",
+      "settings": {
+      }
+    },
+    "bester_articles_section_XK8FnJ": {
+      "type": "bester-articles-section",
+      "blocks": {
+        "article_94YCaM": {
+          "type": "article",
+          "settings": {
+            "article": "recipes\/osetra-trio-sampler-2"
+          }
+        },
+        "article_fKLN3K": {
+          "type": "article",
+          "settings": {
+            "article": "recipes\/osetra-trio-sampler-2"
+          }
+        },
+        "article_V9qtJ3": {
+          "type": "article",
+          "settings": {
+            "article": "recipes\/osetra-trio-sampler-2"
+          }
+        }
+      },
+      "block_order": [
+        "article_94YCaM",
+        "article_fKLN3K",
+        "article_V9qtJ3"
+      ],
+      "settings": {
+        "title": "recipes with bester caviar",
+        "sub_title": "salads"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bester_articles_section_XK8FnJ"
+  ]
+}

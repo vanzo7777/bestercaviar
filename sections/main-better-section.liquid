@@ -1,0 +1,83 @@
+<section class="better">
+  <div class="container">
+      {% if section.settings.title != blank %}
+        <h2 class="better__title title">
+            {{ section.settings.title }}
+        </h2>
+      {% endif %}
+      {% if section.settings.sub_title != blank %}
+        <p class="better__subtitle subtitle">
+            {{ section.settings.sub_title }}
+        </p>
+      {% endif %}
+      <div class="better__container">
+          <div class="better__wrapper">
+              {% for block in section.blocks %}
+                {% if block.settings.product != blank %}
+                  {% render 'card-product',
+                    card_product: block.settings.product,
+                    show_secondary_image: false,
+                    image_shape: 'default',
+                    media_aspect_ratio: 'square',
+                    show_vendor: true,
+                    show_rating: false,
+                    lazy_load: true,
+                    show_quick_add: false,
+                    section_id: section.id
+                  %}
+                {% endif %}
+              {% endfor %}
+          </div>
+          <div class="better__pagination pagination"></div>
+      </div>
+      {% if section.settings.text != blank %}
+        <div class="better__description description">
+            {{ section.settings.text }}
+        </div>
+      {% endif %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Better Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Bestsellers in our caviar store"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub-Title",
+        "default": "We invite you to familiarize yourself with the most popular products"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card",
+        "name": "Card",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Better Section"
+      }
+    ]
+  }
+{% endschema %}

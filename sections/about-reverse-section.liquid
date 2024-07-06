@@ -1,0 +1,105 @@
+<section class="faq club">
+  <div class="container">
+      <div class="club__content">
+          {% if section.settings.title != blank %}
+            <h2 class="about__title title inversion {% if section.settings.our_section %}our__title{% endif %}">
+                {{ section.settings.title }}
+            </h2>
+          {% endif %}
+          {% for block in section.blocks %}
+            {% if block.settings.label != blank %}
+            <p class="about__label {% if section.settings.club_section %}club__label{% endif %} {% if section.settings.our_section %}our__label{% endif %}">
+                {{ block.settings.label }}
+            </p>
+            {% endif %}
+            {% if block.settings.text != blank %}
+            <p class="about__text">
+                {{ block.settings.text }}
+            </p>
+            {% endif %}
+          {% endfor %}
+          {% if section.settings.button != blank %}
+            <div class="about__buttons center__more">
+                <a href="{{ section.settings.button_url }}" class="about__button button button--green">
+                    <span>{{ section.settings.button }}</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                        <path
+                            d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                            fill="white" />
+                    </svg>
+                </a>
+            </div>
+          {% endif %}
+      </div>
+  </div>
+  {% if section.settings.image != blank %}
+  <div class="faq__image {% if section.settings.our_section %}our__image{% endif %}">
+      <picture><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"></picture>
+  </div>
+  {% endif %}
+</section>
+
+{% schema %}
+  {
+    "name": "About Reverse Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "About Us"
+      },
+      {
+        "type": "text",
+        "id": "button",
+        "label": "Button Text",
+        "default": "MORE"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "club_section",
+        "label": "Club Section"
+      },
+      {
+        "type": "checkbox",
+        "id": "our_section",
+        "label": "Our Section"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "label",
+            "label": "Label Text",
+            "default": "CAVIAR PRODUCTION"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text",
+            "default": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Backthen caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ..."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "About Reverse Section"
+      }
+    ]
+  }
+{% endschema %}

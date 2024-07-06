@@ -1,0 +1,56 @@
+<section class="our__slid">
+		<div class="our__slider swiper">
+			<div class="swiper-wrapper">
+                {% for block in section.blocks %}
+				<div class="our__slide swiper-slide">
+                    {% if block.settings.image != blank %}
+  					<picture><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}"></picture>
+                    {% endif %}
+                    {% if block.settings.second_image != blank %}
+    					<picture><img src="{{ block.settings.second_image | image_url }}" alt="{{ block.settings.second_image.alt }}"></picture>
+                    {% endif %}
+				</div>
+                {% endfor %}
+                {% for block in section.blocks %}
+  				<div class="our__slide swiper-slide">
+                      {% if block.settings.image != blank %}
+    					<picture><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}"></picture>
+                      {% endif %}
+                      {% if block.settings.second_image != blank %}
+      					<picture><img src="{{ block.settings.second_image | image_url }}" alt="{{ block.settings.second_image.alt }}"></picture>
+                      {% endif %}
+  				</div>
+                  {% endfor %}
+			</div>
+			<div class="banner__pagination"></div>
+		</div>
+	</section>
+
+{% schema %}
+  {
+    "name": "Our Slider Section",
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "First Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "second_image",
+            "label": "Second Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Our Slider Section"
+      }
+    ]
+  }
+{% endschema %}

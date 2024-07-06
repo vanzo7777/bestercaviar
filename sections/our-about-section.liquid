@@ -1,0 +1,58 @@
+{% style %}
+  .our__clear {
+    display: block !important;
+  }
+{% endstyle %}
+
+<section class="our">
+		<div class="container">
+			<div class="our__wrapper">
+                {% if section.settings.title != blank %}
+                <div class="our__clear"></div>
+				<div class="our__title title">
+					{{ section.settings.title }}
+				</div>
+                {% endif %}
+				{% if section.settings.image != blank %}
+                  <div class="our__img">
+                      <picture><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"></picture>
+                  </div>
+                {% endif %}
+                {% if section.settings.text != blank %}
+  				<div class="our__text">
+  					{{ section.settings.text }}
+  				</div>
+                {% endif %}
+			</div>
+		</div>
+	</section>
+
+{% schema %}
+  {
+    "name": "Our About Section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Our Farms"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Our About Section"
+      }
+    ]
+  }
+{% endschema %}

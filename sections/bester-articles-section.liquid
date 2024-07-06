@@ -1,0 +1,64 @@
+<section class="recipes-page">
+  <div class="recipes__container container">
+      {% if section.settings.title != blank %}
+        <h2 class="recipes__title-2 title">
+            {{ section.settings.title }}
+        </h2>
+      {% endif %}
+      {% if section.settings.sub_title != blank %}
+        <p class="recipes__subtitle">
+            {{ section.settings.sub_title }}
+        </p>
+      {% endif %}
+      <div class="recipes__slider blog__slider-page swiper" style="margin-top: 0.625rem;">
+          <div class="recipes__list">
+              {% for block in section.blocks %}
+                {% if block.settings.article != blank %}
+                    {%- render 'article-card',
+                      article: block.settings.article
+                    -%}
+                {% endif %}
+              {% endfor %}
+          </div>
+          <div class="banner__pagination"></div>
+      </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Best Articles Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Blog bester caviar"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Subtitle",
+        "default": "caviar info"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "article",
+        "name": "Article",
+        "settings": [
+          {
+            "type": "article",
+            "id": "article",
+            "label": "Article"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Best Articles Section"
+      }
+    ]
+  }
+{% endschema %}

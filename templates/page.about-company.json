@@ -1,0 +1,119 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_8eDK8X": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/about-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/about-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "",
+        "top": false
+      }
+    },
+    "promo_about_section_JHqtC4": {
+      "type": "promo-about-section",
+      "settings": {
+        "title": "CAVIAR ROOTS THAT RUN DEEP",
+        "first_text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus<br\/><br\/><\/p>",
+        "image": "shopify:\/\/shop_images\/about-company.webp",
+        "second_text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus <br\/><br\/>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus <br\/> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo<\/p>"
+      }
+    },
+    "about_news_D3RUnN": {
+      "type": "about-news",
+      "blocks": {
+        "item_dUpR7t": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo_2024-04-18_18-20-37.jpg",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        },
+        "item_CdNxVr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ab2.webp",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        },
+        "item_BVc3AD": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ab3.webp",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        },
+        "item_HYPi8a": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ab4.webp",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        },
+        "item_6EBRED": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ab5.webp",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        },
+        "item_wbnWGK": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ab6.webp",
+            "title": "<p>Lorem ipsum dolor sit amet, <br\/> consectetuer adipiscin<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a<\/p>",
+            "button": "more",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_dUpR7t",
+        "item_CdNxVr",
+        "item_BVc3AD",
+        "item_HYPi8a",
+        "item_6EBRED",
+        "item_wbnWGK"
+      ],
+      "settings": {
+        "title": "They write about us"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_8eDK8X",
+    "promo_about_section_JHqtC4",
+    "about_news_D3RUnN"
+  ]
+}

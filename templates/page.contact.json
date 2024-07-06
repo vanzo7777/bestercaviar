@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "little_promo_section_9MHHQN": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "CONTACT US",
+        "main_title": true,
+        "mobile_text": "",
+        "left_text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "right_text": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.",
+        "yellow_title": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "contact_section_GCtYbM": {
+      "type": "contact-section",
+      "settings": {
+        "title": "Feedback",
+        "sub_title": "If you have a question write to us"
+      }
+    },
+    "newsletter_second_section_YBfgkP": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "little_promo_section_9MHHQN",
+    "form",
+    "contact_section_GCtYbM",
+    "newsletter_second_section_YBfgkP"
+  ]
+}

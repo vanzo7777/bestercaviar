@@ -1,0 +1,106 @@
+<section class="more">
+  <div class="container">
+      {% if section.settings.title != blank %}
+        <p class="more__title title">
+            {{ section.settings.title }}
+        </p>
+      {% endif %}
+      {% if section.settings.button != blank %}
+        <div class="more__buttons">
+            <a href="{{ section.settings.button_url }}" class="more__button button button--blue">
+                <span>{{ section.settings.button }}</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                    <path
+                        d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                        fill="white" />
+                </svg>
+            </a>
+        </div>
+      {% endif %}
+      {% if section.settings.call_text != blank %}
+      <div class="more__label">
+          {{ section.settings.call_text }}
+      </div>
+      {% endif %}
+      <div class="more__wrapper seo__block">
+          {% if section.settings.first_text != blank %}
+            <div class="more__text order1">
+                {{ section.settings.first_text }}
+            </div>
+          {% endif %}
+          {% if section.settings.third_text != blank %}
+            <div class="more__text order4">
+                {{ section.settings.third_text }}
+            </div>
+          {% endif %}
+          {% if section.settings.second_text != blank %}
+            <div class="more__text order2">
+                {{ section.settings.second_text }}
+            </div>
+          {% endif %}
+          {% if section.settings.image != blank %}
+            <div class="more__image order3">
+                <picture><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"></picture>
+            </div>
+          {% endif %}
+      </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "More Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Best Caviar Online in The US by Bester Caviar"
+      },
+      {
+        "type": "text",
+        "id": "button",
+        "label": "Button Text",
+        "default": "Online Store"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "richtext",
+        "id": "call_text",
+        "label": "Call Text",
+        "default": "<p> Order best caviar online with free overnight delivery in the US <br> Call now! <a href='tel:+1 (813) 510-9892'>+1 (813) 510-9892</a> - Your Favorite Caviar Shop</p>"
+      },
+      {
+        "type": "text",
+        "id": "first_text",
+        "label": "First Text",
+        "default": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M"
+      },
+      {
+        "type": "text",
+        "id": "second_text",
+        "label": "Second Text",
+        "default": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M"
+      },
+      {
+        "type": "text",
+        "id": "third_text",
+        "label": "Third Text",
+        "default": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "More Section"
+      }
+    ]
+  }
+{% endschema %}

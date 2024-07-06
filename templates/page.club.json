@@ -1,0 +1,121 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_TTdJce": {
+      "type": "banner-section",
+      "custom_css": [
+        "@media (max-width: 993px) {.banner__list {display: none; }}",
+        "@media (max-width: 498px) {.banner {margin-top: 130px; }}"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/iPhone_14_Plus_-_1.png",
+        "image_desktop": "shopify:\/\/shop_images\/club.webp",
+        "title": "<p>Premium Caviar Club Bester Caviar<\/p>",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium<br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
+        "top": true
+      }
+    },
+    "little_promo_section_c8wmNr": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "",
+        "mobile_text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium<br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
+        "left_text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "right_text": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.",
+        "yellow_title": false
+      }
+    },
+    "about_reverse_section_9f9eUL": {
+      "type": "about-reverse-section",
+      "blocks": {
+        "item_HmxAFV": {
+          "type": "item",
+          "settings": {
+            "label": "JOIN CAVIAR CLUB TO GET 25% OFF",
+            "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Back then caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ..."
+          }
+        }
+      },
+      "block_order": [
+        "item_HmxAFV"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/club2.webp",
+        "title": "CAVIAR BESTSELLERS",
+        "button": "MORE",
+        "button_url": "",
+        "club_section": true,
+        "our_section": false
+      }
+    },
+    "services_section_9KE9dn": {
+      "type": "services-section",
+      "blocks": {
+        "item_BEydB4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-1.svg",
+            "title": "FREE OVERNIGHT DELIVERY",
+            "text": "Free Overnight Shipping in temperature controlled coolers for perishable goods Monday through Thursday & Same Day Free Delivery in Miami 24\/7."
+          }
+        },
+        "item_Rid4ef": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-2.svg",
+            "title": "PERSONALIZE YOUR ORDERWITH A GIFT CARD",
+            "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge."
+          }
+        },
+        "item_fR4Upe": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/services-3.svg",
+            "title": "24\/7 CUSTOMER SERVICE",
+            "text": "Contact our caviar concierge to help you with your customized selection & delivery details: +1(813)510-9892 inna@besterusa.com"
+          }
+        },
+        "item_GpK3bh": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-4.svg",
+            "title": "AMAZON’S CHOICE",
+            "text": "Bester Caviar is best selling caviar brand on Amazon with over 500 positive customer reviews and Amazon’s Choice award: highly rated & well priced, ready to ship immediately."
+          }
+        }
+      },
+      "block_order": [
+        "item_BEydB4",
+        "item_Rid4ef",
+        "item_fR4Upe",
+        "item_GpK3bh"
+      ],
+      "settings": {
+        "title": "More and more quality service for our customers",
+        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "delivery": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_TTdJce",
+    "little_promo_section_c8wmNr",
+    "about_reverse_section_9f9eUL",
+    "services_section_9KE9dn"
+  ]
+}

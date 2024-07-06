@@ -1,0 +1,145 @@
+<style>
+  .footer__list * {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .footer__list > p:first-child a {
+    color: #dfb453;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  
+  .footer__list a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer__social {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 20px;
+  }
+</style>
+
+<footer class="footer">
+	<div class="container">
+		<div class="footer__wrapper">
+            {% if settings.logo != blank %}
+			<div class="footer__logo">
+				<picture><img src="{{ settings.logo | image_url }}" alt="{{ settings.logo.alt }}"></picture>
+			</div>
+            {% endif %}
+			<div class="footer__menu">
+                {% if section.settings.menu_title != blank %}
+    				<p class="footer__title">
+    					{{ section.settings.menu_title }}
+    				</p>
+                {% endif %}
+                {% if section.settings.menu != blank %}
+    				<ul class="footer__list">
+                        {% for link in section.settings.menu.links %}
+                          <li>
+        					<a href="{{ link.url }}" class="footer__item">
+        						{{ link.title }}
+        					</a>
+                          </li>
+                        {% endfor %}
+    				</ul>
+                {% endif %}
+  			</div>
+			<div class="footer__info">
+				<div class="footer__menu">
+                    {% if section.settings.address_title != blank %}
+    					<p class="footer__title">
+    						{{ section.settings.address_title }}
+    					</p>
+                    {% endif %}
+                    {% if section.settings.address_text != blank %}
+    					<div class="footer__list">
+    						{{ section.settings.address_text }}
+    					</div>
+                    {% endif %}
+				</div>
+				<div class="footer__menu">
+					{% if section.settings.contact_title != blank %}
+    					<p class="footer__title">
+    						{{ section.settings.contact_title }}
+    					</p>
+                    {% endif %}
+                    {% if section.settings.contact_text != blank %}
+    					<div class="footer__list">
+    						{{ section.settings.contact_text }}
+    					</div>
+                    {% endif %}
+                    {%- render 'social-icons', class: 'footer__social' -%}
+                  
+				</div>
+			</div>
+		</div>
+		<div class="footer__payment footer__icons">
+          <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+          <ul class="list list-payment" role="list">
+            {%- for type in shop.enabled_payment_types -%}
+              <li class="list-payment__item">
+                {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+	</div>
+</footer>
+
+{% schema %}
+{
+  "name": "t:sections.footer.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "menu_title",
+      "label": "Menu Title",
+      "default": "Footer menu"
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu"
+    },
+    {
+      "type": "text",
+      "id": "address_title",
+      "label": "Address Title",
+      "default": "Address"
+    },
+    {
+      "type": "richtext",
+      "id": "address_text",
+      "label": "Address Text",
+      "default": "<p>1000 Brickell Plaza,</p><p>unit 2601, Miami,FL,</p><p>United States, 33131.</p>"
+    },
+    {
+      "type": "text",
+      "id": "contact_title",
+      "label": "Contact Title",
+      "default": "Contact"
+    },
+    {
+      "type": "richtext",
+      "id": "contact_text",
+      "label": "Contact Text",
+      "default": "<p><a href='tel:+1 (813) 510-9892'>+1 (813) 510-9892</a></p><p><a href='mailto:inna@besterusa.com'>inna@besterusa.com</a></p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.footer.name"
+    }
+  ]
+}
+{% endschema %}

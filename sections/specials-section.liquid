@@ -1,0 +1,60 @@
+<section class="special">
+  <div class="container">
+      {% if section.settings.title != blank %}
+        <h1 class="special__title title">
+            {{ section.settings.title }}
+        </h1>
+      {% endif %}
+      <div class="tab__nav">
+          {% for block in section.blocks %}
+            <a href="#" class="tab__nav-item tab__button" data-tab="{{ block.id }}">{{ block.settings.title }}</a>
+          {% endfor %}
+      </div>
+      {% for block in section.blocks %}
+        <div class="special__wrapper tab__content" data-tab="{{ block.id }}">
+          {% if block.settings.products != blank %}
+            {% for product in block.settings.products %}
+              {% render 'card-product', card_product: product %}
+            {% endfor %}
+          {% endif %}
+        </div>
+      {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Specials Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "A special offer on your favorite caviar"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "product_list",
+            "id": "products",
+            "label": "Products"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Specials Section"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,41 @@
+{% comment %}
+  Renders an article card for a given blog with settings to either show the image or not.
+
+  Accepts:
+  - blog: {Object} Blog object
+  - article: {Object} Article object
+
+  Usage:
+  {% render 'article-card' blog: blog, article: article %}
+{% endcomment %}
+
+<div class="recipes__card">
+    <a href="{{ article.url }}" class="recipes__card-link">
+        <div class="recipes__card-thumb">
+            {% if article.image != blank %}
+              <img src="{{ article.image | image_url }}" alt="{{ article.image.alt }}">
+            {% else %}
+              <img src="https://fotobym.com.ua/uploads/images/product/480/f37e95c0a03b0b49c82e71bdb81494a3.jpg"
+                  alt="" />
+            {% endif %}
+        </div>
+        <div class="text__container container">
+            {% if article.tags != blank %}
+              {% for tag in article.tags %}
+                <p class="recipes__category">{{ tag }}</p>
+              {% endfor %}
+            {% endif %}
+            <h2 class="recipes__card-title">{{ article.title }}</h2>
+            <p class="description recipes__description">
+                {{ article.content | truncatewords: 16 }}
+            </p>
+        </div>
+        <button type="button" class="recipes__button button button--blue">
+            <span>read now</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                <path d="M1 0.514893L5.81343 5.32833L1 10.1418" stroke="white" stroke-width="0.962687"
+                    stroke-linecap="round" />
+            </svg>
+        </button>
+    </a>
+</div>

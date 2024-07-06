@@ -1,0 +1,309 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_hRDrJ8": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/delivery-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/delivery-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "",
+        "top": false
+      }
+    },
+    "little_promo_section_GieEnn": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "Delivery bester caviar",
+        "main_title": true,
+        "mobile_text": "",
+        "left_text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "right_text": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.",
+        "yellow_title": false
+      }
+    },
+    "city_section_NP4znd": {
+      "type": "city-section",
+      "blocks": {
+        "city_p3DcWj": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_U93U4r": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_EzbiBa": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_9C3DrV": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_EzmVMq": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_WDL3Xy": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_MNb8Qm": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        },
+        "city_UeXen6": {
+          "type": "city",
+          "settings": {
+            "title": "name city",
+            "image": "shopify:\/\/shop_images\/delivery-slide.webp"
+          }
+        }
+      },
+      "block_order": [
+        "city_p3DcWj",
+        "city_U93U4r",
+        "city_EzbiBa",
+        "city_9C3DrV",
+        "city_EzmVMq",
+        "city_WDL3Xy",
+        "city_MNb8Qm",
+        "city_UeXen6"
+      ],
+      "settings": {
+        "title": "City",
+        "button": "more",
+        "button_url": ""
+      }
+    },
+    "main_better_section_PdtigG": {
+      "type": "main-better-section",
+      "blocks": {
+        "card_tVEjhk": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_fcemJU": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_yWbDhT": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "card_tVEjhk",
+        "card_fcemJU",
+        "card_yWbDhT"
+      ],
+      "settings": {
+        "title": "Bestsellers in our caviar store",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+      }
+    },
+    "services_section_zcbnUz": {
+      "type": "services-section",
+      "blocks": {
+        "item_dRDwcC": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-1.svg",
+            "title": "FREE OVERNIGHT DELIVERY",
+            "text": "Free Overnight Shipping in temperature controlled coolers for perishable goods Monday through Thursday & Same Day Free Delivery in Miami 24\/7."
+          }
+        },
+        "item_w4CVbR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-2.svg",
+            "title": "PERSONALIZE YOUR ORDERWITH A GIFT CARD",
+            "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge"
+          }
+        },
+        "item_hBbdW3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/services-3.svg",
+            "title": "24\/7 CUSTOMER SERVICE",
+            "text": "Contact our caviar concierge to help you with your customized selection & delivery details: +1(813)510-9892 inna@besterusa.com"
+          }
+        },
+        "item_inTHWM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-4.svg",
+            "title": "AMAZON’S CHOICE",
+            "text": "Bester Caviar is best selling caviar brand on Amazon with over 500 positive customer reviews and Amazon’s Choice award: highly rated & well priced, ready to ship immediately."
+          }
+        }
+      },
+      "block_order": [
+        "item_dRDwcC",
+        "item_w4CVbR",
+        "item_hBbdW3",
+        "item_inTHWM"
+      ],
+      "settings": {
+        "title": "More and more quality service for our customers",
+        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "delivery": true
+      }
+    },
+    "best_products_section_jwX8Te": {
+      "type": "best-products-section",
+      "blocks": {
+        "product_qXyrCH": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_LpJnXJ": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_WQJtqM": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_M9Y8kq": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_mBjkXT": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_xjwtdi": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_qULbzc": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_yjLkzR": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_rBUiVY": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_zEYUj3": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_k8aRFz": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_Lwge7Y": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_eqmJ8W": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_qXyrCH",
+        "product_LpJnXJ",
+        "product_WQJtqM",
+        "product_M9Y8kq",
+        "product_mBjkXT",
+        "product_xjwtdi",
+        "product_qULbzc",
+        "product_yjLkzR",
+        "product_rBUiVY",
+        "product_zEYUj3",
+        "product_k8aRFz",
+        "product_Lwge7Y",
+        "product_eqmJ8W"
+      ],
+      "settings": {
+        "title": "best Caviar Gift Sets",
+        "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
+        "delivery": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_hRDrJ8",
+    "little_promo_section_GieEnn",
+    "city_section_NP4znd",
+    "main_better_section_PdtigG",
+    "services_section_zcbnUz",
+    "best_products_section_jwX8Te"
+  ]
+}

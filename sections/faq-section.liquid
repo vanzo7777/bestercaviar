@@ -1,0 +1,108 @@
+<style>
+  .faq__quetion::before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/faq_q.svg?v=1709152181");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+
+<section class="faq">
+  <div class="container">
+      {% if section.settings.title != blank %}
+        <h2 class="faq__title title inversion">
+            {{ section.settings.title }}
+        </h2>
+      {% endif %}
+      <div class="faq__content" data-tab="faq1">
+          {% for block in section.blocks %}
+            <div class="faq__quetion accordion-trigger">
+                {{ block.settings.question }}
+            </div>
+            <div class="faq__answer accordion-content">
+                {{ block.settings.answer }}
+            </div>
+          {% endfor %}
+      </div>
+  </div>
+  {% if section.settings.menu != blank %}
+  <div class="container">
+      <div class="faq__menu">
+          {% for link in section.settings.menu.links %}
+            <a href="{{ link.url }}" class="faq__item">{{ link.title }}</a>
+          {% endfor %}
+      </div>
+  </div>
+  {% endif %}
+  {% if section.settings.image != blank %}
+    <div class="faq__image">
+        <picture><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"></picture>
+    </div>
+  {% endif %}
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+  {% for block in section.blocks %}
+  {
+	"@type": "Question",
+	"name": "{{ block.settings.question }}",
+	"acceptedAnswer": {
+  	"@type": "Answer",
+  	"text": "{{ block.settings.answer }}"
+	}
+  },
+  {% endfor %}
+  ]
+}
+</script>
+
+
+{% schema %}
+  {
+    "name": "FAQ Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Frequently Asked Questions"
+      },
+      {
+        "type": "link_list",
+        "id": "menu",
+        "label": "FAQ Menu"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "question",
+            "label": "Question"
+          },
+          {
+            "type": "text",
+            "id": "answer",
+            "label": "Answer"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "FAQ Section"
+      }
+    ]
+  }
+{% endschema %}

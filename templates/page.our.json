@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_ELUUhT": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/our-mobile.webp",
+        "image_desktop": "shopify:\/\/shop_images\/our-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "",
+        "top": false
+      }
+    },
+    "our_about_section_MqyjLF": {
+      "type": "our-about-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our2.webp",
+        "title": "Our Farms",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,"
+      }
+    },
+    "about_reverse_section_9BUrJ9": {
+      "type": "about-reverse-section",
+      "blocks": {
+        "item_q3jN8t": {
+          "type": "item",
+          "settings": {
+            "label": "ORGANIC IN NATURE",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
+          }
+        },
+        "item_GjgMdM": {
+          "type": "item",
+          "settings": {
+            "label": "SUSTAINABLE BY DESIGN",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
+          }
+        },
+        "item_piVQeP": {
+          "type": "item",
+          "settings": {
+            "label": "FARMER’S ETHOS",
+            "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient"
+          }
+        }
+      },
+      "block_order": [
+        "item_q3jN8t",
+        "item_GjgMdM",
+        "item_piVQeP"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our1.webp",
+        "title": "OUR FARMING PRINCIPLES",
+        "button": "",
+        "button_url": "",
+        "club_section": false,
+        "our_section": true
+      }
+    },
+    "our_about_section_MKheUb": {
+      "type": "our-about-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/our-sl-4.webp",
+        "title": "",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,"
+      }
+    },
+    "our_slider_section_QTwHAn": {
+      "type": "our-slider-section",
+      "blocks": {
+        "slide_MXFWFq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-sl-1.webp",
+            "second_image": "shopify:\/\/shop_images\/our-sl-2.webp"
+          }
+        },
+        "slide_Awm4eF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-sl-3.webp",
+            "second_image": "shopify:\/\/shop_images\/our-sl-4.webp"
+          }
+        },
+        "slide_8HUAWH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-sl-5.webp",
+            "second_image": "shopify:\/\/shop_images\/our-sl-6.webp"
+          }
+        },
+        "slide_7LrgDr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-sl-7.webp",
+            "second_image": "shopify:\/\/shop_images\/our-sl-8.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_MXFWFq",
+        "slide_Awm4eF",
+        "slide_8HUAWH",
+        "slide_7LrgDr"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter_second_section_QzJiUd": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_ELUUhT",
+    "our_about_section_MqyjLF",
+    "about_reverse_section_9BUrJ9",
+    "our_about_section_MKheUb",
+    "our_slider_section_QTwHAn",
+    "newsletter_second_section_QzJiUd"
+  ]
+}

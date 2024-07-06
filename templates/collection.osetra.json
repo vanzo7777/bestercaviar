@@ -1,0 +1,191 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "banner_section_tzKQ3R": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/5.webp",
+        "image_desktop": "shopify:\/\/shop_images\/osetra.webp",
+        "title": "<p>Premium black Caviar Buy online in the USA Bester Caviar Store<\/p>",
+        "title_width": 580,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "<ul><li>Buy Russian Osetra Caviar Online In Miam<\/li><li>Free Overnight Shipping in the United States<\/li><li>Best Quality at the Best Price!<\/li><li>Shop now!<\/li><\/ul>",
+        "top": true
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_products_section_QHNLnp": {
+      "type": "collection-products-section",
+      "disabled": true,
+      "settings": {
+        "title": "Russian Osetra Caviar",
+        "collection": "osetra"
+      }
+    },
+    "little_promo_section_eKrymi": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "Osetra Caviar",
+        "main_title": true,
+        "mobile_text": "",
+        "left_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed",
+        "right_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed",
+        "yellow_title": false
+      }
+    },
+    "main_better_section_TVJ3R6": {
+      "type": "main-better-section",
+      "blocks": {
+        "card_Hre6Ah": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_VV7jH4": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_fzPaA7": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "card_Hre6Ah",
+        "card_VV7jH4",
+        "card_fzPaA7"
+      ],
+      "settings": {
+        "title": "CAVIAR BESTSELLERS",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "text": ""
+      }
+    },
+    "subscription_section_qKBgHV": {
+      "type": "subscription-section",
+      "blocks": {
+        "link_FmbwUG": {
+          "type": "link",
+          "settings": {
+            "title": "CAVIAR GIFT SETS",
+            "image": "shopify:\/\/shop_images\/rect-2_80f0d5d3-04e3-4b82-9e2e-367146d1772a.webp",
+            "url": "shopify:\/\/collections\/osetra"
+          }
+        },
+        "link_hJN7ND": {
+          "type": "link",
+          "settings": {
+            "title": "caviar subscription",
+            "image": "shopify:\/\/shop_images\/rect-1_495c3e08-574c-415a-8be4-1f1b269d9cf4.webp",
+            "url": ""
+          }
+        },
+        "item_jVD8Xq": {
+          "type": "item",
+          "settings": {
+            "title": "WHY CHOOSE BESTER CAVIAR?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_TPnrDn": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/osetra_article.webp",
+            "text": "",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_3q9ghb": {
+          "type": "item",
+          "settings": {
+            "title": "CREATE A HEADLINE WITH “BLACK STURGEON CAVIAR”",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_WTRUzt": {
+          "type": "item",
+          "settings": {
+            "title": "LOW PRICE FOR OSETRA CAVIAR BUT NOT QUALITY - A MANIFESTATION OF LOVE FOR OUR CUSTOMERS",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "link_FmbwUG",
+        "link_hJN7ND",
+        "item_jVD8Xq",
+        "item_TPnrDn",
+        "item_3q9ghb",
+        "item_WTRUzt"
+      ],
+      "settings": {
+        "gift": false
+      }
+    },
+    "newsletter_second_section_xGBqda": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "banner_section_tzKQ3R",
+    "product-grid",
+    "collection_products_section_QHNLnp",
+    "little_promo_section_eKrymi",
+    "main_better_section_TVJ3R6",
+    "subscription_section_qKBgHV",
+    "newsletter_second_section_xGBqda"
+  ]
+}

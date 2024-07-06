@@ -1,0 +1,458 @@
+{
+  "sections": {
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "main_hero_section_ED3dxx": {
+      "type": "main-hero-section",
+      "blocks": {
+        "slide_wTcGcH": {
+          "type": "slide",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/1.jpg",
+            "image_desktop": "shopify:\/\/shop_images\/banner1.jpg",
+            "title": "<p>Best caviar online in the USA by Bester Caviar<\/p>",
+            "text": "<ul><li>Free Overnight Shipping<\/li><li>Never Frozen or Pasteurized<\/li><\/ul>",
+            "social": "",
+            "top": false,
+            "center": false
+          }
+        },
+        "slide_w8V89V": {
+          "type": "slide",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/4.webp",
+            "image_desktop": "shopify:\/\/shop_images\/banner2.webp",
+            "title": "<p>where smart world-class caviar at the best price<\/p>",
+            "text": "",
+            "social": "@osetra_caviar",
+            "top": true,
+            "center": false
+          }
+        },
+        "slide_PCCfE4": {
+          "type": "slide",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/ban-3-mob.webp",
+            "image_desktop": "shopify:\/\/shop_images\/banner3.webp",
+            "title": "",
+            "text": "",
+            "social": "",
+            "top": false,
+            "center": true
+          }
+        },
+        "slide_FXWM9n": {
+          "type": "slide",
+          "settings": {
+            "image_mobile": "shopify:\/\/shop_images\/ban-5-mob.webp",
+            "image_desktop": "shopify:\/\/shop_images\/banner5.webp",
+            "title": "",
+            "text": "",
+            "social": "",
+            "top": false,
+            "center": false
+          }
+        }
+      },
+      "block_order": [
+        "slide_wTcGcH",
+        "slide_w8V89V",
+        "slide_PCCfE4",
+        "slide_FXWM9n"
+      ],
+      "settings": {
+      }
+    },
+    "main_best_section_9yfiQW": {
+      "type": "main-best-section",
+      "settings": {
+        "title": "Best Caviar Online in The US by Bester Caviar",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+      }
+    },
+    "main_better_section_tpgFQP": {
+      "type": "main-better-section",
+      "blocks": {
+        "card_YUgT9P": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_XabWnz": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_9zdH7C": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "card_YUgT9P",
+        "card_XabWnz",
+        "card_9zdH7C"
+      ],
+      "settings": {
+        "title": "Bestsellers in our caviar store",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+      }
+    },
+    "main_promo_section_jgndEf": {
+      "type": "main-promo-section",
+      "blocks": {
+        "product_QCXhkd": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_Qkafgr": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_QCXhkd",
+        "product_Qkafgr"
+      ],
+      "settings": {
+        "title": "Promotional offers",
+        "text": "Bester Caviar provides first-class caviar with up to 67% off the price. Still, we preserve the top quality of our product and ensure that it gets fresh to your table thanks to overnight shipping and special packaging. We also offer a discount for our first-time clients, so you can easily try our caviar. Feel free to contact our manager if you have any questions, we would love to help you pick the right product and buy caviar online.",
+        "bottom_title": "From caviar lover to the highest quality caviar brand in the US",
+        "bottom_text": "Bester Caviar, founded by the enterprising Inna Polutska, is a business with a remarkable story. Inna's journey began seven years ago when she moved from Ukraine to the US, as she embarked on a mission — to bring the taste of traditional sturgeon caviar, a cherished memory from her childhood, to the American market.",
+        "bottom_second_text": "Thanks to Inna's dedication to quality and accessibility, Bester Caviar has rapidly earned recognition in the culinary world, supplying some of the finest restaurants in Miami, including Casa Tua Cucina, Casa Tua Restaurant, Villa Azur, Marion Miami, W South Beach, Zuma, Alloy Bistro Gourmet, 1 Hotel South Beach, Cantina La Veinte, and other notable establishments."
+      }
+    },
+    "best_products_section_Kqrpht": {
+      "type": "best-products-section",
+      "blocks": {
+        "product_KRWeG8": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_zrRNac": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_NqcJhW": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_3M6Pni": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_4dE3VB": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_zYQgkx": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_TYNmjW": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_C9YQ93": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_g9i6PU": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_ACdRNz": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_LAAXLP": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_hF6FiH": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_y4ymMi": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_nWDE9n": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_k9DxHy": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_qNN97i": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_xLiFWz": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_tXecDU": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "product_hU9mRy": {
+          "type": "product",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "product_KRWeG8",
+        "product_zrRNac",
+        "product_NqcJhW",
+        "product_3M6Pni",
+        "product_4dE3VB",
+        "product_zYQgkx",
+        "product_TYNmjW",
+        "product_C9YQ93",
+        "product_g9i6PU",
+        "product_ACdRNz",
+        "product_LAAXLP",
+        "product_hF6FiH",
+        "product_y4ymMi",
+        "product_nWDE9n",
+        "product_k9DxHy",
+        "product_qNN97i",
+        "product_xLiFWz",
+        "product_tXecDU",
+        "product_hU9mRy"
+      ],
+      "settings": {
+        "title": "best Caviar Gift Sets",
+        "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
+        "delivery": false
+      }
+    },
+    "more_section_tPweDB": {
+      "type": "more-section",
+      "settings": {
+        "title": "",
+        "button": "Online Store",
+        "button_url": "",
+        "call_text": "<p> Order best caviar online with free overnight delivery in the US <br\/> Call now! <a href=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a> - Your Favorite Caviar Shop<\/p>",
+        "first_text": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M",
+        "second_text": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M",
+        "third_text": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M",
+        "image": "shopify:\/\/shop_images\/more.webp"
+      }
+    },
+    "about_section_fUJtYd": {
+      "type": "about-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about.webp",
+        "title": "About Us",
+        "label": "CAVIAR PRODUCTION",
+        "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Backthen caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ...",
+        "button": "MORE",
+        "button_url": ""
+      }
+    },
+    "services_section_LfYVTB": {
+      "type": "services-section",
+      "blocks": {
+        "item_KtdLMW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-1.svg",
+            "title": "Free Overnight Delivery",
+            "text": "Free Overnight Shipping in temperature controlled coolers for perishable goods Monday through Thursday & Same Day Free Delivery in Miami 24\/7."
+          }
+        },
+        "item_FPLLTx": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-2.svg",
+            "title": "Personalize your order with a Gift Card",
+            "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge."
+          }
+        },
+        "item_zeTaEW": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/services-3.svg",
+            "title": "24\/7 Customer Service",
+            "text": "Contact our caviar concierge to help you with your customized selection & delivery details: +1(813)510-9892 inna@besterusa.com"
+          }
+        },
+        "item_tgzQep": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-4.svg",
+            "title": "Amazon’s Choice",
+            "text": "Bester Caviar is best selling caviar brand on Amazon with over 500 positive customer reviews and Amazon’s Choice award: highly rated & well priced, ready to ship immediately."
+          }
+        }
+      },
+      "block_order": [
+        "item_KtdLMW",
+        "item_FPLLTx",
+        "item_zeTaEW",
+        "item_tgzQep"
+      ],
+      "settings": {
+        "title": "More and more quality service for our customers",
+        "sub_title": "",
+        "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
+        "delivery": false
+      }
+    },
+    "faq_section_Ux8FVA": {
+      "type": "faq-section",
+      "blocks": {
+        "item_j7CEzy": {
+          "type": "item",
+          "settings": {
+            "question": "What's the best place to buy caviar online?",
+            "answer": "Bester Caviar, a top Amazon caviar seller, is one of the best online caviar stores. We source caviar from top-world fish farms, namely Karat in Israel, Giaveri in Italy, and Rova in Madagascar, where sturgeons live in the natural environment. We also use a special packaging system for overnight shipping, so you get the caviar fresh and ready to be served on your table."
+          }
+        },
+        "item_FDEAJY": {
+          "type": "item",
+          "settings": {
+            "question": "Where is your company's Head Office located?",
+            "answer": "We are the main distributor of caviar in Miami, which allows us to cooperate with local well-acclaimed restaurants. At the same time, we ship our products all over the United States. Place your order online, and we will deliver your desired jar to your doorstep overnight. We use a special packaging system that keeps the fish roe fresh and crisp during its travel."
+          }
+        }
+      },
+      "block_order": [
+        "item_j7CEzy",
+        "item_FDEAJY"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "menu": "faq-home-menu",
+        "image": "shopify:\/\/shop_images\/faq.webp"
+      }
+    },
+    "partners_section_j8tLBV": {
+      "type": "partners-section",
+      "blocks": {
+        "partner_ky7EPb": {
+          "type": "partner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partner1.svg"
+          }
+        },
+        "partner_py846D": {
+          "type": "partner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partner2.svg"
+          }
+        },
+        "partner_pwaGaM": {
+          "type": "partner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partner3.webp"
+          }
+        },
+        "partner_cBceTR": {
+          "type": "partner",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/partner4.svg"
+          }
+        }
+      },
+      "block_order": [
+        "partner_ky7EPb",
+        "partner_py846D",
+        "partner_pwaGaM",
+        "partner_cBceTR"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "featured_collection",
+    "main_hero_section_ED3dxx",
+    "main_best_section_9yfiQW",
+    "main_better_section_tpgFQP",
+    "main_promo_section_jgndEf",
+    "best_products_section_Kqrpht",
+    "more_section_tPweDB",
+    "about_section_fUJtYd",
+    "services_section_LfYVTB",
+    "faq_section_Ux8FVA",
+    "partners_section_j8tLBV"
+  ]
+}

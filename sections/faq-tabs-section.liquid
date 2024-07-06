@@ -1,0 +1,116 @@
+<style>
+  .faq__quetion::before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/faq_q.svg?v=1709152181");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+
+<section class="faq-page">
+  <div class="container">
+      <div class="faq__menu">
+          {% for block in section.blocks %}
+            {% if block.type == "tab" %}
+              <a href="#" class="faq__item tab__button" data-tab="faq{{ forloop.index }}">{{ block.settings.title }}</a>
+            {% endif %}
+          {% endfor %}
+      </div>
+  </div>
+  <div class="container faq__wrapper">
+      {% for block in section.blocks %}
+        {% if block.type == "tab" %}
+          {% assign title = block.settings.title %}
+          <div class="faq__content  tab__content" data-tab="faq{{ forloop.index }}">
+              {% for block in section.blocks %}
+                {% if block.type == "item" %}
+                  {% if title == block.settings.tab_title %}
+                    {% if block.settings.question != blank %}
+                      <div class="faq__quetion accordion-trigger">
+                          {{ block.settings.question }}
+                      </div>
+                    {% endif %}
+                    {% if block.settings.answer != blank %}
+                      <div class="faq__answer accordion-content">
+                          {{ block.settings.answer }}
+                      </div>
+                    {% endif %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+          </div>
+        {% endif %}
+      {% endfor %}
+  </div>
+
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+  {% for block in section.blocks %}
+    {% if block.type == "item" %}
+      {
+    	"@type": "Question",
+    	"name": "{{ block.settings.question }}",
+    	"acceptedAnswer": {
+      	"@type": "Answer",
+      	"text": "{{ block.settings.answer }}"
+    	}
+      },
+    {% endif %}
+  {% endfor %}
+  ]
+}
+</script>
+
+
+{% schema %}
+  {
+    "name": "FAQ Tabs Section",
+    "settings": [
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "tab_title",
+            "label": "Tab Title"
+          },
+          {
+            "type": "text",
+            "id": "question",
+            "label": "Question",
+            "default": "How much is shipping?"
+          },
+          {
+            "type": "text",
+            "id": "answer",
+            "label": "Answer",
+            "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "FAQ Tabs Section"
+      }
+    ]
+  }
+{% endschema %}

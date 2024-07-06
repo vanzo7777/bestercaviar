@@ -1,0 +1,97 @@
+<section class="promo promo__bg">
+    <div class="container">
+        {% if section.settings.title != blank %}
+          <{% if section.settings.main_title %}h1{% else %}h2{% endif %} class="promo__title title inversion">
+              {{ section.settings.title }}
+          </{% if section.settings.main_title %}h1{% else %}h2{% endif %}>
+        {% endif %}
+        {% if section.settings.text != blank %}
+          <div class="promo__description description inversion">
+              {{ section.settings.text }}
+          </div>
+        {% endif %}
+    </div>
+</section>
+<section class="promo">
+    <div class="container">
+        <div class="promo__container">
+            {% for block in section.blocks %}
+              {% if block.settings.product != blank %}
+                {% render 'card-product', card_product: block.settings.product , inversion: true %}
+              {% endif %}
+            {% endfor %}
+        </div>
+        {% if section.settings.bottom_title != blank %}
+          <h2 class="promo__title title mw">{{ section.settings.bottom_title }} </h2>
+        {% endif %}
+        <div class="promo__wrapper seo__block">
+            {% if section.settings.bottom_text != blank %}
+              <div class="promo__description description"> {{ section.settings.bottom_text }} </div>
+            {% endif %}
+            {% if section.settings.bottom_second_text != blank %}
+              <div class="promo__description description"> {{ section.settings.bottom_second_text }} </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Promo Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Promotional offers"
+      },
+      {
+        "type": "checkbox",
+        "id": "main_title",
+        "label": "Main Title"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+      },
+      {
+        "type": "text",
+        "id": "bottom_title",
+        "label": "Bottom Title",
+        "default": "From caviar lover to the highest quality caviar brand in the US"
+      },
+      {
+        "type": "text",
+        "id": "bottom_text",
+        "label": "Bottom First Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+      },
+      {
+        "type": "text",
+        "id": "bottom_second_text",
+        "label": "Bottom Second Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+      }
+    ],
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Promo Section"
+      }
+    ]
+  }
+{% endschema %}

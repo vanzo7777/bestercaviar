@@ -1,0 +1,27 @@
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "newsletter_section_eDWQie": {
+      "type": "newsletter-section",
+      "settings": {
+        "title": "Join the list"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "menu_title": "Footer menu",
+        "menu": "footer",
+        "address_title": "Address",
+        "address_text": "<p>1000 Brickell Plaza,<\/p><p>unit 2812, Miami,FL,<\/p><p>United States, 33131.<\/p>",
+        "contact_title": "Contact",
+        "contact_text": "<p><a href=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a><\/p><p><a href=\"mailto:inna@besterusa.com\">inna@besterusa.com<\/a><\/p>"
+      }
+    }
+  },
+  "order": [
+    "newsletter_section_eDWQie",
+    "footer"
+  ]
+}

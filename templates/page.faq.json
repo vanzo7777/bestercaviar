@@ -1,0 +1,278 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_Afebir": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/faq-page-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/faq-page-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "sub_title": "",
+        "text": "",
+        "top": false
+      }
+    },
+    "faq_tabs_section_XELJ8R": {
+      "type": "faq-tabs-section",
+      "blocks": {
+        "tab_inJgqi": {
+          "type": "tab",
+          "settings": {
+            "title": "All FAQ"
+          }
+        },
+        "item_E3K4Lr": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_f9exEt": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_REjcMz": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_ygxY7P": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_mjpTkF": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_jdyrJn": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_AheymL": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_gG8k8R": {
+          "type": "item",
+          "settings": {
+            "tab_title": "All FAQ",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "tab_inxXed": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping & Returns"
+          }
+        },
+        "item_ENbeJn": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Shipping & Returns",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_8hTCDK": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Shipping & Returns",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_aMJdxn": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Shipping & Returns",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "tab_pxXDfn": {
+          "type": "tab",
+          "settings": {
+            "title": "Product"
+          }
+        },
+        "item_PttXx6": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Product",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_DBYyGz": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Product",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_eCDcVj": {
+          "type": "item",
+          "settings": {
+            "tab_title": "Product",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "tab_Fj9cFg": {
+          "type": "tab",
+          "settings": {
+            "title": "The Brand"
+          }
+        },
+        "item_NLtUMk": {
+          "type": "item",
+          "settings": {
+            "tab_title": "The Brand",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_DqWVti": {
+          "type": "item",
+          "settings": {
+            "tab_title": "The Brand",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        },
+        "item_G7kpCy": {
+          "type": "item",
+          "settings": {
+            "tab_title": "The Brand",
+            "question": "How much is shipping?",
+            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+          }
+        }
+      },
+      "block_order": [
+        "tab_inJgqi",
+        "item_E3K4Lr",
+        "item_f9exEt",
+        "item_REjcMz",
+        "item_ygxY7P",
+        "item_mjpTkF",
+        "item_jdyrJn",
+        "item_AheymL",
+        "item_gG8k8R",
+        "tab_inxXed",
+        "item_ENbeJn",
+        "item_8hTCDK",
+        "item_aMJdxn",
+        "tab_pxXDfn",
+        "item_PttXx6",
+        "item_DBYyGz",
+        "item_eCDcVj",
+        "tab_Fj9cFg",
+        "item_NLtUMk",
+        "item_DqWVti",
+        "item_G7kpCy"
+      ],
+      "settings": {
+      }
+    },
+    "newsletter_second_section_6kLdjy": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    },
+    "services_section_jHqmKJ": {
+      "type": "services-section",
+      "blocks": {
+        "item_VD9eRz": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-1.svg",
+            "title": "Free Overnight Delivery",
+            "text": "Free Overnight Shipping in temperature controlled coolers for perishable goods Monday through Thursday & Same Day Free Delivery in Miami 24\/7."
+          }
+        },
+        "item_zMMxKj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-2.svg",
+            "title": "Personalize your order with a Gift Card",
+            "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge."
+          }
+        },
+        "item_dGTC6E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/services-3.svg",
+            "title": "24\/7 Customer Service",
+            "text": "Contact our caviar concierge to help you with your customized selection & delivery details: +1(813)510-9892 inna@besterusa.com"
+          }
+        },
+        "item_zLfUPM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/service-4.svg",
+            "title": "Amazon’s Choice",
+            "text": "Bester Caviar is best selling caviar brand on Amazon with over 500 positive customer reviews and Amazon’s Choice award: highly rated & well priced, ready to ship immediately."
+          }
+        }
+      },
+      "block_order": [
+        "item_VD9eRz",
+        "item_zMMxKj",
+        "item_dGTC6E",
+        "item_zLfUPM"
+      ],
+      "settings": {
+        "title": "More and more quality service for our customers",
+        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_Afebir",
+    "faq_tabs_section_XELJ8R",
+    "newsletter_second_section_6kLdjy",
+    "services_section_jHqmKJ"
+  ]
+}

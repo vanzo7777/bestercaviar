@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner_section_VcKGHe": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/sets-mobile.webp",
+        "image_desktop": "shopify:\/\/shop_images\/sets.webp",
+        "title": "<p>Caviar Serving Sets<\/p>",
+        "title_width": 340,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "<p><strong>The Flawless <br\/>Royal Gift<\/strong><\/p>",
+        "sub_title_sets": false,
+        "text": "<ul><li>Buy Bester Caviar Gift Sets<\/li><\/ul><p>.<\/p>",
+        "top": true
+      }
+    },
+    "collection_products_section_8nCPVY": {
+      "type": "collection-products-section",
+      "settings": {
+        "title": "Caviar SETS",
+        "collection": "sets"
+      }
+    },
+    "little_promo_section_CKQW8i": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "Caviar Gift Sets",
+        "main_title": true,
+        "mobile_text": "",
+        "left_text": "We created our gift sets to help you give unforgettable experiences and memories to the people who deserve to be treated royally. Whether you want to surprise your partner, your parents, your old-time friends, or your colleague, our caviar sets will provide them with everything they might need to enjoy the exquisite flavor of caviar.",
+        "right_text": "If you are looking for something even more to treat your special people on a regular basis, consider our caviar subscription. The subscribers can acquire our caviar at wholesale prices, while also benefiting from additional offers we provide for the members of our caviar club.",
+        "yellow_title": true
+      }
+    },
+    "main_better_section_7eDNKw": {
+      "type": "main-better-section",
+      "blocks": {
+        "card_ezbYXK": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_rhCCb3": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        },
+        "card_iJYbT8": {
+          "type": "card",
+          "settings": {
+            "product": "russian-osetra-karat-black"
+          }
+        }
+      },
+      "block_order": [
+        "card_ezbYXK",
+        "card_rhCCb3",
+        "card_iJYbT8"
+      ],
+      "settings": {
+        "title": "Bestsellers in our caviar store",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "text": ""
+      }
+    },
+    "gift_section_pjLKN4": {
+      "type": "gift-section",
+      "settings": {
+        "title": "caviar Gift cards",
+        "text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "sub_title": "Excellence Found Only at BEST CAVIAR"
+      }
+    },
+    "newsletter_second_section_f6dw6Y": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "banner_section_VcKGHe",
+    "collection_products_section_8nCPVY",
+    "little_promo_section_CKQW8i",
+    "main_better_section_7eDNKw",
+    "gift_section_pjLKN4",
+    "newsletter_second_section_f6dw6Y"
+  ]
+}

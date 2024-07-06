@@ -1,0 +1,98 @@
+<section class="feedback">
+    <div class="container">
+        {% if section.settings.title != blank %}
+          <p class="feedback__title title">
+              {{ section.settings.title }}
+          </p>
+        {% endif %}
+        {% if section.settings.sub_title != blank %}
+          <div class="feedback__subtitle subtitle">
+              {{ section.settings.sub_title }}
+          </div>
+        {% endif %}
+    </div>
+    <div class="feedback__container">
+        <div class="container">
+            {%- form 'contact', class: "feedback__form" -%}
+                <input
+                  autocomplete="name"
+                  type="text"
+                  id="ContactForm-name"
+                  name="contact[{{ 'templates.contact.form.name' | t }}]"
+                  value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                  placeholder="Your name*"
+                >
+                <input
+                  autocomplete="email"
+                  type="email"
+                  id="ContactForm-email"
+                  name="contact[email]"
+                  spellcheck="false"
+                  autocapitalize="off"
+                  value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                  aria-required="true"
+                  {% if form.errors contains 'email' %}
+                    aria-invalid="true"
+                    aria-describedby="ContactForm-email-error"
+                  {% endif %}
+                  placeholder="Email address*"
+                >
+                <input
+                  type="tel"
+                  id="ContactForm-phone"
+                  autocomplete="tel"
+                  name="contact[{{ 'templates.contact.form.phone' | t }}]"
+                  pattern="[0-9\-]*"
+                  value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                  placeholder="Phone number"
+                >
+                <div>
+                    <label for="textar">Message*</label>
+                    <textarea
+                      rows="10"
+                      id="textar"
+                      class="text-area field__input"
+                      name="contact[{{ 'templates.contact.form.comment' | t }}]"
+                      placeholder="{{ 'templates.contact.form.comment' | t }}"
+                    >
+                      {{- form.body -}}
+                    </textarea>
+                </div>
+
+                <button type="submit" class="button button--blue feedback__buttton">
+                    <span>submit</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                        <path
+                            d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            {%- endform -%}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Contact Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Feedback"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Subtitle",
+        "default": "If you have a question write to us"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Contact Section"
+      }
+    ]
+  }
+{% endschema %}

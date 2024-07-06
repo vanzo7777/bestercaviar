@@ -1,0 +1,125 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_cVbrzi": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/special-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/special-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "text": "",
+        "top": true
+      }
+    },
+    "specials_section_p4hwad": {
+      "type": "specials-section",
+      "blocks": {
+        "tab_HKmgVB": {
+          "type": "tab",
+          "settings": {
+            "title": "Sale 10%",
+            "products": [
+              "russian-osetra-karat-black"
+            ]
+          }
+        },
+        "tab_3TRVRc": {
+          "type": "tab",
+          "settings": {
+            "title": "Sale 20%",
+            "products": [
+              "russian-osetra-karat-black"
+            ]
+          }
+        },
+        "tab_VwBABb": {
+          "type": "tab",
+          "settings": {
+            "title": "Sale 30%",
+            "products": [
+              "russian-osetra-karat-black"
+            ]
+          }
+        },
+        "tab_EFRTzG": {
+          "type": "tab",
+          "settings": {
+            "title": "Sale 40%",
+            "products": [
+              "russian-osetra-karat-black"
+            ]
+          }
+        },
+        "tab_r3nPHA": {
+          "type": "tab",
+          "settings": {
+            "title": "Sale 50%",
+            "products": [
+              "russian-osetra-karat-black"
+            ]
+          }
+        }
+      },
+      "block_order": [
+        "tab_HKmgVB",
+        "tab_3TRVRc",
+        "tab_VwBABb",
+        "tab_EFRTzG",
+        "tab_r3nPHA"
+      ],
+      "settings": {
+        "title": "A special offer on your favorite caviar"
+      }
+    },
+    "gift_section_XmMWXC": {
+      "type": "gift-section",
+      "settings": {
+        "title": "caviar Gift cards",
+        "text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "sub_title": "Excellence Found Only at BEST CAVIAR"
+      }
+    },
+    "about_reverse_section_wbK3jU": {
+      "type": "about-reverse-section",
+      "blocks": {
+        "item_w3dXPz": {
+          "type": "item",
+          "settings": {
+            "label": "JOIN CAVIAR CLUB TO GET 25% OFF",
+            "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Back then caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ..."
+          }
+        }
+      },
+      "block_order": [
+        "item_w3dXPz"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/special1.webp",
+        "title": "CAVIAR BESTSELLERS",
+        "button": "MORE",
+        "button_url": "",
+        "club_section": false,
+        "our_section": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_cVbrzi",
+    "specials_section_p4hwad",
+    "gift_section_XmMWXC",
+    "about_reverse_section_wbK3jU"
+  ]
+}

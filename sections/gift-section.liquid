@@ -1,0 +1,56 @@
+<section class="gift">
+    <div class="container">
+        <div class="gift__wrapper">
+            <div class="gift__item">
+                {% if section.settings.title != blank %}
+                <div class="gift__title title">
+                    {{ section.settings.title }}
+                </div>
+                {% endif %}
+                {% if section.settings.sub_title != blank %}
+                  <div class="gift__subtitle subtitle">
+                      {{ section.settings.sub_title }}
+                  </div>
+                {% endif %}
+            </div>
+            <div class="gift__item">
+              {% if section.settings.text != blank %}
+                <div class="gift__text">
+                    {{ section.settings.text }}
+                </div>
+              {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Gift Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "caviar Gift cards"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Subtitl",
+        "default": "Excellence Found Only at BEST CAVIAR"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Gift Section"
+      }
+    ]
+  }
+{% endschema %}

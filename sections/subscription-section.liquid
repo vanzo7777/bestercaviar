@@ -1,0 +1,155 @@
+<style>
+  .rectangle__text *:not(:first-child) {
+    margin-top: 16px;
+  }
+
+  .rectangle__text a {
+    text-decoration: none;
+    color: #ddb454;
+  }
+</style>
+
+<section class="rectangle {% if section.settings.gift %}gift__rectangle{% endif %}">
+  <div class="container">
+      {% unless section.settings.gift %}
+        <div class="rectangle__border">
+      {% endunless %}
+          <div class="rectangle__inner">
+              {% for block in section.blocks %}
+                {% if block.type == "link" %}
+                  <div class="rectangle__header">
+                      {% if block.settings.title != blank %}
+                        <p class="rectangle__title title">
+                            {{ block.settings.title }}
+                        </p>
+                      {% endif %}
+                      <div class="rectangle__image">
+                          {% if block.settings.image != blank %}
+                            <picture><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}"></picture>
+                          {% endif %}
+                          <a href="{{ block.settings.url }}" class="rectangle__button button button--green">
+                              <span>following</span>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                                  <path
+                                      d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                                      fill="white" />
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+          </div>
+          {% unless section.settings.gift %}
+            <div class="rectangle__container">
+                {% for block in section.blocks %}
+                  {% if block.type == "item" %}
+                    <div class="rectangle__wrapper">
+                        {% if block.settings.title != blank %}
+                          <h2 class="rectangle__subtitle">
+                              {{ block.settings.title }}
+                          </h2>
+                        {% endif %}
+                        {% if block.settings.image != blank %}
+                          <div class="rectangle__container-image">
+                              <picture><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}"></picture>
+                          </div>
+                        {% endif %}
+                        {% if block.settings.text != blank %}
+                          <div class="rectangle__text {% if block.settings.seo %}seo__block{% endif %} {% if block.settings.desktop %}desktop{% endif %}">
+                              {{ block.settings.text }}
+                          </div>
+                        {% endif %}
+                        {% if block.settings.mobile_text != blank %}
+                          <div class="rectangle__text mobile">
+                            {{ block.settings.mobile_text }}
+                          </div>
+                        {% endif %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+  
+            </div>
+          {% endunless %}
+      {% unless section.settings.gift %}
+      </div>
+      {% endunless %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Subscription Section",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "gift",
+        "label": "Gift"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "link",
+        "name": "Link",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "URL"
+          }
+        ]
+      },
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "richtext",
+            "id": "mobile_text",
+            "label": "Mobile Text"
+          },
+          {
+            "type": "checkbox",
+            "id": "seo",
+            "label": "SEO"
+          },
+          {
+            "type": "checkbox",
+            "id": "desktop",
+            "label": "DESKTOP"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Subscription Section"
+      }
+    ]
+  }
+{% endschema %}

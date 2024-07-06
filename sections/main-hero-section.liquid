@@ -1,0 +1,134 @@
+<style>
+  .banner__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.19rem;
+  }
+
+  .banner__list li {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .banner__list li:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/banner-icon.webp?v=1709068056");
+    content: "";
+    display: block;
+    min-width: 0.68531rem;
+    min-height: 0.76594rem;
+    margin-top: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner__social::before {
+    background-image: url('https://cdn.shopify.com/s/files/1/0685/2640/7920/files/inst-icon.svg?v=1709068251');
+  }
+</style>
+
+<section class="banner">
+  <div class="banner__container swiper">
+      <div class="banner__wrapper swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="banner__slide swiper-slide">
+              {% if block.settings.image_mobile != blank %}
+                <div class="banner__image mobile">
+                    <picture><img src="{{ block.settings.image_mobile | image_url }}" alt="{{ block.settings.image_mobile.alt }}"></picture>
+                </div>
+              {% endif %}
+              {% if block.settings.image_desktop != blank %}
+                <div class="banner__image desctop">
+                    <picture><img src="{{ block.settings.image_desktop | image_url }}" alt="{{ block.settings.image_desktop.alt }}"></picture>
+                </div>
+              {% endif %}
+              <div class="banner__content {% if block.settings.top %}banner__top{% endif %} {% if block.settings.center %}banner__center{% endif %}">
+                  {% if settings.logo != blank %}
+                    <div class="banner__logo">
+                        <picture><img src="{{ settings.logo | image_url }}" alt="{{ settings.logo.alt }}"></picture>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.title != blank %}
+                  <div class="banner__title">
+                      {{ block.settings.title }}
+                  </div>
+                  {% endif %}
+                  {% if block.settings.text != blank %}
+                  <div class="banner__list">
+                      {{ block.settings.text }}
+                  </div>
+                  {% endif %}
+                  {% if block.settings.social != blank %}
+                    <div class="banner__social">
+                        {{ block.settings.social }}
+                    </div>
+                  {% endif %}
+              </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="banner__pagination"></div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Main Hero Section",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "slide",
+        "name": "Slide",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_mobile",
+            "label": "Image - Mobile"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_desktop",
+            "label": "Image - Desktop"
+          },
+          {
+            "type": "richtext",
+            "id": "title",
+            "label": "Slide Title"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Slide Text"
+          },
+          {
+            "type": "text",
+            "id": "social",
+            "label": "Slide Social"
+          },
+          {
+            "type": "checkbox",
+            "id": "top",
+            "label": "Content top"
+          },
+          {
+            "type": "checkbox",
+            "id": "center",
+            "label": "Content center"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Main Hero Section"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,111 @@
+<section class="cert">
+    <div class="container">
+        <div class="cert__container">
+            {% for block in section.blocks %}
+                <div class="cert__item" id="{{ block.id }}">
+                  {% if block.settings.title != blank %}
+                    {{ block.settings.title }}
+                  {% endif %}
+                    <div class="cert__img">
+                        {% if block.settings.image != blank %}
+                          <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="card-list-mobile">
+                  <div class="card-list-item {% if forloop.first %}active{% endif %}" data-id="{{ block.id }}">
+                    {% if block.settings.text_title != blank %}
+                      <h2 class="promo__title title mw">
+                          {{ block.settings.text_title }}
+                      </h2>
+                    {% endif %}
+                    <div class="promo__wrapper">
+                        {% if block.settings.first_text != blank %}
+                          <div class="promo__description description">
+                            <p>{{ block.settings.first_text }}</p>
+                          </div>
+                        {% endif %}
+                        {% if block.settings.second_text != blank %}
+                          <div class="promo__description description">
+                            <p>{{ block.settings.second_text }}</p>
+                          </div>
+                        {% endif %}
+                    </div>
+                  </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="card-list card-list-desktop">
+  <div class="container">
+    {% for block in section.blocks %}
+      <div class="card-list-item {% if forloop.first %}active{% endif %}" data-id="{{ block.id }}">
+        {% if block.settings.text_title != blank %}
+          <h2 class="promo__title title mw">
+              {{ block.settings.text_title }}
+          </h2>
+        {% endif %}
+        <div class="promo__wrapper">
+            {% if block.settings.first_text != blank %}
+              <div class="promo__description description">
+                <p>{{ block.settings.first_text }}</p>
+              </div>
+            {% endif %}
+            {% if block.settings.second_text != blank %}
+              <div class="promo__description description">
+                <p>{{ block.settings.second_text }}</p>
+              </div>
+            {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Cert Section",
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "text_title",
+            "label": "Text Title",
+            "default": "UNITED STATES FISH AND WILDLIFE SERVICE"
+          },
+          {
+            "type": "text",
+            "id": "first_text",
+            "label": "First Text",
+            "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,E"
+          },
+          {
+            "type": "text",
+            "id": "second_text",
+            "label": "Second Text",
+            "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae,E"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Cert Section"
+      }
+    ]
+  }
+{% endschema %}

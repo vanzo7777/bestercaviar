@@ -1,0 +1,62 @@
+{% comment %}
+  Renders a standard dropdown style menu for the header.
+
+  Usage:
+  {% render 'header-dropdown-menu' %}
+{% endcomment %}
+
+<nav class="header__menu menu">
+  <a href="{{ routes.root_url }}" class="header__logo--mobile">
+      {%- if settings.logo != blank -%}
+          <img src="{{ settings.logo | image_url }}" alt="{{ settings.logo.alt }}">
+      {%- else -%}
+        <span class="h2">{{ shop.name }}</span>
+      {%- endif -%}
+  </a>
+  <ul class="menu__list" role="list">
+    <li class="menu__item header-mobile-menu-item">
+      <a
+          href="{{ routes.root_url }}"
+          class="menu__link"
+          {% if template.name == "index" %}
+            aria-current="page"
+          {% endif %}
+        >
+          Home Page
+        </a>
+    </li>
+    {%- for link in section.settings.menu.links -%}
+      <li class="menu__item">
+        <a
+            href="{{ link.url }}"
+            class="menu__link {% if link.links != blank %} accordion-trigger-mobile {% endif %}"
+            {% if link.current %}
+              aria-current="page"
+            {% endif %}
+          >
+            {{- link.title | escape -}}
+        </a>
+        
+        {%- if link.links != blank -%}
+
+          <ul class="menu__dropdown accordion-content-mobile">
+            {%- for childlink in link.links -%}
+              <li class="menu__item">
+                <a
+                    href="{{ childlink.url }}"
+                    class="menu__link"
+                    {% if childlink.current %}
+                      aria-current="page"
+                    {% endif %}
+                  >
+                    {{- childlink.title | escape -}}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          
+        {% endif %}
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>

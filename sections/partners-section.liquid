@@ -1,0 +1,37 @@
+<section class="partners">
+    <div class="container">
+        <div class="partners__wrapper">
+            {% for block in section.blocks %}
+              <div class="partners__item">
+                  {% if block.settings.image != blank %}
+                    <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}">
+                  {% endif %}
+              </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Partners Section",
+    "blocks": [
+      {
+        "type": "partner",
+        "name": "Partner",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Partners Section"
+      }
+    ]
+  }
+{% endschema %}

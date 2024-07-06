@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "banner_section_FjaViC": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/blog-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/blog-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "sub_title": "",
+        "text": "",
+        "top": true
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "collage",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner_section_FjaViC",
+    "main"
+  ]
+}

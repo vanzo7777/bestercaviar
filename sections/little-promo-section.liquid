@@ -1,0 +1,132 @@
+<style>
+  .promo-mobile-text {
+    margin-top: calc(32px + 27.04*((100vw - 390px) / 677));
+    margin-bottom: calc(32px + 27.04*((100vw - 390px) / 677));
+  }
+  
+  .promo-mobile-text li {
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: calc(14px + 2 * ((100vw - 390px) / 677));
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  @media(max-width: 1067px) {
+    .promo-mobile-text li,
+    .promo-mobile-text li a {
+      line-height: calc(24.5px + 10*((100vw - 390px) / 677));
+    }
+
+  }
+
+  @media(max-width: 992px) {
+    .promo-mobile-text li br {
+      display: none;
+    }
+  }
+
+  .promo-mobile-text li:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/banner-icon.webp?v=1709068056");
+    content: "";
+    display: block;
+    min-width: 0.68531rem;
+    min-height: 0.76594rem;
+    margin-top: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .promo-mobile-text a {
+    color: #efb74c !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.15625rem;
+    padding-left: 1.4rem;
+  }
+
+  @media(min-width: 993px) {
+    .promo-mobile-text {
+      display: none;
+    }
+  }
+</style>
+<section class="promo">
+      <div class="container">
+          {% if section.settings.title != blank %}
+            <{% if section.settings.main_title %}h1{% else %}h2{% endif %} class="promo__title title mw {% if section.settings.yellow_title %}title__yellow{% endif %}">
+                {{ section.settings.title }}
+            </{% if section.settings.main_title %}h1{% else %}h2{% endif %}>
+          {% endif %}
+          {% if section.settings.mobile_text != blank %}
+            <div class="promo-mobile-text">
+              {{ section.settings.mobile_text }}
+            </div>
+          {% endif %}
+          <div class="promo__wrapper">
+              {% if section.settings.left_text != blank %}
+                <div class="promo__description description">
+                  {{ section.settings.left_text }}
+                </div>
+              {% endif %}
+              {% if section.settings.right_text != blank %}
+                <div class="promo__description description">
+                  {{ section.settings.right_text }}
+                </div>
+              {% endif %}
+          </div>
+      </div>
+	</section>
+
+{% schema %}
+  {
+    "name": "Little Promo Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Delivery bester caviar"
+      },
+      {
+        "type": "checkbox",
+        "id": "main_title",
+        "label": "Main Title"
+      },
+      {
+        "type": "richtext",
+        "id": "mobile_text",
+        "label": "Mobile Text"
+      },
+      {
+        "type": "text",
+        "id": "left_text",
+        "label": "Left Text",
+        "default": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar"
+      },
+      {
+        "type": "text",
+        "id": "right_text",
+        "label": "Right Text",
+        "default": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche."
+      },
+      {
+        "type": "checkbox",
+        "id": "yellow_title",
+        "label": "Yellow Title"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Little Promo Section"
+      }
+    ]
+  }
+{% endschema %}

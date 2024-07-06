@@ -1,0 +1,102 @@
+<style>
+  .wholasale__text a {
+    text-decoration: none;
+    color: #ddb454;
+  }
+
+  .wholasale .feedback__subtitle.subtitle {
+    line-height: 120%;
+  }
+
+  @media(min-width: 993px) {
+    .wholasale .feedback__subtitle.subtitle {
+      display: none;
+    }
+  }
+</style>
+
+<section class="wholasale">
+    <div class="container">
+        {% if section.settings.title != blank %}
+          <h1 class="wholasale__title title">
+              {{ section.settings.title }}
+          </h1>
+        {% endif %}
+        {% if section.settings.sub_title != blank %}
+          <div class="feedback__subtitle subtitle">
+            {{ section.settings.sub_title }}
+          </div>
+        {% endif %}
+        <div class="wholasale__grid">
+            <div class="wholasale__flex">
+                {% if section.settings.first_text != blank %}
+                  <div class="wholasale__text">
+                      {{ section.settings.first_text }}
+                  </div>
+                {% endif %}
+                {% if section.settings.image != blank %}
+                  <div class="wholasale__image">
+                      <picture><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.image.alt }}"></picture>
+                  </div>
+                {% endif %}
+            </div>
+            <div class="wholasale__flex revers">
+                {% if section.settings.second_image != blank %}
+                  <div class="wholasale__image">
+                      <picture><img src="{{ section.settings.second_image | image_url }}" alt="{{ section.settings.second_image.alt }}"></picture>
+                  </div>
+                {% endif %}
+                {% if section.settings.second_text != blank %}
+                  <div class="wholasale__text">
+                      {{ section.settings.second_text }}
+                  </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% schema %}
+  {
+    "name": "Wholesale Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Caviar Wholesale"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Sub Title"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "second_image",
+        "label": "Second Image"
+      },
+      {
+        "type": "richtext",
+        "id": "first_text",
+        "label": "First Text"
+      },
+      {
+        "type": "richtext",
+        "id": "second_text",
+        "label": "Second Text"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Wholesale Section"
+      }
+    ]
+  }
+{% endschema %}

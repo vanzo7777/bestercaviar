@@ -1,0 +1,237 @@
+<style>
+
+  .banner__slide {
+    height: 90vh;
+    max-height: 1000px;
+  }
+
+  .banner__image {
+    height: 100%;
+    max-height: 100% !important;
+  }
+  
+  .banner__title {
+    max-width: {{ section.settings.title_width }}px;
+  }
+
+  .banner__list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.19rem;
+  }
+
+  .banner__list li {
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34.5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  @media(max-width: 1067px) {
+    .banner__list li,
+    .banner__list li a {
+      line-height: calc(24.5px + 10*((100vw - 390px) / 677));
+    }
+
+  }
+
+  @media(max-width: 992px) {
+    .banner__list li br {
+      display: none;
+    }
+  }
+
+  .banner__list li:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/banner-icon.webp?v=1709068056");
+    content: "";
+    display: block;
+    min-width: 0.68531rem;
+    min-height: 0.76594rem;
+    margin-top: 0.5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .banner__list a {
+    color: #efb74c !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.15625rem;
+    padding-left: 1.4rem;
+  }
+
+  .banner__subtitle {
+    color: #047678 !important;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 2.25rem;
+    margin-bottom: 1.75rem;
+  }
+</style>
+
+<section class="banner">
+  <div class="banner__container swiper">
+      <div class="banner__wrapper swiper-wrapper">
+
+          <div class="banner__slide swiper-slide">
+              {% if section.settings.image_mobile != blank %}
+                <div class="banner__image mobile">
+                    <picture><img src="{{ section.settings.image_mobile | image_url }}" alt="{{ section.settings.image_mobile.alt }}"></picture>
+                </div>
+              {% endif %}
+              {% if section.settings.image_desktop != blank %}
+                <div class="banner__image desctop">
+                    <picture><img src="{{ section.settings.image_desktop | image_url }}" alt="{{ section.settings.image_desktop.alt }}"></picture>
+                </div>
+              {% endif %}
+              <div class="banner__content {% if section.settings.top %}banner__top{% endif %} banner__who">
+                  {% if section.settings.title != blank %}
+                    <div class="banner__title">
+                        {{ section.settings.title }}
+                    </div>
+                  {% endif %}
+                  {% if section.settings.button != blank and section.settings.bottom_button == false %}
+                    <a href="{{ section.settings.button_url }}" class="banner__button button button--green">
+                        <span>{{ section.settings.button }}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                            <path
+                                d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                  {% endif %}
+                  {% if section.settings.sub_title != blank %}
+                    <div class="banner__subtitle {% if section.settings.sub_title_sets %}sets__subtitle{% endif %}">
+                        {{ section.settings.sub_title }}
+                    </div>
+                  {% endif %}
+                  {% if section.settings.text != blank %}
+                    <div class="banner__list">
+                        {{ section.settings.text }}
+                    </div>
+                  {% endif %}
+                              
+                  {% if section.settings.button != blank and section.settings.bottom_button == true %}
+                    <a href="{{ section.settings.button_url }}" class="banner__button button button--green {% if section.settings.bottom_button %}gift__button{% endif %}">
+                        <span>{{ section.settings.button }}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="8" viewBox="0 0 30 8" fill="none">
+                            <path
+                                d="M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5V3.5ZM29.3536 4.35355C29.5488 4.15829 29.5488 3.84171 29.3536 3.64645L26.1716 0.464466C25.9763 0.269204 25.6597 0.269204 25.4645 0.464466C25.2692 0.659728 25.2692 0.976311 25.4645 1.17157L28.2929 4L25.4645 6.82843C25.2692 7.02369 25.2692 7.34027 25.4645 7.53553C25.6597 7.7308 25.9763 7.7308 26.1716 7.53553L29.3536 4.35355ZM1 4.5H29V3.5H1V4.5Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                  {% endif %}
+              </div>
+          </div>
+      </div>
+      <div class="banner__pagination"></div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Banner Section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image Settings"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_mobile",
+        "label": "Image - Mobile"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_desktop",
+        "label": "Image - Desktop"
+      },
+      {
+        "type": "header",
+        "content": "Title Settings"
+      },
+      {
+        "type": "richtext",
+        "id": "title",
+        "label": "Title",
+        "default": "<h1>Banner Caviar Online in The US by Bester Caviar</h1>"
+      },
+      {
+        "type": "range",
+        "id": "title_width",
+        "min": 200,
+        "max": 640,
+        "step": 10,
+        "default": 400,
+        "label": "Title Max-Width"
+      },
+      {
+        "type": "header",
+        "content": "Button Settings"
+      },
+      {
+        "type": "text",
+        "id": "button",
+        "label": "Button Text",
+        "default": "To the store"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button URL"
+      },
+      {
+        "type": "checkbox",
+        "id": "bottom_button",
+        "label": "Bottom Button"
+      },
+      {
+        "type": "header",
+        "content": "SubTitle Settings"
+      },
+      {
+        "type": "richtext",
+        "id": "sub_title",
+        "label": "Subtitle",
+        "default": "<h2>Order Directly From <br>Producer at Best Wholesale <br>Price With 1lbs Minimum Order</h2>"
+      },
+      {
+        "type": "checkbox",
+        "id": "sub_title_sets",
+        "label": "Subtitle Sets"
+      },
+      {
+        "type": "header",
+        "content": "Content Settings"
+      },
+      {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<ul><li>Best quality at the best price</li><li>Free overnight delivery in the USA</li><li>Contact Us For Wholesale Inquiries</li></ul><p><a href=''></a>+1 (813) 510-9892</p>"
+      },
+      {
+        "type": "checkbox",
+        "id": "top",
+        "label": "Content top",
+        "default": true
+      }
+    ],
+    "presets": [
+      {
+        "name": "Banner Section"
+      }
+    ]
+  }
+{% endschema %}

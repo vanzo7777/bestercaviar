@@ -1,0 +1,33 @@
+{%- paginate blog.articles by 6 -%}
+  <section class="recipes-page">
+    <div class="container">
+      <h1 class="recipes__title title">{{ blog.title | escape }}</h1>
+      <div class="tab__nav">
+          {% assign tag_list = blog.all_tags | reverse %}
+          {%- for tag in tag_list -%}
+            <a href="{{ blog.url }}/tagged/{{ tag | handle }}" class="tab__nav-item">{{ tag }}</a>
+          {% endfor %}
+      </div>
+    </div>
+    <div class="recipes__container container">
+      <div class="recipes__list">
+        {%- for article in blog.articles -%}
+          {%- render 'article-card',
+              article: article
+            -%}
+        {% endfor %}
+      </div>
+    </div>
+    {%- if paginate.pages > 1 -%}
+      {%- render 'pagination', paginate: paginate -%}
+    {%- endif -%}
+  </section>
+{%- endpaginate -%}
+
+{% schema %}
+{
+  "name": "t:sections.main-blog.name",
+  "tag": "section",
+  "class": "section"
+}
+{% endschema %}

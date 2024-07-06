@@ -1,0 +1,39 @@
+<section class="best">
+      <div class="container">
+          {% if section.settings.title != blank %}
+            <{% if template == "index" %}h1{% else %}h2{% endif %} class="best__title title">
+                {{ section.settings.title }}
+            </{% if template == "index" %}h1{% else %}h2{% endif %}>
+          {% endif %}
+          {% if section.settings.text != blank %}
+            <p class="best__description description">
+                {{ section.settings.text }}
+            </p>
+          {% endif %}
+      </div>
+  </section>
+
+{% schema %}
+  {
+    "name": "Best Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Best Caviar Online in The US by Bester Caviar"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Best Section"
+      }
+    ]
+  }
+{% endschema %}

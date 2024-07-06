@@ -1,0 +1,97 @@
+<section class="service {% if section.settings.delivery %}delivery__service{% endif %}">
+  <div class="container">
+     {% if section.settings.title != blank %}
+        <h2 class="service__title title">
+            {{ section.settings.title }}
+        </h2>
+      {% endif %}
+      {% if section.settings.sub_title != blank %}
+        <p class="service__subtitle subtitle">
+            {{ section.settings.sub_title }}
+        </p>
+      {% endif %}
+      {% if section.settings.text != blank %}
+        <p class="service__description description">
+            {{ section.settings.text }}
+        </p>
+      {% endif %}
+      <div class="service__wrapper">
+          {% for block in section.blocks %}
+          <div class="service__item">
+              {% if block.settings.image != blank %}
+                <div class="service__image">
+                  <img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt}}">
+                </div>
+              {% endif %}
+              {% if block.settings.title != blank %}
+                <p class="service__item-title">
+                    {{ block.settings.title }}
+                </p>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <p class="service__text">{{ block.settings.text }}</p>
+              {% endif %}
+          </div>
+          {% endfor %}
+      </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Services Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "More and more quality service for our customers"
+      },
+      {
+        "type": "text",
+        "id": "sub_title",
+        "label": "Subtitle",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Text",
+        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+      },
+      {
+        "type": "checkbox",
+        "id": "delivery",
+        "label": "Delivery"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "label": "Image",
+            "id": "image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Services Section"
+      }
+    ]
+  }
+{% endschema %}

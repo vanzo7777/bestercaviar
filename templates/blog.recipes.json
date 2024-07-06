@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "banner_section_CBpP7J": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/recipes-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/recipes-desc.webp",
+        "title": "",
+        "title_width": 400,
+        "button": "",
+        "button_url": "",
+        "sub_title": "",
+        "text": "",
+        "top": false
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner_section_CBpP7J",
+    "main"
+  ]
+}

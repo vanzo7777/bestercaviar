@@ -1,0 +1,126 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "banner_section_ACjLRA": {
+      "type": "banner-section",
+      "custom_css": [
+        "@media (max-width: 992px) {.banner__subtitle {display: none; } .banner__list {margin-top: 20px; }}"
+      ],
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/2.webp",
+        "image_desktop": "shopify:\/\/shop_images\/banner-who.webp",
+        "title": "<p>Caviar Wholesale<\/p>",
+        "title_width": 450,
+        "button": "To the store",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "<p>Order Directly From <br\/>Producer at Best Wholesale <br\/>Price With 1lbs Minimum Order<\/p>",
+        "sub_title_sets": false,
+        "text": "<ul><li>Best quality at the best price<\/li><li>Free overnight delivery in the USA<\/li><li>Contact Us For Wholesale Inquiries<\/li><\/ul><p><a href=\"tel:+1 (813) 510-9892\" title=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a><\/p>",
+        "top": true
+      }
+    },
+    "wholesale_section_QCLpGB": {
+      "type": "wholesale-section",
+      "settings": {
+        "title": "Caviar Wholesale",
+        "sub_title": "Order Directly From Producer at Best Wholesale Price With 1lbs Minimum Order",
+        "image": "shopify:\/\/shop_images\/who1.webp",
+        "second_image": "shopify:\/\/shop_images\/who2.webp",
+        "first_text": "<p>Bester Caviar offers a wholesale caviar purchase with a set of exclusive benefits. We provide you with first-class caviar, that holds all required documents for US distribution, namely CITES, U.S. Fish and Wildlife permit, FDA permit, and HACCP certification. Enjoy free shipping to any place in the country via FedEx overnight delivery, ensuring that your precious cargo arrives fresh and ready for market. Our exclusive caviar gift set, complete with blini, crème fraîche, mother-of-pearl spoons, and a cooler, is the perfect addition to your offerings, allowing for the creation of your product line.<\/p>",
+        "second_text": "<p>With our <a href=\"https:\/\/731098-3.myshopify.com\/\" title=\"https:\/\/731098-3.myshopify.com\/\">caviar store<\/a>, you gain not only a reliable supplier, but a seasoned mentor with expertise in caviar products, online distribution and restaurant partnerships, and label development. Join us today in the world of caviar excellence and entrepreneurship.<\/p>"
+      }
+    },
+    "contact_section_gYLeD6": {
+      "type": "contact-section",
+      "settings": {
+        "title": "Feedback",
+        "sub_title": "If you have a question write to us"
+      }
+    },
+    "subscription_section_btR3zR": {
+      "type": "subscription-section",
+      "blocks": {
+        "link_pk4zfi": {
+          "type": "link",
+          "settings": {
+            "title": "caviar subscription",
+            "image": "shopify:\/\/shop_images\/rect-1.webp",
+            "url": "shopify:\/\/pages\/club"
+          }
+        },
+        "link_XMGhxd": {
+          "type": "link",
+          "settings": {
+            "title": "caviar store",
+            "image": "shopify:\/\/shop_images\/rect-2.webp",
+            "url": "shopify:\/\/collections\/osetra"
+          }
+        },
+        "item_GiRQTh": {
+          "type": "item",
+          "settings": {
+            "title": "Make your business profitable",
+            "text": "<p>Caviar, a unique and luxurious product, can offer a powerful addition to your current business or even turn into a cornerstone to build your brand around. So, what are the benefits of using sturgeon caviar for sale?<\/p><p>First, the caviar market has a strong profit potential, promising high margins and opportunities for further development and expansion. Second, the demand for caviar is also growing, as more and more people receive a chance to appreciate the exquisite flavors. It is also worth mentioning that caviar appeals to diverse consumer segments, from high-end restaurants and hotels to individual consumers celebrating special occasions. This diversity opens various revenue streams you can harness for the benefit of your entrepreneurial initiative. <\/p><p>Caviar sale is a promising endeavor. However, to achieve real success, you need a strong backup for sourcing quality caviar and figuring out the processes. Apply to our <a href=\"https:\/\/bestercaviarstore.com\/pages\/caviar-club\"><span style=\"text-decoration:underline\">caviar subscription<\/span><\/a>, and we will gladly become your caviar wholesaler!<\/p>",
+            "mobile_text": "",
+            "seo": true,
+            "desktop": false
+          }
+        },
+        "item_LqmfYg": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/eat.webp",
+            "text": "<p>When negotiating the purchase, we will consult you on specifics and help you choose the caviar type that will match your objectives the best. For all our caviar wholesale clients, we offer additional support and training in business growth and caviar expertise, so your entrance into the world of caviar distribution will be seamless.<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": true
+          }
+        },
+        "item_jGz9C4": {
+          "type": "item",
+          "settings": {
+            "title": "How to make a bulk purchase of black caviar?",
+            "text": "<p>Contact Bester Caviar to order a bulk purchase of the first-class sturgeon caviar! Through our supply chain, you can access the best product in the US market, acclaimed by a big community of connoisseurs and top restaurants. Just leave us a message on our website, and we will contact you shortly.<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "link_pk4zfi",
+        "link_XMGhxd",
+        "item_GiRQTh",
+        "item_LqmfYg",
+        "item_jGz9C4"
+      ],
+      "settings": {
+        "gift": false
+      }
+    },
+    "newsletter_second_section_8jPBqd": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_section_ACjLRA",
+    "wholesale_section_QCLpGB",
+    "contact_section_gYLeD6",
+    "subscription_section_btR3zR",
+    "newsletter_second_section_8jPBqd"
+  ]
+}
