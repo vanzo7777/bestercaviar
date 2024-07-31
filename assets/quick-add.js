@@ -45,11 +45,11 @@ if (!customElements.get('quick-add-modal')) {
             this.preventVariantURLSwitching();
             super.show(opener);
           })
-          .finally(() => {
-            opener.removeAttribute('aria-disabled');
-            opener.classList.remove('loading');
-            opener.querySelector('.loading__spinner').classList.add('hidden');
-          });
+            .finally(() => {
+                opener.removeAttribute('aria-disabled');
+                opener.classList.remove('loading');
+                opener.querySelector('.loading__spinner').classList.add('hidden');
+            });
       }
 
       setInnerHTML(element, html) {

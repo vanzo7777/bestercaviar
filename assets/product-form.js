@@ -14,6 +14,50 @@ if (!customElements.get('product-form')) {
         if (document.querySelector('cart-drawer')) this.submitButton.setAttribute('aria-haspopup', 'dialog');
 
         this.hideErrors = this.dataset.hideErrors === 'true';
+
+        const thumbSlider = document.querySelector('.slider__thumbs');
+        const mediaSlider = document.querySelector('.slider__images');
+
+        if (!thumbSlider) {
+          return;
+        }
+
+        const sliderThumbs = new Swiper('.slider__thumbs .swiper-container', {
+          direction: 'vertical',
+          slidesPerView: 3,
+          spaceBetween: 10,
+          on: {
+            init: function () {
+              setTimeout(() => {
+                thumbSlider.style.maxHeight = `${mediaSlider.offsetWidth}px`
+              },100)
+            },
+          },
+        });
+
+        const sliderImages = new Swiper('.slider__images .swiper-container', {
+          slidesPerView: 1,
+          direction: 'horizontal',
+          spaceBetween: 2,
+          navigation: {
+            nextEl: '.slider__next',
+            prevEl: '.slider__prev'
+          },
+          thumbs: {
+            swiper: sliderThumbs
+          },
+          on: {
+            init: function () {
+              setTimeout(() => {
+                thumbSlider.style.maxHeight = `${mediaSlider.offsetWidth}px`
+              },100)
+            },
+          },
+        });
+
+        window.addEventListener('resize', () => {
+          thumbSlider.style.maxHeight = `${mediaSlider.offsetWidth}px`
+        })
       }
 
       onSubmitHandler(evt) {

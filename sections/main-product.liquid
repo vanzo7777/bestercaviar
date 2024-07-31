@@ -220,7 +220,7 @@
                   {{ 'products.product.quantity.label' | t }}
                   <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
                     {%- render 'loading-spinner' -%}
-                    <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
+                    {% comment %}<span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>{% endcomment %}
                   </span>
                 </label>
                 <div class="price-per-item__container">
@@ -254,6 +254,7 @@
                       {% render 'icon-plus' %}
                     </button>
                   </quantity-input>
+
                   {%- liquid
                     assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                     assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min
@@ -381,6 +382,9 @@
                   {%- endif -%}
                   </volume-pricing>
                 {%- endif -%}
+                <div class="product__total-price card__price price--large" data-initial-price="{{ product.selected_or_first_available_variant.price }}">
+                  {{ product.selected_or_first_available_variant.price | money }}
+                </div>
               </div>
             {%- when 'popup' -%}
               <modal-opener

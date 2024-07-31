@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0ecf3286-3d95-486f-a108-0d0532101e20" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/component-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/component-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/product-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/product-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/quick-add.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/quick-add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/section-main-product.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/section-main-product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layout/theme.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/layout/theme.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locales/en.default.json" beforeDir="false" afterPath="$PROJECT_DIR$/locales/en.default.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/main-product-gift.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-product-gift.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/main-product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-product.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/buy-buttons.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/buy-buttons.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/card-product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/card-product.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/product-media-gallery.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product-media-gallery.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/product-variant-options.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product-variant-options.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/product-variant-picker.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/product-variant-picker.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2isutgbGiQfp4ApidYRVWEHTuUr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/secondary/bestercaviar/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\secondary\bestercaviar\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ecf3286-3d95-486f-a108-0d0532101e20" name="Changes" comment="" />
+      <created>1720291822068</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720291822068</updated>
+      <workItem from="1720291823102" duration="1207000" />
+      <workItem from="1720509675065" duration="799000" />
+      <workItem from="1722069141865" duration="53000" />
+      <workItem from="1722069198644" duration="13771000" />
+      <workItem from="1722156917443" duration="7278000" />
+      <workItem from="1722181248681" duration="1381000" />
+      <workItem from="1722235580589" duration="2000" />
+      <workItem from="1722266247549" duration="6463000" />
+      <workItem from="1722321009888" duration="7000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -2661,7 +2661,6 @@ a {
 .deno__button {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
   margin-top: 0.88rem;
   max-width: 18.875rem;
 }
@@ -3936,7 +3935,7 @@ a {
 
   .header {
     border-bottom: 0;
-    position: absolute;
+    /*position: absolute;*/
     top: 0;
     left: 0;
     right: 0;
@@ -4340,11 +4339,6 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2.36rem;
-  }
-
-  .deno__item {
-    max-width: 43%;
-    width: 100%;
   }
 
   .deno__lables {

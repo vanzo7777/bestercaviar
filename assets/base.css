@@ -1373,7 +1373,7 @@ button.shopify-payment-button__button--unbranded {
 }
 
 .button.loading > .loading__spinner .path {
-  stroke: rgb(var(--color-button-text));
+  stroke: rgb(var(--color-background));
 }
 
 /* Button - social share */
@@ -1874,7 +1874,6 @@ input[type='checkbox'] {
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
-  gap: 5px;
 }
 
 .quantity__input {
@@ -1907,6 +1906,16 @@ input[type='checkbox'] {
   justify-content: center;
   color: rgb(var(--color-foreground));
   padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.quantity__button[name='minus'] {
+  text-align: left;
+}
+
+.quantity__button[name='plus'] {
+  text-align: left;
 }
 
 .quantity__button svg {
@@ -3434,14 +3443,6 @@ details-disclosure > details {
   position: relative;
 }
 
-@media(max-width: 498px) {
-   variant-radios .deno__item {
-     display: block !important;
-     margin: 0px auto !important;
-     max-width: 60%;
-   }
-}
-
 .recipes__card-thumb {
   height: 436px !important;
 }
@@ -3506,7 +3507,7 @@ quick-add-modal .product-form__input input[type=radio] + label:hover {
   display: flex;
   gap: 5px;
   padding-bottom: 18px !important;
-  border-bottom: 1px solid black !important;
+  border-bottom: 2px solid #0b253b !important;
 }
 
 .quantity__label {
@@ -3520,7 +3521,8 @@ quick-add-modal .product-form__input input[type=radio] + label:hover {
 product-form .button {
   display: flex !important;
   margin-left: auto !important;
-  margin-right: auto !important;
+  min-width: 205px;
+  min-height: 40px;
 }
 
 @media(max-width: 400px) {

@@ -130,7 +130,9 @@
 
 .card--media .card__inner .card__content {
   position: relative;
+  display: grid;
   padding: calc(var(--image-padding) + 1rem);
+  width: 100%;
 }
 
 .card-information .card__information-volume-pricing-note {
