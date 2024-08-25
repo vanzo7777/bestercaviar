@@ -1,3 +1,9 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 <article class="article recipes__article">
   <div class="container">
       <div class="article__wrapper">
@@ -132,13 +138,22 @@
                         Products from the recipe
                     </div>
                     <div class="article__slider swiper">
-                        <div class="article__prod-wrapper">
-                            {% for card_product in article.metafields.custom.products.value %}
-                              {% render 'card-product', card_product: card_product %}
-                            {% endfor %}
-                            {% for card_product in article.metafields.custom.products.value %}
-                              {% render 'card-product', card_product: card_product %}
-                            {% endfor %}
+                        <div class="swiper-wrapper">
+                          {% for card_product in article.metafields.custom.products.value %}
+                            <div class="swiper-slide article__slider-slide">
+                              {% render 'card-product',
+                                  card_product: card_product,
+                                  show_secondary_image: false,
+                                  image_shape: 'default',
+                                  media_aspect_ratio: 'square',
+                                  show_vendor: true,
+                                  show_rating: false,
+                                  lazy_load: true,
+                                  show_quick_add: true,
+                                  section_id: section.id
+                              %}
+                            </div>
+                          {% endfor %}
                         </div>
                         <div class="banner__pagination"></div>
                     </div>
@@ -149,6 +164,21 @@
       </div>
   </div>
 </article>
+
+<script>
+    const sliderImages = new Swiper('.article__slider', {
+        slidesPerView: 1,
+        loop: true,
+        pagination: {
+            el: '.banner__pagination',
+        },
+        breakpoints: {
+            '767': {
+                slidesPerView: 2,
+            },
+        }
+    });
+</script>
 
 <script type="application/ld+json">
   {

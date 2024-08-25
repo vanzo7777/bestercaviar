@@ -457,3 +457,41 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+.card__content .price--on-sale .price__sale {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 20px;
+
+}
+
+.card__content .price--on-sale .price-item--regular {
+  color: #757575;
+  font-weight: 400;
+}
+
+.card__content .badge {
+  padding: 5px 7px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.card-wrapper .quick-add__submit {
+  display: flex !important;
+  min-width: auto;
+  max-width: 205px;
+  width: 100%;
+  min-height: 40px;
+  margin: 0 auto;
+  padding: .62rem .93rem;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-wrapper > .card > .card__content {
+  margin-top: auto;
+}

@@ -13,6 +13,9 @@ let cardListItems = document.querySelectorAll('.card-list-item');
 if(certItems) {
   certItems.forEach(el => {
     el.addEventListener('click', () =>{
+      certItems.forEach((item) => item.classList.remove('active'));
+      el.classList.add('active');
+
       if(cardListItems) {
         cardListItems.forEach(element => {
           element.classList.remove('active');
@@ -21,6 +24,10 @@ if(certItems) {
             element.classList.add('active');
           }
         })
+      }
+
+      if(window.innerWidth < 993) {
+        el.scrollIntoView()
       }
     })
   })

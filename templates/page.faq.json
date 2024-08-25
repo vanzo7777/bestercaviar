@@ -17,7 +17,9 @@
         "title_width": 400,
         "button": "",
         "button_url": "",
+        "bottom_button": false,
         "sub_title": "",
+        "sub_title_sets": false,
         "text": "",
         "top": false
       }
@@ -25,186 +27,110 @@
     "faq_tabs_section_XELJ8R": {
       "type": "faq-tabs-section",
       "blocks": {
-        "tab_inJgqi": {
-          "type": "tab",
-          "settings": {
-            "title": "All FAQ"
-          }
-        },
-        "item_E3K4Lr": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_f9exEt": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_REjcMz": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_ygxY7P": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_mjpTkF": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_jdyrJn": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_AheymL": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "item_gG8k8R": {
-          "type": "item",
-          "settings": {
-            "tab_title": "All FAQ",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
         "tab_inxXed": {
           "type": "tab",
           "settings": {
-            "title": "Shipping & Returns"
+            "title": "Shipping & Returns",
+            "category": "shipping"
+          }
+        },
+        "tab_Fj9cFg": {
+          "type": "tab",
+          "settings": {
+            "title": "The Brand",
+            "category": "brand"
+          }
+        },
+        "tab_pxXDfn": {
+          "type": "tab",
+          "settings": {
+            "title": "Product",
+            "category": "product"
           }
         },
         "item_ENbeJn": {
           "type": "item",
           "settings": {
-            "tab_title": "Shipping & Returns",
-            "question": "How much is shipping?",
+            "category": "shipping",
+            "question": "How much is shipping? [Shipping & Returns]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_8hTCDK": {
           "type": "item",
           "settings": {
-            "tab_title": "Shipping & Returns",
-            "question": "How much is shipping?",
+            "category": "shipping",
+            "question": "How much is shipping? [Shipping & Returns]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_aMJdxn": {
           "type": "item",
           "settings": {
-            "tab_title": "Shipping & Returns",
-            "question": "How much is shipping?",
+            "category": "shipping",
+            "question": "How much is shipping? [Shipping & Returns]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "tab_pxXDfn": {
-          "type": "tab",
-          "settings": {
-            "title": "Product"
           }
         },
         "item_PttXx6": {
           "type": "item",
           "settings": {
-            "tab_title": "Product",
-            "question": "How much is shipping?",
+            "category": "product",
+            "question": "How much is shipping? [Product]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_DBYyGz": {
           "type": "item",
           "settings": {
-            "tab_title": "Product",
-            "question": "How much is shipping?",
+            "category": "product",
+            "question": "How much is shipping? [Product]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_eCDcVj": {
           "type": "item",
           "settings": {
-            "tab_title": "Product",
-            "question": "How much is shipping?",
+            "category": "product",
+            "question": "How much is shipping? [Product]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
-          }
-        },
-        "tab_Fj9cFg": {
-          "type": "tab",
-          "settings": {
-            "title": "The Brand"
           }
         },
         "item_NLtUMk": {
           "type": "item",
           "settings": {
-            "tab_title": "The Brand",
-            "question": "How much is shipping?",
+            "category": "brand",
+            "question": "How much is shipping? [The Brand]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_DqWVti": {
           "type": "item",
           "settings": {
-            "tab_title": "The Brand",
-            "question": "How much is shipping?",
+            "category": "brand",
+            "question": "How much is shipping? [The Brand]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
         "item_G7kpCy": {
           "type": "item",
           "settings": {
-            "tab_title": "The Brand",
-            "question": "How much is shipping?",
+            "category": "brand",
+            "question": "How much is shipping? [The Brand]",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         }
       },
       "block_order": [
-        "tab_inJgqi",
-        "item_E3K4Lr",
-        "item_f9exEt",
-        "item_REjcMz",
-        "item_ygxY7P",
-        "item_mjpTkF",
-        "item_jdyrJn",
-        "item_AheymL",
-        "item_gG8k8R",
         "tab_inxXed",
+        "tab_Fj9cFg",
+        "tab_pxXDfn",
         "item_ENbeJn",
         "item_8hTCDK",
         "item_aMJdxn",
-        "tab_pxXDfn",
         "item_PttXx6",
         "item_DBYyGz",
         "item_eCDcVj",
-        "tab_Fj9cFg",
         "item_NLtUMk",
         "item_DqWVti",
         "item_G7kpCy"
@@ -264,7 +190,8 @@
       "settings": {
         "title": "More and more quality service for our customers",
         "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "delivery": false
       }
     }
   },

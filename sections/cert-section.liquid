@@ -2,7 +2,7 @@
     <div class="container">
         <div class="cert__container">
             {% for block in section.blocks %}
-                <div class="cert__item" id="{{ block.id }}">
+                <div class="cert__item {% if forloop.first %}active{% endif %}" id="{{ block.id }}">
                   {% if block.settings.title != blank %}
                     {{ block.settings.title }}
                   {% endif %}
