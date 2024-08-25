@@ -536,6 +536,7 @@
         }
       </script>
     {% endif %}
+    {{ '//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js' | script_tag }}
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -549,8 +550,18 @@
 
     {% sections 'header-group' %}
 
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+    <main id="MainContent" class="content-for-layout focus-none {% if template == 'cart' %} cart-page page-width {% endif %}" role="main" tabindex="-1">
+    {% if template == 'cart' %} 
+      <div class="title-wrapper-with-link">
+        <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+      </div>
+      <div class="cart-content">
+        {{ content_for_layout }}
+      </div>
+    {% else %}
       {{ content_for_layout }}
+    {% endif %}
+      
     </main>
 
     {% sections 'footer-group' %}
