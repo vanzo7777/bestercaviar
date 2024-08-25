@@ -3443,10 +3443,6 @@ details-disclosure > details {
   position: relative;
 }
 
-.recipes__card-thumb {
-  height: 436px !important;
-}
-
 @media(min-width: 993px) {
   .header-mobile-menu-item {
     display: none !important;
@@ -3536,7 +3532,7 @@ product-form .button {
 }
 
 .card-wrapper {
-  padding: 20px 0px;
+  padding: 0px;
 }
 
 .card__title {
@@ -3549,10 +3545,27 @@ product-form .button {
 
 .card-list-item {
   display: none;
+  opacity: 0;
+  transition: all 0.5s ease;
 }
 
 .card-list-item.active {
   display: block;
+  opacity: 1;
+}
+
+.card-list-item {
+  animation: fadeEffect 0.5s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 @media(max-width: 992px) {

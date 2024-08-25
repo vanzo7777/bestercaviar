@@ -1,4 +1,18 @@
-{% if section.settings.products != blank %}
+{% assign cart_product_ids = cart.items | map: 'product_id' %}
+{% assign filtered_product_ids = "" %}
+
+
+{% for product in collections[section.settings.collection].products %}
+  {% unless cart_product_ids contains product.id %}
+    {%- capture product_ids -%}{{- filtered_product_ids -}},{{- product.handle -}}{%- endcapture -%}
+    {% assign filtered_product_ids = product_ids %}
+  {% endunless %}
+{% endfor %}
+
+{% assign filtered_product_ids = filtered_product_ids | remove_first: ',' | split: ',' %}
+
+{% if filtered_product_ids.size > 0 %}
+
   {{ 'component-card.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'quick-add.css' | asset_url | stylesheet_tag }}
@@ -34,7 +48,8 @@
       {% endif %}
       <div class="featured-products__container swiper">
         <div class="featured-products__wrapper swiper-wrapper">
-          {% for product in section.settings.products %}
+          {% for product_id in filtered_product_ids %}
+            {% assign product = all_products[product_id] %}
             {% if product != blank %}
               <div class="swiper-slide featured-products__slide">
                 {% render 'card-product',
@@ -71,6 +86,9 @@
               el: '.featured-products__pagination',
           },
           breakpoints: {
+              '992': {
+                  slidesPerView: 4,
+              },
               '767': {
                   slidesPerView: 3,
               },
@@ -84,7 +102,7 @@
 
 {% schema %}
 {
-  "name": "Featured Products",
+  "name": "Complete my cart",
   "settings": [
     {
       "type": "text",
@@ -99,9 +117,9 @@
       "default": "We invite you to familiarize yourself with the most popular products"
     },
     {
-      "type": "product_list",
-      "id": "products",
-      "label": "Product list"
+      "type": "collection",
+      "id": "collection",
+      "label": "Complete my cart collection"
     },
     {
       "type": "text",
@@ -136,7 +154,7 @@
   ],
   "presets": [
     {
-      "name": "Featured Products"
+      "name": "Complete my cart"
     }
   ]
 }

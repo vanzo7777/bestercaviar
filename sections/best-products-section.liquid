@@ -1,43 +1,93 @@
-<section class="best {% if section.settings.delivery %}delivery__best{% endif %}">
-  <div class="container">
+{% if section.settings.products != blank %}
+  {{ 'component-card.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'quick-add.css' | asset_url | stylesheet_tag }}
+  <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
+  {%- style -%}
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+    @media screen and (min-width: 750px) {
+      .section-{{ section.id }}-padding {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+
+
+  <section id="{{ section.id }}" class="section-{{ section.id }}-padding {% if section.settings.delivery %}delivery__best{% endif %}">
+    <div class="container">
       {% if section.settings.title != blank %}
-        <p class="best__title title">
-            {{ section.settings.title }}
+        <p class="featured-collection__title title">
+          {{ section.settings.title }}
         </p>
       {% endif %}
       {% if section.settings.sub_title != blank %}
-        <p class="best__subtitle subtitle">
-            {{ section.settings.sub_title }}
+        <p class="featured-collection__subtitle subtitle">
+          {{ section.settings.sub_title }}
         </p>
       {% endif %}
-  </div>
-  <div class="best__slider swiper">
-      <div class="best__wrapper swiper-wrapper">
-        {% for block in section.blocks %}
-          {% if block.settings.product != blank %}
-              <div class="best__slide swiper-slide">
-                  {% render 'card-product',
-                    card_product: block.settings.product,
+    </div>
+    <div class="{% unless section.settings.centered %}container{% endunless %}">
+      <div class="featured-collection__slider swiper">
+        <div class="featured-collection__wrapper swiper-wrapper">
+          {% for product in section.settings.products %}
+            {% if product != blank %}
+              <div class="featured-collection__slide swiper-slide">
+                {% render 'card-product',
+                    card_product: product,
                     show_secondary_image: false,
                     image_shape: 'default',
                     media_aspect_ratio: 'square',
                     show_vendor: true,
                     show_rating: false,
                     lazy_load: true,
-                    show_quick_add: false,
+                    show_quick_add: true,
                     section_id: section.id
-                  %}
+                %}
               </div>
-          {% endif %}
+            {% endif %}
           {% endfor %}
+        </div>
+        <div class="featured-collection__pagination pagination"></div>
       </div>
-      <div class="best__pagination pagination"></div>
-  </div>
-</section>
+    </div>
+  </section>
+
+  <script>
+      const featuredSlider = new Swiper('#{{ section.id }} .featured-collection__slider', {
+          slidesPerView: 1,
+          loop: true,
+          centeredSlides: {{ section.settings.centered | json }},
+          pagination: {
+              el: '.featured-collection__pagination',
+          },
+          spaceBetween: {% if section.settings.centered %}30{% else %}12{% endif %},
+          breakpoints: {
+              '1280': {
+                  slidesPerView: {% if section.settings.centered %}4.5{% else %}3{% endif %},
+                  {% if section.settings.centered %}spaceBetween: 50,{% endif %}
+              },
+              '767': {
+                  slidesPerView: {% if section.settings.centered %}2.5{% else %}3{% endif %},
+                {% if section.settings.centered %}spaceBetween: 20,{% endif %}
+              },
+              '480': {
+                  slidesPerView: {% if section.settings.centered %}1.8{% else %}2{% endif %},
+              }
+          }
+      });
+  </script>
+{% endif %}
 
 {% schema %}
   {
-    "name": "Best Products Section",
+    "name": "Product carousel",
     "settings": [
       {
         "type": "text",
@@ -52,27 +102,48 @@
         "default": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons."
       },
       {
+        "type": "product_list",
+        "id": "products",
+        "label": "Product list"
+      },
+      {
+        "type": "checkbox",
+        "id": "centered",
+        "label": "Active slide will be centered. (Use if more that 5 products)"
+      },
+      {
         "type": "checkbox",
         "id": "delivery",
         "label": "Delivery"
-      }
-    ],
-    "blocks": [
+      },
       {
-        "type": "product",
-        "name": "Product",
-        "settings": [
-          {
-            "type": "product",
-            "id": "product",
-            "label": "Product"
-          }
-        ]
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
       }
     ],
     "presets": [
       {
-        "name": "Best Products Section"
+        "name": "Product carousel"
       }
     ]
   }

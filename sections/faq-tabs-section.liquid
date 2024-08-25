@@ -1,48 +1,100 @@
-<style>
-  .faq__quetion::before {
-    background-image: url("https://cdn.shopify.com/s/files/1/0685/2640/7920/files/faq_q.svg?v=1709152181");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-</style>
+{{ 'faq-tabs-section.css' | asset_url | stylesheet_tag }}
 
-<section class="faq-page">
-  <div class="container">
-      <div class="faq__menu">
-          {% for block in section.blocks %}
-            {% if block.type == "tab" %}
-              <a href="#" class="faq__item tab__button" data-tab="faq{{ forloop.index }}">{{ block.settings.title }}</a>
-            {% endif %}
-          {% endfor %}
+{% assign tabs = section.blocks | where: 'type', 'tab' %}
+{% assign accordions = section.blocks | where: 'type', 'item' %}
+
+<section id="faq" class="accordions-filter container">
+  <div class="accordions-filter_tabs">
+    <button class="accordions-filter_tab js-accordions-filter-tab" data-filter="all">
+      All FAQ
+    </button>
+
+    {% for tab in tabs %}
+      <button class="accordions-filter_tab js-accordions-filter-tab" data-filter="{{ tab.settings.category | downcase }}">
+        {{ tab.settings.title }}
+      </button>
+    {% endfor %}
+  </div>
+
+  <div class="accordion">
+    {% for accordion in accordions %}
+      <div class="accordion-item js-accordion-item" data-category="{{ accordion.settings.category | downcase}}">
+        <button class="accordion-header">
+          <span class="accordion-header__toggle"></span>
+          <span>{{ accordion.settings.question }}</span>
+        </button>
+
+        <div class="accordion-body">
+          <p class="accordion-body__content">
+            {{ accordion.settings.answer }}
+          </p>
+        </div>
       </div>
+    {% endfor %}
   </div>
-  <div class="container faq__wrapper">
-      {% for block in section.blocks %}
-        {% if block.type == "tab" %}
-          {% assign title = block.settings.title %}
-          <div class="faq__content  tab__content" data-tab="faq{{ forloop.index }}">
-              {% for block in section.blocks %}
-                {% if block.type == "item" %}
-                  {% if title == block.settings.tab_title %}
-                    {% if block.settings.question != blank %}
-                      <div class="faq__quetion accordion-trigger">
-                          {{ block.settings.question }}
-                      </div>
-                    {% endif %}
-                    {% if block.settings.answer != blank %}
-                      <div class="faq__answer accordion-content">
-                          {{ block.settings.answer }}
-                      </div>
-                    {% endif %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-          </div>
-        {% endif %}
-      {% endfor %}
-  </div>
-
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionItems = document.querySelectorAll('.js-accordion-item');
+        const tabButtons = document.querySelectorAll('.js-accordions-filter-tab');
+
+        const url = new URL(window.location.href);
+        const params = new URLSearchParams(url.search);
+        const filter = params.get('filter');
+
+        const initialTab = [...tabButtons].find(tab => tab.dataset.filter === filter) || tabButtons[0];
+
+        accordionItems.forEach(item => {
+            const header = item.querySelector('.accordion-header');
+
+            header.addEventListener('click', function() {
+                const openItem = document.querySelector('.js-accordion-item.active');
+
+                toggleItem(item);
+
+                if (openItem && openItem !== item) {
+                    toggleItem(openItem);
+                }
+            });
+        });
+
+        const toggleItem = (item) => {
+            const body = item.querySelector('.accordion-body');
+
+            if (item.classList.contains('active')) {
+                body.style.maxHeight = null;
+                item.classList.remove('active');
+            } else {
+                body.style.maxHeight = body.scrollHeight + 'px';
+                item.classList.add('active');
+            }
+        };
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+
+                accordionItems.forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+
+                document.querySelectorAll('.js-accordion-item.active').forEach(activeItem => {
+                    toggleItem(activeItem);
+                });
+
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        initialTab.click();
+    });
+</script>
 
 <script type="application/ld+json">
 {
@@ -65,7 +117,6 @@
 }
 </script>
 
-
 {% schema %}
   {
     "name": "FAQ Tabs Section",
@@ -80,6 +131,11 @@
             "type": "text",
             "id": "title",
             "label": "Title"
+          },
+          {
+            "type": "text",
+            "id": "category",
+            "label": "Category"
           }
         ]
       },
@@ -89,8 +145,8 @@
         "settings": [
           {
             "type": "text",
-            "id": "tab_title",
-            "label": "Tab Title"
+            "id": "category",
+            "label": "Category"
           },
           {
             "type": "text",

@@ -31,10 +31,22 @@
         "padding_top": 20,
         "padding_bottom": 40
       }
+    },
+    "comlete_cart_Li3Wgm": {
+      "type": "comlete-cart",
+      "settings": {
+        "title": "Bestsellers in our caviar store",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "collection": "complete-my-cart",
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "comlete_cart_Li3Wgm"
   ]
 }

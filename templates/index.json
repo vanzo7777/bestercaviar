@@ -99,34 +99,14 @@
     },
     "main_better_section_tpgFQP": {
       "type": "main-better-section",
-      "blocks": {
-        "card_YUgT9P": {
-          "type": "card",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "card_XabWnz": {
-          "type": "card",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "card_9zdH7C": {
-          "type": "card",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        }
-      },
-      "block_order": [
-        "card_YUgT9P",
-        "card_XabWnz",
-        "card_9zdH7C"
-      ],
       "settings": {
         "title": "Bestsellers in our caviar store",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "products": [
+          "russian-osetra-karat-black",
+          "russian-osetra-karat-amber-caspian-sea-copy",
+          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy"
+        ],
         "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
       }
     },
@@ -161,153 +141,22 @@
     },
     "best_products_section_Kqrpht": {
       "type": "best-products-section",
-      "blocks": {
-        "product_KRWeG8": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_zrRNac": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_NqcJhW": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_3M6Pni": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_4dE3VB": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_zYQgkx": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_TYNmjW": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_C9YQ93": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_g9i6PU": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_ACdRNz": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_LAAXLP": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_hF6FiH": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_y4ymMi": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_nWDE9n": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_k9DxHy": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_qNN97i": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_xLiFWz": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_tXecDU": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        },
-        "product_hU9mRy": {
-          "type": "product",
-          "settings": {
-            "product": "russian-osetra-karat-black"
-          }
-        }
-      },
-      "block_order": [
-        "product_KRWeG8",
-        "product_zrRNac",
-        "product_NqcJhW",
-        "product_3M6Pni",
-        "product_4dE3VB",
-        "product_zYQgkx",
-        "product_TYNmjW",
-        "product_C9YQ93",
-        "product_g9i6PU",
-        "product_ACdRNz",
-        "product_LAAXLP",
-        "product_hF6FiH",
-        "product_y4ymMi",
-        "product_nWDE9n",
-        "product_k9DxHy",
-        "product_qNN97i",
-        "product_xLiFWz",
-        "product_tXecDU",
-        "product_hU9mRy"
-      ],
       "settings": {
         "title": "best Caviar Gift Sets",
         "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
+        "products": [
+          "russian-osetra-karat-black",
+          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy",
+          "russian-osetra-karat-amber-caspian-sea-copy"
+        ],
+        "centered": false,
         "delivery": false
       }
     },
     "more_section_tPweDB": {
       "type": "more-section",
       "settings": {
-        "title": "",
+        "title": "More and more quality service for our customers",
         "button": "Online Store",
         "button_url": "",
         "call_text": "<p> Order best caviar online with free overnight delivery in the US <br\/> Call now! <a href=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a> - Your Favorite Caviar Shop<\/p>",
@@ -441,34 +290,6 @@
       ],
       "settings": {
       }
-    },
-    "featured_collection_8QQ4w6": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "essentials",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -482,7 +303,6 @@
     "about_section_fUJtYd",
     "services_section_LfYVTB",
     "faq_section_Ux8FVA",
-    "partners_section_j8tLBV",
-    "featured_collection_8QQ4w6"
+    "partners_section_j8tLBV"
   ]
 }
