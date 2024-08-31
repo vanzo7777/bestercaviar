@@ -63,8 +63,17 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <h1 class="deno__title title">
-        Denominations
+        Caviar Gift Cards
     </h1>
+    <p class="deno__subtitle promo__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p</p>
+
+    <div class="AirReviews-Widget AirReviews-Widget--Carousel"></div>
+
+    <h2 class="deno__title title">
+      Denominations
+    </h2>
+
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper{% if section.settings.media_position == 'right' %} medium-hide large-up-hide{% endif %}">
       {% render 'product-media-gallery', variant_images: variant_images %}

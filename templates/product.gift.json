@@ -91,6 +91,7 @@
       "type": "little-promo-section",
       "settings": {
         "title": "A GIFT FOR ALL OCCASIONS:FROM THANK YOUS TO WEDDINGS",
+        "subtitle": "",
         "main_title": false,
         "mobile_text": "",
         "left_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa",

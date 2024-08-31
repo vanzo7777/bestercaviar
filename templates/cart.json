@@ -35,10 +35,10 @@
     "comlete_cart_Li3Wgm": {
       "type": "comlete-cart",
       "settings": {
-        "title": "Bestsellers in our caviar store",
-        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "title": "complete my card",
+        "sub_title": "",
         "collection": "complete-my-cart",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+        "text": "",
         "padding_top": 36,
         "padding_bottom": 36
       }

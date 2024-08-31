@@ -1,4 +1,33 @@
 let triggers = document.querySelectorAll('.accordion-trigger-mobile');
+let buttonSubmenu = document.querySelectorAll('.toggle-submenu');
+let menuItems = document.querySelectorAll('.menu__list .menu__item');
+
+if(buttonSubmenu.length > 0) {
+  buttonSubmenu.forEach((el) => {
+    el.addEventListener('click', function() {
+
+      let parent = el.parentNode;
+      
+      menuItems.forEach((item) => {
+        item.classList.remove('open');
+      })
+      buttonSubmenu.forEach((btn) => { 
+        btn.classList.remove('active');
+      }) 
+
+      if(el.classList.contains('active')) {
+        el.classList.remove('active')
+        parent.classList.remove('open');
+      } else {
+        el.classList.add('active'); 
+        parent.classList.add('open');
+      }
+
+      
+
+    })
+  })
+}
 if(triggers) {
   triggers.forEach(el => {
     let url = el.getAttribute('href');

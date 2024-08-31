@@ -31,11 +31,30 @@
     "little_promo_section_c8wmNr": {
       "type": "little-promo-section",
       "settings": {
-        "title": "",
+        "title": "Caviar Club Subscription  <br>For True Gourmets",
+        "subtitle": "You have tried our caviar, and now you don’t want to stop. You seek to have this exquisite flavor and elegant rituals associated with this magnetic product. Luckily, we have good news for you: we have a special offer for real caviar connoisseurs — the Caviar Club.",
+        "main_title": false,
         "mobile_text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium<br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
         "left_text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
         "right_text": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.",
         "yellow_title": false
+      }
+    },
+    "1724886132914028a9": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_carousel_review_list_UEgVtN": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_carouselreviews_carouselHeading": "See what our customers said"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_carousel_review_list_UEgVtN"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "about_reverse_section_9f9eUL": {
@@ -115,6 +134,7 @@
     "main",
     "banner_section_TTdJce",
     "little_promo_section_c8wmNr",
+    "1724886132914028a9",
     "about_reverse_section_9f9eUL",
     "services_section_9KE9dn"
   ]

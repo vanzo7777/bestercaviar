@@ -135,6 +135,39 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "6174324309569838175": {
+        "type": "shopify:\/\/apps\/smile-io\/blocks\/smile-shopify-app\/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12855036574018961682": {
+        "type": "shopify:\/\/apps\/givy\/blocks\/index\/7e8263d6-6c9a-4d94-9b94-612e9cb257e3",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "1232542678405107163": {
+        "type": "shopify:\/\/apps\/instafeed\/blocks\/head-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "16420725565331586169": {
+        "type": "shopify:\/\/apps\/appio-amazon-reviews\/blocks\/integration\/569167b3-e5d6-4314-9866-f51281b506d7",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "14710238943034738919": {
+        "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-embed\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+        "disabled": false,
+        "settings": {
+          "air_reviews_json_ld_v2": "{\n\"@context\": \"http:\/\/schema.org\",\n\"@type\": \"Product\",\n\"name\": {{ product.title | json }},\n\"description\": {{ product.description | escape | truncate: 150 | json }},\n\"image\": {{ product.featured_image | json }},\n\"aggregateRating\": {\n  \"@type\": \"AggregateRating\",\n  \"ratingValue\": {{ product.metafields.reviews.rating.value.rating | json }},\n  \"bestRating\": {{ product.metafields.reviews.rating.value.scale_max | json }},\n  \"reviewCount\": {{ product.metafields.air_reviews_product.review_count | json }}\n }{% if shop.metafields.air_reviews_has_ugc_content.data.value == true %}, \n  \"review\":[{% assign reviewsData = product.metafields.air_reviews_product.data.value.reviews %}\n  {% for review in reviewsData limit:10 %}\n    {\n      \"@type\": \"Review\",\n      \"author\": {\n        \"@type\": \"Person\",\n        \"name\": {{ review.firstName | json }}\n      },\n      \"reviewRating\": {\n          \"@type\": \"Rating\",\n          \"bestRating\": {{ product.metafields.reviews.rating.value.scale_max | json }},\n          \"ratingValue\": {{ review.rate | json }},\n          \"worstRating\": {{ product.metafields.reviews.rating.value.scale_min | json }}\n      },\n      \"reviewBody\": {{ review.content | json }},\n      \"datePublished\": {{ review.createdAt | date: \"%Y-%m-%d %H:%M:%S\" | json }}\n    }{% unless forloop.last %},{% endunless %} \n  {% endfor %}]{% endif %}\n}"
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
