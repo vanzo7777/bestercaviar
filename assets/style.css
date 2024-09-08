@@ -282,7 +282,7 @@ a {
 }
 
 .accordion-content.active {
-  max-height: 20rem;
+  max-height: 15rem;
   transition: all 0.5s ease-in-out;
 }
 
@@ -302,8 +302,15 @@ a {
   color: #fff;
 }
 
+.stay__form button {
+  background-color: transparent;
+}
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__Media .AirReviews-Carousel__Image {
+  height: 240px !important;
+}
+
 .title__yellow {
-  color: #ddb454;
+  color: #ddb454 !important;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
@@ -623,7 +630,7 @@ a {
 }
 
 .header {
-  border-bottom: 5px solid #047678;
+  /* border-bottom: 5px solid #047678; */
 }
 
 .header__sale {
@@ -663,9 +670,9 @@ a {
 }
 
 .header__logo--mobile {
-  max-width: 159px;
+  max-width: 200px;
   width: 100%;
-  display: none;
+  display: none; 
 }
 
 .header__logo--mobile.header__logo-inverce {
@@ -693,6 +700,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 9.92px;
+  position: relative;
 }
 
 .header__account--icon {
@@ -743,7 +751,7 @@ a {
 .menu__list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
 }
 
@@ -759,6 +767,34 @@ a {
   transition: all 0.3s ease-in-out;
   padding: 2.5rem 0;
   cursor: pointer;
+  text-transform: uppercase; 
+  margin-right: 20px;
+}
+
+
+
+.toggle-submenu {
+  background-color: transparent;
+  min-width: 30px;
+  min-height: 30px;
+  padding: 10px;
+  position: absolute; 
+  top: 10px; 
+  right: 10px;
+  display: none;
+  
+
+}
+
+.toggle-submenu.active svg {
+  transform: rotate(45deg);
+}
+
+.toggle-submenu svg {
+  width: 20px;
+  height: 20px;
+  transition: transform .3s ease;
+  
 }
 
 .menu__link {
@@ -816,10 +852,95 @@ a {
 
 .banner__container {
   position: relative;
+  height: calc(100% - 132px);
+}
+
+.banner__container img {
+  position: relative;
+}
+
+.banner__container img::before {
+  content: ''; 
+  display: block; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute; 
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
 
 .banner__image.mobile {
   display: none;
+}
+
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__CardContent .AirReviews-Carousel__Author .AirReviews-Carousel__Author-Right .AirReviews-Author__Name,
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Text .AirReviews-Blocks__Author .AirReviews-Blocks__AuthorName {
+  margin-bottom: 8px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__CardContent .AirReviews-Carousel__Author .AirReviews-Carousel__Author-Right .AirReviews-Author__Date, 
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Text .AirReviews-Blocks__Date {
+  margin-bottom: 8px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__CardContent .AirReviews-Pop__Content.AirReviews-Pop__Content-Line, 
+.Avada-AirReviews-Content .Avada-ReviewContent__LimitLength {
+  margin-bottom: 10px !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.Avada-AirReviews-Content .Avada-ReviewContent__LimitLength {
+  margin-top: 10px !important; 
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Images .AirReviews-RotateBtn {
+  display: none !important;
+}
+
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__CardContent .AirReviews-Pop__Content--SeeMore, 
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Text .AirReviews-Link {
+  font-family: "Montserrat", sans-serif !important;
+  display: inline-block !important;
+  background-color: #000 !important;
+  padding: 5px 10px !important;
+  color: #fff !important; 
+  border-radius: 4px !important;
+  text-decoration: none !important;
+  transition: all .3s ease !important;
+}
+
+.AirReviews-Carousel .AirReviews-Carousel__Container .AirReviews-Carousel__Card .AirReviews-Carousel__CardContent .AirReviews-Pop__Content--SeeMore:hover, 
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Text .AirReviews-Link:hover {
+  background-color: #047678 !important;
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__Details--Product .AirReviews-Link__Product {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__Details--Product .AirReviews-Link__Product:hover {
+  text-decoration: underline !important;
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__Details--Product .AirReviews-Modal__ReviewDetails--ShopButton {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__ReviewDetails .AirReviews-Modal__ReviewDetails--Images {
+  background-color: #fff !important;
+}
+
+#AirReviews-Modal__Details .AirReviews-Modal__Container .AirReviews-Modal__Wrapper button.AirReviews-Modal__Close {
+  background-color: transparent !important;
+}
+
+.banner__list a {
+  padding-left: 0 !important;
 }
 
 .banner__image picture,
@@ -1137,6 +1258,17 @@ a {
   margin: 0 auto;
   line-height: 44.5px;
   line-height: 2.78125rem;
+  margin-bottom: 20px;
+  color: #001A32;
+}
+
+.promo__subtitle {
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.5;
 }
 
 .promo__title.title__yellow {
@@ -1169,6 +1301,13 @@ a {
   gap: 169.92px;
   margin-top: -16.5rem;
 }
+
+.promo__container .card-wrapper .card__price .price-item {
+  display: inline-block; 
+  padding: 5px;
+  background-color: #fff;
+}
+
 
 .promo__bg {
   background-color: #001a32;
@@ -1470,6 +1609,7 @@ a {
 
 .faq__title {
   text-align: left;
+  margin-bottom: 50px;
 }
 
 .faq__content {
@@ -1536,7 +1676,8 @@ a {
 }
 
 .faq__answer {
-  margin-top: 1.81rem;
+  margin: 1rem 0;
+  padding-left: 40px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
@@ -1550,6 +1691,23 @@ a {
   display: flex;
   justify-content: start;
   gap: 2rem;
+  margin-top: 30px;
+}
+
+.faq__menu a {
+  display: inline-block; 
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  transition: background-color .3s ease, color .3s ease;
+}
+
+.faq__menu a:hover {
+  background-color: #047678;
+  color: #fff;
 }
 
 .faq__image {
@@ -1993,14 +2151,58 @@ a {
 }
 
 .footer__icons {
-  position: absolute;
-  display: flex;
-  align-items: center;
+  /* position: absolute; */
+  margin-top: 20px;
   gap: 0.58rem;
   max-width: 22.8rem;
-  flex-wrap: wrap;
   right: 0rem;
   bottom: 0rem;
+}
+
+h1.collection.title {
+  margin-bottom: 50px;
+}
+
+.collection__subtitle {
+  max-width: 860px;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  color: #DFB453;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  
+}
+
+h1.collection.title.has-subtitle {
+  margin-bottom: 10px;
+}
+
+.deno__subtitle.promo__subtitle {
+  color: #DFB453; 
+}
+
+.card--standard>.card__content .card__information .product-review-star {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__icons .list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer__icons .list .list-payment__item {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.footer__icons .list .list-payment__item svg {
+  width: 55px;
+  height: 33px;
 }
 
 .footer__icon picture,
@@ -3027,13 +3229,85 @@ a {
   transition: .1s linear opacity;
 }
 
+
 @media (max-width: 992px) {
   .recipes__card {
     max-width: calc(50% - 13.5px);
   }
 
+  .faq__menu {
+    flex-wrap: wrap;
+  }
+
+  .menu__item .menu__dropdown {
+    transition: max-height .3s ease;
+  }
+
+  .menu__item.open .menu__dropdown {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 150px;
+    padding-left: 20px;
+    padding-bottom: 1rem;
+    padding-right: 0;
+  }
+
+  .menu__item.open .menu__dropdown .menu__item {
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .menu__item.open .menu__dropdown .menu__item .menu__link {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    position: relative;
+    width: 100%;
+  }
+
+  .menu__item.open .menu__dropdown .menu__item .menu__link::before {
+    content: ''; 
+    display: block; 
+    width: 10px; 
+    height: 1px;
+    background-color: #000;
+    left: 0; 
+    top: 20px;
+    position: absolute;
+  }
+
+  .toggle-submenu {
+    display: inline-block;
+  }
+
   .recipes__button {
     opacity: 1;
+  }
+
+  .header__container {
+    /* position: absolute;  */
+    width: 100%; 
+    background-color: #001a32 !important;
+  }
+
+  .banner__image.mobile {
+    /* min-height: 100vh; */
+    max-height: 100vh;
+    position: relative;
+  }
+
+  .banner__image.mobile::after {
+    content: '';
+    display: block; 
+    position: absolute; 
+    z-index: 1; 
+    background-color: rgba(0,0,0,.45);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%;
   }
 }
 
@@ -3441,10 +3715,27 @@ a {
   }
 }
 
+
+
+@media (max-width: 1400px) { 
+  .faq__image {
+    max-width: 500px;
+  }
+}
 @media (max-width: 1200px) {
   .faq__image {
-    top: 8rem;
+    top: 50%;
     max-width: 95%;
+    display: none;
+  }
+
+  .faq .container {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .faq__content {
+    width: 100%;
   }
 
   .faq__image picture,
@@ -3456,6 +3747,25 @@ a {
 @media (max-width: 1100px) {
   .container {
     max-width: 920px;
+  }
+}
+
+@media (min-width: 1920px) { 
+  .about__image {
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 1100px;
+    max-height: 500px;
+    min-height: 500px;
+  }
+
+  .about__image .about__image--wrapper {
+    height: 100%;
+  }
+
+  .about__image--wrapper picture, .about__image--wrapper img {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -3484,9 +3794,9 @@ a {
     max-width: calc(152px + 0 * ((100vw - 390px) / 677));
   }
 
-  .header__logo--mobile {
+  /* .header__logo--mobile {
     max-width: calc(159px + 0 * ((100vw - 390px) / 677));
-  }
+  } */
 
   .header__links {
     gap: calc(9.92px + 0 * ((100vw - 390px) / 677));
@@ -3606,7 +3916,7 @@ a {
   }
 
   .about__image {
-    max-width: calc(0px + 688 * ((100vw - 390px) / 677));
+    max-width: calc(0px + 688 * ((100vw - 390px) / 877));
   }
 
   .about__buttons {
@@ -3967,6 +4277,12 @@ a {
   width: 33.333% !important;
 }
 
+@media (max-width: 498px) {
+  .banner {
+      margin-top: 0px;
+  }
+}
+
 @media (max-width: 992px) {
   .container {
     max-width: 800px;
@@ -3998,7 +4314,7 @@ a {
 
   .header__inverce {
     background-color: #001a32;
-    border-bottom: 5px solid #047678;
+    /* border-bottom: 5px solid #047678; */
   }
 
   .header__inverce .header__container {
@@ -4012,14 +4328,16 @@ a {
 
   .header__menu {
     position: fixed;
-    top: -110vh;
+    top: -2000px;
     left: 0;
     right: 0;
     height: 100%;
-    padding-top: 5rem;
+    z-index: 1;
+    padding: 2rem 1rem;
     box-sizing: border-box;
-    background: rgba(0, 26, 50, 0.72);
+    background: rgba(0, 26, 50, 0.9);
     transition: all 0.5s ease-in-out;
+    overflow-y: auto;
   }
 
   .header__menu.open {
@@ -4040,13 +4358,14 @@ a {
   .header__logo--mobile {
     display: block;
     margin: 0 auto;
-    max-width: 6.8125rem;
+    /* max-width: 6.8125rem; */
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .header__logo--mobile.header__logo-inverce {
     display: block;
-    max-width: 6.8125rem;
+    /* max-width: 6.8125rem; */
   }
 
   .header__account {
@@ -4063,17 +4382,36 @@ a {
 
   .menu__list {
     flex-direction: column;
+    align-items: flex-start; 
+    justify-content: start;
   }
 
   .menu__item {
-    padding: 1.5rem 0;
+    padding: 0;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    display: block; 
+    width: 100%;
+    margin-bottom: 10px; 
+    background-color: #fff; 
+    margin-right: 0;
+    position: relative;
+  }
+
+  .menu__item:last-child {
+    margin-bottom: 0;
   }
 
   .menu__link {
     transition: all 0.3s ease-in-out;
     position: relative;
+    color: #000;
+    font-size: 18px; 
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 1rem;
+    display: inline-block; 
+    width: 90%;
   }
 
   .menu__link::after {
@@ -4205,10 +4543,9 @@ a {
     max-width: 45%;
   }
 
-  .faq__title {
-    margin-bottom: 28rem;
+  /* .faq__title {
     text-align: center;
-  }
+  } */
 
   .faq__item::after {
     left: 0;
@@ -4221,10 +4558,6 @@ a {
 
   .faq__content {
     max-width: none;
-  }
-
-  .faq__quetion {
-    justify-content: center;
   }
 
   .faq__image {
@@ -4905,4 +5238,11 @@ a {
 @media (max-width: 767px) {
 
   .webp .seo__all::after { background-image: url(../img/arrow_readmore.webp); }
+}
+
+@media (max-width: 560px) { 
+  .faq .container {
+    max-width: 90%;
+    width: -webkit-fill-available;
+  }
 }

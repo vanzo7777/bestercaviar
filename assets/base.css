@@ -897,6 +897,7 @@ summary::-webkit-details-marker {
   max-width: calc(50% - var(--grid-mobile-horizontal-spacing) / 2);
   flex-grow: 1;
   flex-shrink: 0;
+  margin-bottom: 50px;
 }
 
 @media screen and (min-width: 750px) {
@@ -3505,6 +3506,18 @@ quick-add-modal .product-form__input input[type=radio] + label:hover {
   padding-bottom: 18px !important;
   border-bottom: 2px solid #0b253b !important;
 }
+
+.product_info-text {
+  margin: 40px 0;
+}
+
+.product_info-text p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; 
+  line-height: 1.5;
+  margin-bottom: 7px;
+}
+
 
 .quantity__label {
   color: #0b253b;

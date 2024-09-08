@@ -128,8 +128,14 @@
           </div>
         </div>
       </a>
+      
       <div class="card__content">
         <div class="card__information">
+          <div class="product-review-star">
+          <div class="AirReviews-Widget AirReviews-Widget--Stars" style="margin:0.7rem 0" data-review-avg="{{ card_product.metafields.air_reviews_product.review_avg }}" data-review-count="{{ card_product.metafields.air_reviews_product.review_count }}" ></div>
+          </div>
+        
+        
           <div class="card-information">
 
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}

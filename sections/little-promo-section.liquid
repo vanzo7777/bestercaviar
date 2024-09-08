@@ -61,20 +61,20 @@
 <section class="promo">
       <div class="container">
           {% if section.settings.title != blank %}
-            <{% if section.settings.main_title %}h1{% else %}h2{% endif %} class="promo__title title mw {% if section.settings.yellow_title %}title__yellow{% endif %}">
+            <{% if section.settings.main_title %}h1{% else %}h1{% endif %} class="promo__title title mw {% if section.settings.yellow_title %}title__yellow{% endif %}">
                 {{ section.settings.title }}
-            </{% if section.settings.main_title %}h1{% else %}h2{% endif %}>
+            </{% if section.settings.main_title %}h1{% else %}h1{% endif %}>
           {% endif %}
-          {% if section.settings.mobile_text != blank %}
-            <div class="promo-mobile-text">
-              {{ section.settings.mobile_text }}
+          {% if section.settings.subtitle != blank %}
+            <div class="promo__subtitle">
+              {{ section.settings.subtitle }}
             </div>
           {% endif %}
           <div class="promo__wrapper">
               {% if section.settings.left_text != blank %}
-                <div class="promo__description description">
+                <p class="promo__description description">
                   {{ section.settings.left_text }}
-                </div>
+                </p>
               {% endif %}
               {% if section.settings.right_text != blank %}
                 <div class="promo__description description">
@@ -96,6 +96,12 @@
         "default": "Delivery bester caviar"
       },
       {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle",
+        "default": "Write your text here"
+      },
+      {
         "type": "checkbox",
         "id": "main_title",
         "label": "Main Title"
@@ -109,13 +115,13 @@
         "type": "text",
         "id": "left_text",
         "label": "Left Text",
-        "default": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar"
+       
       },
       {
         "type": "text",
         "id": "right_text",
         "label": "Right Text",
-        "default": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche."
+       
       },
       {
         "type": "checkbox",

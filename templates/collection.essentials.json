@@ -9,96 +9,278 @@
         "color_scheme": "background-1"
       }
     },
+    "banner_section_tzKQ3R": {
+      "type": "banner-section",
+      "settings": {
+        "image_mobile": "shopify:\/\/shop_images\/esse-mob.webp",
+        "image_desktop": "shopify:\/\/shop_images\/esse-desc.webp",
+        "title": "<p>The Best Accessories<\/p><p>for Serving Caviar<\/p><p>&nbsp<\/p><p>Bester Caviar<\/p>",
+        "title_width": 640,
+        "button": "",
+        "button_url": "",
+        "bottom_button": false,
+        "sub_title": "",
+        "sub_title_sets": false,
+        "text": "<ul><li>Buy the best accessories for serving caviar<\/li><li>Have a better experience <\/li><li>Free Overnight Shipping in the United States <\/li><li>Call now! <a href=\"tel:+1 (813) 510-9892\" title=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a><\/li><\/ul>",
+        "top": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
+        "subtitle": "",
+        "columns_desktop": 3,
         "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": true,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_products_section_QHNLnp": {
+      "type": "collection-products-section",
+      "disabled": true,
+      "settings": {
+        "title": "Russian Osetra Caviar",
+        "collection": "osetra"
+      }
+    },
+    "little_promo_section_eKrymi": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "main_title": false,
+        "mobile_text": "",
+        "left_text": "Caviar tasting is a sophisticated process at its core, but the right caviar pairings and tableware will only enhance your experience and emphasize the exquisite flavor of the delicacy. Savor your caviar as a true connoisseur just by adding a few simple accessories.",
+        "right_text": "Using the right accessories is essential for saving the untempered taste of caviar and proper serving. Our caviar food pairings will become a great addition to your caviar tasting. You don't need to prepare anything else, just add our mini blinis and creme fraiche to your caviar order, combine the product together and enjoy the perfect match they create.Our team has prepared the basics you need to serve the caviar properly, and you can easily purchase them in our caviar shop alongside premium quality osetra caviar and gift sets.",
+        "yellow_title": false
+      }
+    },
+    "main_better_section_TVJ3R6": {
+      "type": "main-better-section",
+      "settings": {
+        "title": "CAVIAR BESTSELLERS",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "products": [
+
+        ],
+        "text": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main_better_section_Br9Jpz": {
+      "type": "main-better-section",
+      "settings": {
+        "title": "caviar bestsellers",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "products": [
+          "caspian-beluga-hybrid-caviar",
+          "caspian-osetra-baku",
+          "russian-osetra-caviar-karat-amber",
+          "copy-of-russian-osetra-karat-amber-br-caspian-sea",
+          "russian-osetra-karat-black-caspian-sea",
+          "copy-of-russian-osetra-karat-black-br-caspian-sea",
+          "caviar-gift-cards",
+          "best-caviar-sampler",
+          "caviar-luxury-gourmet-set",
+          "caviar-holder-supported-by-three-silver-plate-sturgeons",
+          "caviar-holder-with-beluga-siberian",
+          "caviar-osietra-classic"
+        ],
+        "text": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_VN3kfh": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "caviar bestsellers",
+        "heading_size": "h1",
+        "description": "<p>We invite you to familiarize yourself with the most popular products<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "osetra",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "enable_filtering": true,
-        "filter_type": "horizontal",
-        "enable_sorting": true,
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "banner_section_cgh9zD": {
-      "type": "banner-section",
-      "settings": {
-        "image_mobile": "shopify:\/\/shop_images\/esse-mob.webp",
-        "image_desktop": "shopify:\/\/shop_images\/esse-desc.webp",
-        "title": "<p>The Best Accessories for Serving Caviar <br\/><br\/>Bester Caviar<\/p>",
-        "title_width": 580,
-        "button": "",
-        "button_url": "",
-        "bottom_button": false,
-        "sub_title": "",
-        "sub_title_sets": false,
-        "text": "<ul><li>Free Overnight Shipping in the United States<\/li><li>Call now! <a href=\"tel:+1 (813) 510-9892\" title=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a><\/li><\/ul>",
-        "top": true
-      }
-    },
-    "collection_products_section_dmryTD": {
-      "type": "collection-products-section",
-      "settings": {
-        "title": "Caviar Essentials",
-        "collection": "additional"
-      }
-    },
-    "little_promo_section_xVDcfk": {
-      "type": "little-promo-section",
-      "settings": {
-        "title": "",
-        "left_text": "Caviar tasting is a sophisticated process at its core, but the right caviar pairings and tableware will only enhance your experience and emphasize the exquisite flavor of the delicacy. Savor your caviar as a true connoisseur just by adding a few simple accessories.",
-        "right_text": "Using the right accessories is essential for saving the untempered taste of caviar and proper serving. Our caviar food pairings will become a great addition to your caviar tasting. You don't need to prepare anything else, just add our mini blinis and creme fraiche to your caviar order, combine the product together and enjoy the perfect match they create. Our team has prepared the basics you need to serve the caviar properly, and you can easily purchase them in our caviar shop alongside premium quality osetra caviar and gift sets.",
-        "yellow_title": false
-      }
-    },
-    "main_better_section_gLKWCK": {
-      "type": "main-better-section",
+    "subscription_section_qKBgHV": {
+      "type": "subscription-section",
       "blocks": {
-        "card_qG9Bnx": {
-          "type": "card",
+        "link_FmbwUG": {
+          "type": "link",
           "settings": {
-            "product": "russian-osetra-karat-black"
+            "title": "CAVIAR GIFT SETS",
+            "image": "shopify:\/\/shop_images\/rect-2_80f0d5d3-04e3-4b82-9e2e-367146d1772a.webp",
+            "url": "shopify:\/\/collections\/osetra"
           }
         },
-        "card_wHtNQD": {
-          "type": "card",
+        "link_hJN7ND": {
+          "type": "link",
           "settings": {
-            "product": "russian-osetra-karat-black"
+            "title": "caviar subscription",
+            "image": "shopify:\/\/shop_images\/rect-1_495c3e08-574c-415a-8be4-1f1b269d9cf4.webp",
+            "url": ""
           }
         },
-        "card_fCRTWD": {
-          "type": "card",
+        "item_jVD8Xq": {
+          "type": "item",
           "settings": {
-            "product": "russian-osetra-karat-black"
+            "title": "WHY CHOOSE BESTER CAVIAR?",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_TPnrDn": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/osetra_article.webp",
+            "text": "",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_3q9ghb": {
+          "type": "item",
+          "settings": {
+            "title": "CREATE A HEADLINE WITH “BLACK STURGEON CAVIAR”",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
+        "item_WTRUzt": {
+          "type": "item",
+          "settings": {
+            "title": "LOW PRICE FOR OSETRA CAVIAR BUT NOT QUALITY - A MANIFESTATION OF LOVE FOR OUR CUSTOMERS",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
           }
         }
       },
       "block_order": [
-        "card_qG9Bnx",
-        "card_wHtNQD",
-        "card_fCRTWD"
+        "link_FmbwUG",
+        "link_hJN7ND",
+        "item_jVD8Xq",
+        "item_TPnrDn",
+        "item_3q9ghb",
+        "item_WTRUzt"
       ],
+      "disabled": true,
       "settings": {
-        "title": "CAVIAR BESTSELLERS",
-        "sub_title": "We invite you to familiarize yourself with the most popular products",
-        "text": ""
+        "gift": false
       }
     },
-    "services_section_3FpTiB": {
+    "subscription_section_z9GNeh": {
+      "type": "subscription-section",
+      "blocks": {
+        "link_T7eddm": {
+          "type": "link",
+          "settings": {
+            "title": "caviar subscription",
+            "image": "shopify:\/\/shop_images\/rect-1_349fd1ea-522a-47af-830b-6e93dd258a8d.webp",
+            "url": "shopify:\/\/pages\/caviar-club"
+          }
+        },
+        "link_WkPBcm": {
+          "type": "link",
+          "settings": {
+            "title": "caviar store",
+            "image": "shopify:\/\/shop_images\/rect-2_0e8c1940-b454-47ba-ad19-321426f3a69f.webp",
+            "url": "shopify:\/\/collections\/osetra"
+          }
+        },
+        "item_Cper78": {
+          "type": "item",
+          "settings": {
+            "title": "Make your business profitable",
+            "text": "<p>Caviar, a unique and luxurious product, can offer a powerful addition to your current business or even turn into a cornerstone to build your brand around. So, what are the benefits of using sturgeon caviar for sale?<\/p><p>First, the caviar market has a strong profit potential, promising high margins and opportunities for further development and expansion. Second, the demand for caviar is also growing, as more and more people receive a chance to appreciate the exquisite flavors. It is also worth mentioning that caviar appeals to diverse consumer segments, from high-end restaurants and hotels to individual consumers celebrating special occasions. This diversity opens various revenue streams you can harness for the benefit of your entrepreneurial initiative. <\/p><p>Caviar sale is a promising endeavor. However, to achieve real success, you need a strong backup for sourcing quality caviar and figuring out the processes. Apply to our <a href=\"https:\/\/bestercaviarstore.com\/pages\/caviar-club\"><span style=\"text-decoration:underline\">caviar subscription<\/span><\/a>, and we will gladly become your caviar wholesaler!<\/p>",
+            "mobile_text": "",
+            "seo": true,
+            "desktop": false
+          }
+        },
+        "item_ezFqba": {
+          "type": "item",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/eat.webp",
+            "text": "<p>When negotiating the purchase, we will consult you on specifics and help you choose the caviar type that will match your objectives the best. For all our caviar wholesale clients, we offer additional support and training in business growth and caviar expertise, so your entrance into the world of caviar distribution will be seamless.<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": true
+          }
+        },
+        "item_Cj8wjQ": {
+          "type": "item",
+          "settings": {
+            "title": "How to make a bulk purchase of black caviar?",
+            "text": "<p>Contact Bester Caviar to order a bulk purchase of the first-class sturgeon caviar! Through our supply chain, you can access the best product in the US market, acclaimed by a big community of connoisseurs and top restaurants. Just leave us a message on our website, and we will contact you shortly.<\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        }
+      },
+      "block_order": [
+        "link_T7eddm",
+        "link_WkPBcm",
+        "item_Cper78",
+        "item_ezFqba",
+        "item_Cj8wjQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "gift": false
+      }
+    },
+    "newsletter_second_section_xGBqda": {
+      "type": "newsletter-second-section",
+      "disabled": true,
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
+      }
+    },
+    "services_section_4iHR6D": {
       "type": "services-section",
       "blocks": {
-        "item_jCN73i": {
+        "item_hBf7hF": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/service-1.svg",
@@ -106,52 +288,60 @@
             "text": "Free Overnight Shipping in temperature controlled coolers for perishable goods Monday through Thursday & Same Day Free Delivery in Miami 24\/7."
           }
         },
-        "item_JFxMiq": {
+        "item_DJM8bz": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/service-2.svg",
-            "title": "PERSONALIZE YOUR ORDERWITH A GIFT CARD",
+            "title": "Personalize your order with a Gift Card",
             "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge."
           }
         },
-        "item_eCxcKw": {
+        "item_PmhTM6": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/services-3.svg",
-            "title": "24\/7 CUSTOMER SERVICE",
+            "title": "24\/7 Customer Service",
             "text": "Contact our caviar concierge to help you with your customized selection & delivery details: +1(813)510-9892 inna@besterusa.com"
           }
         },
-        "item_RFgFFg": {
+        "item_zT6h3q": {
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/service-4.svg",
-            "title": "AMAZON’S CHOICE",
+            "title": "Amazon’s Choice",
             "text": "Bester Caviar is best selling caviar brand on Amazon with over 500 positive customer reviews and Amazon’s Choice award: highly rated & well priced, ready to ship immediately."
           }
         }
       },
       "block_order": [
-        "item_jCN73i",
-        "item_JFxMiq",
-        "item_eCxcKw",
-        "item_RFgFFg"
+        "item_hBf7hF",
+        "item_DJM8bz",
+        "item_PmhTM6",
+        "item_zT6h3q"
+      ],
+      "custom_css": [
+        ".service {margin: 95px 0;}"
       ],
       "settings": {
         "title": "More and more quality service for our customers",
         "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
         "delivery": false
       }
     }
   },
   "order": [
     "banner",
+    "banner_section_tzKQ3R",
     "product-grid",
-    "banner_section_cgh9zD",
-    "collection_products_section_dmryTD",
-    "little_promo_section_xVDcfk",
-    "main_better_section_gLKWCK",
-    "services_section_3FpTiB"
+    "collection_products_section_QHNLnp",
+    "little_promo_section_eKrymi",
+    "main_better_section_TVJ3R6",
+    "main_better_section_Br9Jpz",
+    "featured_collection_VN3kfh",
+    "subscription_section_qKBgHV",
+    "subscription_section_z9GNeh",
+    "newsletter_second_section_xGBqda",
+    "services_section_4iHR6D"
   ]
 }

@@ -52,7 +52,7 @@
           "type": "item",
           "settings": {
             "category": "shipping",
-            "question": "How much is shipping? [Shipping & Returns]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -60,7 +60,7 @@
           "type": "item",
           "settings": {
             "category": "shipping",
-            "question": "How much is shipping? [Shipping & Returns]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -68,7 +68,7 @@
           "type": "item",
           "settings": {
             "category": "shipping",
-            "question": "How much is shipping? [Shipping & Returns]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -76,7 +76,7 @@
           "type": "item",
           "settings": {
             "category": "product",
-            "question": "How much is shipping? [Product]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -84,7 +84,7 @@
           "type": "item",
           "settings": {
             "category": "product",
-            "question": "How much is shipping? [Product]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -92,7 +92,7 @@
           "type": "item",
           "settings": {
             "category": "product",
-            "question": "How much is shipping? [Product]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -100,7 +100,7 @@
           "type": "item",
           "settings": {
             "category": "brand",
-            "question": "How much is shipping? [The Brand]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -108,7 +108,7 @@
           "type": "item",
           "settings": {
             "category": "brand",
-            "question": "How much is shipping? [The Brand]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         },
@@ -116,7 +116,7 @@
           "type": "item",
           "settings": {
             "category": "brand",
-            "question": "How much is shipping? [The Brand]",
+            "question": "How much is shipping?",
             "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
           }
         }
