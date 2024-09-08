@@ -133,6 +133,12 @@
           </div>
         {%- else -%}
           <div class="collection{% if section.settings.filter_type != 'vertical' %} page-width{% endif %}">
+            <h1 class="collection title {% if section.settings.subtitle != blank %}has-subtitle{% endif %}">{{ collection.title }}</h1>
+            {% if section.settings.subtitle != blank %}
+              <div class="collection__subtitle">
+                {{ section.settings.subtitle }}
+              </div>
+            {% endif %}
             <div class="loading-overlay gradient"></div>
             <ul
               id="product-grid"
@@ -196,6 +202,12 @@
       "default": 16,
       "label": "t:sections.main-collection-product-grid.settings.products_per_page.label"
     },
+    {
+        "type": "text",
+        "id": "subtitle",
+        "label": "Subtitle",
+        "default": "Write your text here"
+      },
     {
       "type": "range",
       "id": "columns_desktop",

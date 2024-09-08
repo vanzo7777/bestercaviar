@@ -6,15 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0ecf3286-3d95-486f-a108-0d0532101e20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/section-blog-post.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/section-blog-post.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/about-news.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/about-news.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/bester-articles-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/bester-articles-section.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/city-grid-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/city-grid-section.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/main-article-2.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-article-2.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/main-blog.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-blog.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/snippets/article-card.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/article-card.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings_schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/faq-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/faq-section.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/faq-tabs-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/faq-tabs-section.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/main-promo-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-promo-section.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/our-slider-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/our-slider-section.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/card-product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/card-product.liquid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page.our.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.our.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/secondary/bestercaviar/templates&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/secondary/bestercaviar/sections&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -52,7 +52,6 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\secondary\bestercaviar\templates" />
       <recent name="C:\Projects\secondary\bestercaviar\sections" />
       <recent name="C:\Projects\secondary\bestercaviar\assets" />
     </key>
@@ -79,10 +78,9 @@
       <workItem from="1724049665330" duration="596000" />
       <workItem from="1724486326016" duration="11588000" />
       <workItem from="1724578030104" duration="5419000" />
-      <workItem from="1724590288240" duration="1411000" />
-      <workItem from="1724654357328" duration="7000" />
-      <workItem from="1725799196142" duration="3041000" />
-      <workItem from="1725811641665" duration="15515000" />
+      <workItem from="1724590288240" duration="1375000" />
+      <workItem from="1725103380492" duration="1906000" />
+      <workItem from="1725345165328" duration="4000" />
     </task>
     <servers />
   </component>
