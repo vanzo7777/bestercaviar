@@ -101,8 +101,8 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-  {% for block in section.blocks %}
-    {% if block.type == "item" %}
+  {%- for block in section.blocks -%}
+    {%- if block.type == "item" -%}
       {
     	"@type": "Question",
     	"name": "{{ block.settings.question }}",
@@ -110,9 +110,9 @@
       	"@type": "Answer",
       	"text": "{{ block.settings.answer }}"
     	}
-      },
-    {% endif %}
-  {% endfor %}
+      }{%- unless forloop.last -%},{%- endunless -%}
+    {%- endif -%}
+  {%- endfor -%}
   ]
 }
 </script>
