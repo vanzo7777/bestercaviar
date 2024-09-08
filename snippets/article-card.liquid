@@ -9,7 +9,7 @@
   {% render 'article-card' blog: blog, article: article %}
 {% endcomment %}
 
-<div class="recipes__card">
+<div class="{{ classes }}">
     <a href="{{ article.url }}" class="recipes__card-link">
         <div class="recipes__card-thumb">
             {% if article.image != blank %}
@@ -31,9 +31,7 @@
         </div>
         <div class="text__container">
             {% if article.tags != blank %}
-              {% for tag in article.tags %}
-                <p class="recipes__category">{{ tag }}</p>
-              {% endfor %}
+                <p class="recipes__category">{{ article.tags | first }}</p>
             {% endif %}
             <h2 class="recipes__card-title">{{ article.title }}</h2>
             <p class="description recipes__description">

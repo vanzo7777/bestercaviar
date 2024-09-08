@@ -1,64 +1,88 @@
-<section class="recipes-page">
-  <div class="recipes__container container">
+{% assign main_article = article %}
+{% assign tag = main_article.tags | first %}
+{% assign filtered_article_ids = "" %}
+
+{% for article_loop in blog.articles %}
+  {% unless article_loop.tags contains tag %}
+    {% continue %}
+  {% endunless %}
+  {% if main_article.handle == article_loop.handle %}
+    {% continue %}
+  {% endif %}
+
+  {%- capture article_ids -%}{{- filtered_article_ids -}},{{- article_loop.handle -}}{%- endcapture -%}
+  {% assign filtered_article_ids = article_ids %}
+{% endfor %}
+
+{% assign filtered_article_ids = filtered_article_ids | remove_first: ',' | split: ',' %}
+
+{% if filtered_article_ids.size > 0 %}
+  <section class="recipes-page">
+    <div class="container">
       {% if section.settings.title != blank %}
         <h2 class="recipes__title-2 title">
-            {{ section.settings.title }}
+          {{ section.settings.title }}
         </h2>
       {% endif %}
-      {% if section.settings.sub_title != blank %}
-        <p class="recipes__subtitle">
-            {{ section.settings.sub_title }}
-        </p>
+
+      {% if article.tags != blank %}
+        {% for tag in article.tags %}
+          <p class="recipes__subtitle">{{ tag }}</p>
+        {% endfor %}
       {% endif %}
-      <div class="recipes__slider blog__slider-page swiper" style="margin-top: 0.625rem;">
-          <div class="recipes__list">
-              {% for block in section.blocks %}
-                {% if block.settings.article != blank %}
-                    {%- render 'article-card',
-                      article: block.settings.article
-                    -%}
-                {% endif %}
-              {% endfor %}
-          </div>
-          <div class="banner__pagination"></div>
+
+      <div class="recipes__featured-slider blog__slider-page swiper" style="margin-top: 0.625rem;">
+        <div class="swiper-wrapper">
+          {% for id in filtered_article_ids %}
+              <div class="swiper-slide">
+                {%- render 'article-card',
+                    article: articles[id],
+                    classes: 'recipes__card'
+                -%}
+              </div>
+          {% endfor %}
+        </div>
+
+        <div class="banner__pagination" style="position: static; margin-top: 32px;"></div>
       </div>
-  </div>
-</section>
+    </div>
+  </section>
+
+  <script>
+      new Swiper('.recipes__featured-slider', {
+          slidesPerView: 1,
+          loop: true,
+          spaceBetween: 27,
+          pagination: {
+              el: '.banner__pagination',
+          },
+          breakpoints: {
+              '992': {
+                  slidesPerView: 3,
+              },
+              '480': {
+                  slidesPerView: 2,
+              },
+          }
+      });
+  </script>
+{% endif %}
 
 {% schema %}
-  {
-    "name": "Best Articles Section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Title",
-        "default": "Blog bester caviar"
-      },
-      {
-        "type": "text",
-        "id": "sub_title",
-        "label": "Subtitle",
-        "default": "caviar info"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "article",
-        "name": "Article",
-        "settings": [
-          {
-            "type": "article",
-            "id": "article",
-            "label": "Article"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "Best Articles Section"
-      }
-    ]
-  }
+{
+  "name": "Related Articles Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Blog bester caviar"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Related Articles Section"
+    }
+  ]
+}
 {% endschema %}

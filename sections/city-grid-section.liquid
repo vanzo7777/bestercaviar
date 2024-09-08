@@ -1,50 +1,79 @@
-<section class="city">
+<section class="cities">
   <div class="container">
-      <div class="city__slider swiper">
-          <div class="city__wrapper">
-              {% for block in section.blocks %}
-                <div class="city__item">
-                    {% if block.settings.title != blank %}
-                      <div class="city__title">
-                          {{ block.settings.title }}
-                      </div>
-                    {% endif %}
-                    {% if block.settings.image != blank %}
-                      <picture><img src="{{ block.settings.image | image_url }}" alt="{{ block.settings.image.alt }}"></picture>
-                    {% endif %}
+    <div class="cities__slider swiper">
+      <div class="cities__wrapper swiper-wrapper">
+        {% for page in pages %}
+          {% assign image = page.metafields.custom.city_image %}
+
+          {% if page.template_suffix contains 'city-' %}
+            <a href="{{ page.url }}" class="cities__item swiper-slide">
+              <div class="cities__title">
+                {{ page.title }}
+              </div>
+              {% if image.value != blank %}
+                <div class="cities__item-image-wrapper">
+                  <picture>
+                    <img src="{{ image | file_url }}" alt="{{ image.alt }}">
+                  </picture>
+                  <div class="cities__item-overlay"></div>
                 </div>
-              {% endfor %}
-          </div>
+
+              {% else %}
+                <div class="empty"></div>
+              {% endif %}
+            </a>
+          {% endif %}
+        {% endfor %}
       </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </section>
 
+<script>
+    var init = false;
+    var swiper;
+
+    function swiperCard() {
+        if (window.innerWidth <= 768) {
+            if (!init) {
+                init = true;
+                swiper = new Swiper('.cities__slider', {
+                    slidesPerView: 1,
+                    loop: true,
+                    spaceBetween: 27,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        dynamicBullets: true,
+                    },
+                    breakpoints: {
+                        '992': {
+                            slidesPerView: 3,
+                        },
+                        '480': {
+                            slidesPerView: 2,
+                        },
+                    }
+                });
+            }
+        } else if (init) {
+            swiper.destroy();
+            init = false;
+        }
+    }
+
+    swiperCard();
+    window.addEventListener("resize", swiperCard);
+</script>
+
 {% schema %}
-  {
-    "name": "City Grid Section",
-    "blocks": [
-      {
-        "type": "city",
-        "name": "City",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "name city"
-          },
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }
-        ]
-      }
-    ],
-    "presets": [
-      {
-        "name": "City Grid Section"
-      }
-    ]
-  }
+{
+  "name": "City Grid Section",
+  "presets": [
+    {
+      "name": "City Grid Section"
+    }
+  ]
+}
 {% endschema %}

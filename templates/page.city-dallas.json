@@ -107,9 +107,7 @@
           "russian-osetra-karat-amber-caspian-sea-copy",
           "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy"
         ],
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate.",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
       }
     },
     "main_promo_section_jgndEf": {
@@ -118,19 +116,19 @@
         "product_QCXhkd": {
           "type": "product",
           "settings": {
-            "product": "siberian-osetra-caviar"
+            "product": "russian-osetra-karat-black"
           }
         },
-        "product_VNpixQ": {
+        "product_Qkafgr": {
           "type": "product",
           "settings": {
-            "product": "siberian-osetra-caviar"
+            "product": "russian-osetra-karat-black"
           }
         }
       },
       "block_order": [
         "product_QCXhkd",
-        "product_VNpixQ"
+        "product_Qkafgr"
       ],
       "settings": {
         "title": "Promotional offers",
@@ -152,9 +150,7 @@
           "russian-osetra-karat-amber-caspian-sea-copy"
         ],
         "centered": false,
-        "delivery": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "delivery": false
       }
     },
     "more_section_tPweDB": {
@@ -294,21 +290,6 @@
       ],
       "settings": {
       }
-    },
-    "main_better_section_94c93A": {
-      "type": "main-better-section",
-      "settings": {
-        "title": "Bestsellers in our caviar store",
-        "sub_title": "We invite you to familiarize yourself with the most popular products",
-        "products": [
-          "vermont-creme-fraiche",
-          "murano-glass-caviar-holder",
-          "russian-osetra-caviar-gift-set"
-        ],
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -322,7 +303,6 @@
     "about_section_fUJtYd",
     "services_section_LfYVTB",
     "faq_section_Ux8FVA",
-    "partners_section_j8tLBV",
-    "main_better_section_94c93A"
+    "partners_section_j8tLBV"
   ]
 }
