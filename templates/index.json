@@ -35,6 +35,7 @@
         "slide_wTcGcH": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/1.jpg",
             "image_desktop": "shopify:\/\/shop_images\/banner1.jpg",
             "title": "<p>Best caviar online in the USA by Bester Caviar<\/p>",
@@ -47,6 +48,7 @@
         "slide_w8V89V": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/4.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner2.webp",
             "title": "<p>where smart world-class caviar at the best price<\/p>",
@@ -59,6 +61,7 @@
         "slide_PCCfE4": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-3-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner3.webp",
             "title": "",
@@ -71,6 +74,7 @@
         "slide_FXWM9n": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-5-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner5.webp",
             "title": "",
@@ -79,13 +83,27 @@
             "top": false,
             "center": false
           }
+        },
+        "slide_GgMAYK": {
+          "type": "slide",
+          "settings": {
+            "is_show_video": true,
+            "video_mobile": "shopify:\/\/files\/videos\/cf41031fe9a749bc9c41ccd7533c3097.mov",
+            "video": "shopify:\/\/files\/videos\/8ce9875714c74d18b8bec2cb4496f0e6.mov",
+            "title": "<p>where smart world-class caviar at the best price<\/p>",
+            "text": "",
+            "social": "@osetra_caviar",
+            "top": true,
+            "center": false
+          }
         }
       },
       "block_order": [
         "slide_wTcGcH",
         "slide_w8V89V",
         "slide_PCCfE4",
-        "slide_FXWM9n"
+        "slide_FXWM9n",
+        "slide_GgMAYK"
       ],
       "settings": {
       }

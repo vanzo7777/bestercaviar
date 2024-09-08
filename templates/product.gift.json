@@ -53,6 +53,9 @@
         "buy_buttons"
       ],
       "settings": {
+        "title": "Caviar Gift Cards",
+        "subtitlle": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p",
+        "secondtitle": "Denominations",
         "enable_sticky_info": false,
         "color_scheme": "background-1",
         "media_size": "small",

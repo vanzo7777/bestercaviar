@@ -34,6 +34,7 @@
     },
     "comlete_cart_Li3Wgm": {
       "type": "comlete-cart",
+      "disabled": true,
       "settings": {
         "title": "complete my card",
         "sub_title": "",

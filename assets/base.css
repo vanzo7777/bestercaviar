@@ -870,6 +870,51 @@ summary::-webkit-details-marker {
   letter-spacing: 0.08rem;
 }
 
+/* .banner__slide.video .banner__image {
+  position: absolute; 
+} */
+
+/* .banner__slide.video .banner__image.desctop {
+  position: relative;
+}
+
+.banner__slide.video .banner__image.desctop video {
+  position: absolute; 
+  width: 100%;
+  top: 0; 
+  left: 0;
+} */
+
+
+.banner__slide.video {
+  height: auto !important;
+}
+
+.banner__slide .banner__image {
+  position: relative; 
+  height: 100%;
+}
+
+.banner__slide .banner__image::after {
+  content: '';
+  position: absolute; 
+  left: 0; 
+  top: 0; 
+  width: 100%; 
+  height: 100%; 
+  background-color: rgba(0,0,0, .5);
+  display: block;
+}
+
+.banner__slide.video .banner__image video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
 /* component-grid */
 .grid {
   display: flex;
@@ -3585,6 +3630,7 @@ product-form .button {
   .card-list-desktop {
     display: none;
   }
+
 }
 
 @media(min-width: 993px) {

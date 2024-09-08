@@ -4,7 +4,7 @@
 <div class="delivery-date-container">
   <div class="input-wrapper">
     <label for="date">Pick a delivery date:</label>
-    <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
+    <input id="date" type="text" name="properties[date]" value="{{ cart.attributes.date }}" /> 
   </div>
 </div>
 
@@ -12,15 +12,28 @@
   window.onload = function() {
       if (window.jQuery) {
         let $ = window.jQuery;
-
         $(function() {
-          $("#date").datepicker({
-          minDate: +1,
-          format:'mm/dd/yyyy',
-          maxDate: '+2M',
-          beforeShowDay: $.datepicker.noWeekends
-        }).datepicker("setDate",'now');
-      });
+            $("#date").datepicker({
+            minDate: +1,
+            format:'mm/dd/yyyy',
+            maxDate: '+2M',
+            beforeShowDay: $.datepicker.noWeekends
+          }).datepicker("setDate",'now');
+
+          var formData = new FormData();
+          let inputDate = document.querySelector('.delivery-date-container .input-wrapper #date');
+
+          inputDate.addEventListener('blur', function() {
+            document.querySelector('#checkout').setAttribute('disabled', 'disabled');
+            formData.append("attributes[Delivery date]", inputDate.value);
+            fetch(window.Shopify.routes.root + 'cart/update.js', {
+              method: 'POST',
+              body: formData
+            })
+            .then(response => response.json())
+            .then(data => document.querySelector('#checkout').removeAttribute('disabled') );
+          });
+        });   
     }
   }
 </script>

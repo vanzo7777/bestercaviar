@@ -44,9 +44,9 @@
         <div class="swiper-wrapper">
           {% for image in product.images %}
             <div class="swiper-slide">
-              <div class="slider__image">
+              <a data-fslightbox="gallery" href="{{image | image_url: width: 800}}" class="slider__image">
                 {{ image | image_url: width: 600 | image_tag }}
-              </div>
+              </a>
             </div>
           {% endfor %}
         </div>
@@ -60,3 +60,5 @@
     </div>
   </div>
 </section>
+
+<script src="{{ 'fslightbox.js' | asset_url }}" ></script>

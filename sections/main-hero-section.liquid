@@ -38,6 +38,46 @@
   <div class="banner__container swiper">
       <div class="banner__wrapper swiper-wrapper">
         {% for block in section.blocks %}
+          {% if block.settings.is_show_video %}
+          <div class="banner__slide swiper-slide video">
+              {% if block.settings.video_mobile != blank %}
+              <div class="banner__image mobile">
+                <video autoplay muted loop>
+                  <source src="{{block.settings.video_mobile.sources[1].url}}" type="video/mp4">
+                </video>
+              </div>
+              {% endif %}
+              {% if block.settings.video != blank %}
+                <div class="banner__image desctop">
+                  <video autoplay muted loop>
+                    <source src="{{block.settings.video.sources[1].url}}" type="video/mp4">
+                  </video>
+                </div>
+              {% endif %}
+              <div class="banner__content {% if block.settings.top %}banner__top{% endif %} {% if block.settings.center %}banner__center{% endif %}">
+                  {% if settings.logo != blank %}
+                    <div class="banner__logo">
+                        <picture><img src="{{ settings.logo | image_url }}" alt="{{ settings.logo.alt }}"></picture>
+                    </div>
+                  {% endif %}
+                  {% if block.settings.title != blank %}
+                  <div class="banner__title">
+                      {{ block.settings.title }}
+                  </div>
+                  {% endif %}
+                  {% if block.settings.text != blank %}
+                  <div class="banner__list">
+                      {{ block.settings.text }}
+                  </div>
+                  {% endif %}
+                  {% if block.settings.social != blank %}
+                    <div class="banner__social">
+                        {{ block.settings.social }}
+                    </div>
+                  {% endif %}
+              </div>
+          </div>
+          {% else %}
           <div class="banner__slide swiper-slide">
               {% if block.settings.image_mobile != blank %}
                 <div class="banner__image mobile">
@@ -72,6 +112,7 @@
                   {% endif %}
               </div>
           </div>
+          {% endif %}
         {% endfor %}
       </div>
       <div class="banner__pagination"></div>
@@ -87,6 +128,21 @@
         "type": "slide",
         "name": "Slide",
         "settings": [
+          {
+            "type": "checkbox",
+            "id": "is_show_video",
+            "label": "Is slider video?"
+          },
+          {
+            "type": "video",
+            "id": "video_mobile",
+            "label": "Video - Mobile (only mp4 format)"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video - Desktop (only mp4 format)"
+          },
           {
             "type": "image_picker",
             "id": "image_mobile",

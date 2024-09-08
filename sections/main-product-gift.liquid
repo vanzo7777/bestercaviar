@@ -63,15 +63,23 @@
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
   <div class="page-width">
     <h1 class="deno__title title">
-        Caviar Gift Cards
+    {% if section.settings.title != blank %}
+         {{ section.settings.title }} 
+    {% endif %}
     </h1>
-    <p class="deno__subtitle promo__subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p</p>
+    <p class="deno__subtitle promo__subtitle">
+    {% if section.settings.subtitlle != blank %}
+        {{ section.settings.subtitlle }} 
+    {% endif %}
+  </p>
 
     <div class="AirReviews-Widget AirReviews-Widget--Carousel"></div>
 
     <h2 class="deno__title title">
-      Denominations
+      
+      {% if section.settings.secondtitle != blank %}
+         {{ section.settings.secondtitle }} 
+      {% endif %}
     </h2>
 
     <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -692,7 +700,7 @@
   "name": "Main Product Gift",
   "tag": "section",
   "class": "section",
-  "blocks": [
+  "blocks": [ 
     {
       "type": "@app"
     },
@@ -2037,6 +2045,24 @@
     }
   ],
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Text block",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "subtitlle",
+      "default": "Text block",
+      "label": "Subtitlle"
+    },
+    {
+      "type": "text",
+      "id": "secondtitle",
+      "default": "Text block",
+      "label": "Secondtitle"
+    },
     {
       "type": "checkbox",
       "id": "enable_sticky_info",
