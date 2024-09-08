@@ -35,7 +35,6 @@
         "slide_wTcGcH": {
           "type": "slide",
           "settings": {
-            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/1.jpg",
             "image_desktop": "shopify:\/\/shop_images\/banner1.jpg",
             "title": "<p>Best caviar online in the USA by Bester Caviar<\/p>",
@@ -48,7 +47,6 @@
         "slide_w8V89V": {
           "type": "slide",
           "settings": {
-            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/4.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner2.webp",
             "title": "<p>where smart world-class caviar at the best price<\/p>",
@@ -61,7 +59,6 @@
         "slide_PCCfE4": {
           "type": "slide",
           "settings": {
-            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-3-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner3.webp",
             "title": "",
@@ -74,7 +71,6 @@
         "slide_FXWM9n": {
           "type": "slide",
           "settings": {
-            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-5-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner5.webp",
             "title": "",
@@ -83,27 +79,13 @@
             "top": false,
             "center": false
           }
-        },
-        "slide_GgMAYK": {
-          "type": "slide",
-          "settings": {
-            "is_show_video": true,
-            "video_mobile": "shopify:\/\/files\/videos\/cf41031fe9a749bc9c41ccd7533c3097.mov",
-            "video": "shopify:\/\/files\/videos\/8ce9875714c74d18b8bec2cb4496f0e6.mov",
-            "title": "<p>where smart world-class caviar at the best price<\/p>",
-            "text": "",
-            "social": "@osetra_caviar",
-            "top": true,
-            "center": false
-          }
         }
       },
       "block_order": [
         "slide_wTcGcH",
         "slide_w8V89V",
         "slide_PCCfE4",
-        "slide_FXWM9n",
-        "slide_GgMAYK"
+        "slide_FXWM9n"
       ],
       "settings": {
       }
@@ -117,26 +99,15 @@
     },
     "main_better_section_tpgFQP": {
       "type": "main-better-section",
-      "custom_css": [
-        ".AirReviews-Widget .AirReviews-StarRatingWrapper .AirReviews-StarRate--Count {justify-content: center !important;}"
-      ],
       "settings": {
         "title": "Bestsellers in our caviar store",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
         "products": [
-          "caspian-beluga-hybrid-caviar",
-          "caspian-osetra-baku",
-          "russian-osetra-caviar-karat-amber",
-          "copy-of-russian-osetra-karat-amber-br-caspian-sea",
-          "russian-osetra-karat-black-caspian-sea",
-          "copy-of-russian-osetra-karat-black-br-caspian-sea",
-          "caviar-butter",
-          "best-caviar-sampler",
-          "royal-osetra-caviar"
+          "russian-osetra-karat-black",
+          "russian-osetra-karat-amber-caspian-sea-copy",
+          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy"
         ],
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate.",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
       }
     },
     "main_promo_section_jgndEf": {
@@ -145,19 +116,19 @@
         "product_QCXhkd": {
           "type": "product",
           "settings": {
-            "product": "siberian-osetra-caviar"
+            "product": "russian-osetra-karat-black"
           }
         },
-        "product_VNpixQ": {
+        "product_Qkafgr": {
           "type": "product",
           "settings": {
-            "product": "siberian-osetra-caviar"
+            "product": "russian-osetra-karat-black"
           }
         }
       },
       "block_order": [
         "product_QCXhkd",
-        "product_VNpixQ"
+        "product_Qkafgr"
       ],
       "settings": {
         "title": "Promotional offers",
@@ -174,21 +145,12 @@
         "title": "best Caviar Gift Sets",
         "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
         "products": [
-          "caspian-beluga-hybrid-caviar",
-          "russian-osetra-caviar-karat-amber",
-          "russian-osetra-karat-black-caspian-sea",
-          "siberian-osetra-caviar",
-          "royal-beluga-hybrid",
-          "river-beluga-caviar-kaluga-hybrid-gift-set",
-          "osetra-trio-sampler",
-          "caviar-holder-supported-by-three-silver-plate-sturgeons",
-          "caviar-luxury-gourmet-set",
-          "caviar-gift-cards"
+          "russian-osetra-karat-black",
+          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy",
+          "russian-osetra-karat-amber-caspian-sea-copy"
         ],
         "centered": false,
-        "delivery": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "delivery": false
       }
     },
     "more_section_tPweDB": {
@@ -267,14 +229,6 @@
     "faq_section_Ux8FVA": {
       "type": "faq-section",
       "blocks": {
-        "item_84rBg3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "question": "",
-            "answer": ""
-          }
-        },
         "item_j7CEzy": {
           "type": "item",
           "settings": {
@@ -291,7 +245,6 @@
         }
       },
       "block_order": [
-        "item_84rBg3",
         "item_j7CEzy",
         "item_FDEAJY"
       ],
@@ -299,26 +252,6 @@
         "title": "Frequently Asked Questions",
         "menu": "faq-home-menu",
         "image": "shopify:\/\/shop_images\/faq.webp"
-      }
-    },
-    "17248640085ace0365": {
-      "type": "apps",
-      "blocks": {
-        "air_product_reviews_app_carousel_review_list_9yPbbQ": {
-          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
-          "settings": {
-            "air_carouselreviews_carouselHeading": "See what our customers said"
-          }
-        }
-      },
-      "block_order": [
-        "air_product_reviews_app_carousel_review_list_9yPbbQ"
-      ],
-      "custom_css": [
-        ".partners {margin-top: 10px;}"
-      ],
-      "settings": {
-        "include_margins": true
       }
     },
     "partners_section_j8tLBV": {
@@ -355,35 +288,7 @@
         "partner_pwaGaM",
         "partner_cBceTR"
       ],
-      "custom_css": [
-        ".partners {margin-top: 10px;}"
-      ],
       "settings": {
-      }
-    },
-    "17248639234a26a235": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_ekRdcK": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "alignment": "center",
-            "margin_bottom": 65,
-            "background_color": "",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_ekRdcK"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "include_margins": true
       }
     }
   },
@@ -398,8 +303,6 @@
     "about_section_fUJtYd",
     "services_section_LfYVTB",
     "faq_section_Ux8FVA",
-    "17248640085ace0365",
-    "partners_section_j8tLBV",
-    "17248639234a26a235"
+    "partners_section_j8tLBV"
   ]
 }

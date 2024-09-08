@@ -13,7 +13,8 @@
       <div class="recipes__list">
         {%- for article in blog.articles -%}
           {%- render 'article-card',
-              article: article
+              article: article,
+              classes: 'recipes__card recipes__card--third'
             -%}
         {% endfor %}
       </div>

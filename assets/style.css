@@ -967,8 +967,12 @@ a {
   opacity: 1;
 }
 
-.banner__pagination .swiper-pagination-bullet-active {
-  background-color: #dfb453;
+.swiper-pagination-bullet {
+  background-color: #047678 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #dfb453 !important;
 }
 
 .banner__content {
@@ -2945,16 +2949,24 @@ h1.collection.title.has-subtitle {
   display: flex !important;
   flex-direction: column;
   gap: 1.81rem;
-  max-width: 23.125rem;
+  /*max-width: 23.125rem;*/
   overflow: hidden;
 }
 
 .our__slide picture,
 .our__slide img {
-  max-height: 16.3125rem;
-  min-height: 16.3125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
-  height: auto;
+  object-fit: cover;
+
+}
+
+.our__slide-wrapper {
+  position: relative;
+  padding-top: 70%;
 }
 
 .our__text {
@@ -3152,7 +3164,7 @@ h1.collection.title.has-subtitle {
   gap: 27px;
 }
 
-.recipes__card {
+.recipes__card.recipes__card--third {
   max-width: calc(33.33% - 18px);
 }
 
@@ -3223,7 +3235,7 @@ h1.collection.title.has-subtitle {
 
 
 @media (max-width: 992px) {
-  .recipes__card {
+  .recipes__card.recipes__card--third {
     max-width: calc(50% - 13.5px);
   }
 
@@ -3398,20 +3410,27 @@ h1.collection.title.has-subtitle {
   text-transform: uppercase;
 }
 
-.city__wrapper {
+.cities__slider:not(.swiper-initialized) .cities__wrapper{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cities__slider:not(.swiper-initialized) .banner__pagination{
+  display: none;
+}
+
+.cities__wrapper {
   margin-top: 68px;
   margin-bottom: 68px;
   position: relative;
   padding-bottom: 3rem;
 }
 
-.city .banner__pagination {
+.cities .banner__pagination {
   bottom: 0 !important;
 }
 
-.city__title {
+.cities__title {
   color: #047678;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -3423,18 +3442,50 @@ h1.collection.title.has-subtitle {
   text-transform: uppercase;
 }
 
-.city__item {
+.cities__item {
+  position: relative;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
 }
 
-.city__item picture,
-.city__item img {
+.cities__item-image-wrapper {
+  position: relative;
+}
+
+.cities__item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block !important;
   width: 100%;
   height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 1;
+  opacity: 0;
+  transition: .3s linear opacity;
+}
+
+.cities__item:hover .cities__item-overlay {
+  opacity: 1;
+}
+
+.cities__item img, .empty {
+  aspect-ratio: 5/4;
+}
+
+.cities__item picture,
+.cities__item img,
+.cities__item .empty {
+  display: block !important;
+  width: 100%;
+  height: auto;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.empty {
+  background: #D9D9D9;
 }
 
 .article {
@@ -3478,6 +3529,20 @@ h1.collection.title.has-subtitle {
   line-height: 2.79463rem;
   /* 140% */
   text-transform: uppercase;
+}
+
+.article__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
+  margin: 1rem 0 1.5rem;
+}
+
+.article__row strong {
+  font-weight: 600;
 }
 
 .article__wrapper {
@@ -3669,6 +3734,10 @@ h1.collection.title.has-subtitle {
     max-width: 31%;
     display: flex !important;
   }
+
+  .cities__wrapper {
+    gap: 1.12rem 0.94rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -3682,10 +3751,6 @@ h1.collection.title.has-subtitle {
 
   .menu__item:hover > .menu__dropdown {
     max-height: 20rem;
-  }
-
-  .city__wrapper {
-    gap: 1.12rem 0.94rem;
   }
 }
 
@@ -4216,15 +4281,7 @@ h1.collection.title.has-subtitle {
     font-size: calc(20px + 4 * ((100vw - 390px) / 677));
   }
 
-  .city__wrapper {
-    margin-top: calc(32px + 36 * ((100vw - 390px) / 677));
-  }
-
-  .city__wrapper {
-    margin-bottom: calc(58.08px + 9.92 * ((100vw - 390px) / 677));
-  }
-
-  .city__title {
+  .cities__title {
     font-size: calc(20px + 4 * ((100vw - 390px) / 677));
   }
 
@@ -4751,21 +4808,7 @@ h1.collection.title.has-subtitle {
     left: 0;
     border-radius: 0 17.65625rem 17.65625rem 0;
   }
-
-  .our__slide {
-    max-width: 100%;
-    justify-content: space-between;
-  }
-
-  .our__slide picture,
-  .our__slide img {
-    display: block;
-    -o-object-fit: cover;
-       object-fit: cover;
-    max-height: 8.33356rem;
-    min-height: 8.33356rem;
-  }
-
+  
   .our__wrapper {
     display: flex;
     flex-direction: column;
@@ -4799,12 +4842,7 @@ h1.collection.title.has-subtitle {
     margin-bottom: 1rem;
   }
 
-  .city__wrapper {
-    display: flex;
-    box-sizing: border-box;
-  }
-
-  .city .container {
+  .cities .container {
     padding: 0;
   }
 

@@ -1,3 +1,9 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
 <section class="promo promo__bg">
     <div class="container">
         {% if section.settings.title != blank %}
@@ -17,7 +23,17 @@
         <div class="promo__container">
             {% for block in section.blocks %}
               {% if block.settings.product != blank %}
-                {% render 'card-product', card_product: block.settings.product , inversion: true %}
+                {% render 'card-product',
+                        card_product: block.settings.product,
+                        show_secondary_image: false,
+                        image_shape: 'default',
+                        media_aspect_ratio: 'square',
+                        show_vendor: true,
+                        show_rating: false,
+                        lazy_load: true,
+                        show_quick_add: true,
+                        section_id: section.id
+                %}
               {% endif %}
             {% endfor %}
         </div>

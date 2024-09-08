@@ -82,6 +82,13 @@
     "our_slider_section_QTwHAn": {
       "type": "our-slider-section",
       "blocks": {
+        "slide_7LrgDr": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/our-sl-7.webp",
+            "second_image": "shopify:\/\/shop_images\/our-sl-8.webp"
+          }
+        },
         "slide_MXFWFq": {
           "type": "slide",
           "settings": {
@@ -103,7 +110,7 @@
             "second_image": "shopify:\/\/shop_images\/our-sl-6.webp"
           }
         },
-        "slide_7LrgDr": {
+        "slide_3Cg83W": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/our-sl-7.webp",
@@ -112,10 +119,11 @@
         }
       },
       "block_order": [
+        "slide_7LrgDr",
         "slide_MXFWFq",
         "slide_Awm4eF",
         "slide_8HUAWH",
-        "slide_7LrgDr"
+        "slide_3Cg83W"
       ],
       "settings": {
       }
