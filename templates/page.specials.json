@@ -19,68 +19,24 @@
         "button_url": "",
         "bottom_button": false,
         "sub_title": "",
+        "sub_title_sets": false,
         "text": "",
         "top": true
       }
     },
-    "specials_section_p4hwad": {
-      "type": "specials-section",
-      "blocks": {
-        "tab_HKmgVB": {
-          "type": "tab",
-          "settings": {
-            "title": "Sale 10%",
-            "products": [
-              "russian-osetra-karat-black"
-            ]
-          }
-        },
-        "tab_3TRVRc": {
-          "type": "tab",
-          "settings": {
-            "title": "Sale 20%",
-            "products": [
-              "russian-osetra-karat-black"
-            ]
-          }
-        },
-        "tab_VwBABb": {
-          "type": "tab",
-          "settings": {
-            "title": "Sale 30%",
-            "products": [
-              "russian-osetra-karat-black"
-            ]
-          }
-        },
-        "tab_EFRTzG": {
-          "type": "tab",
-          "settings": {
-            "title": "Sale 40%",
-            "products": [
-              "russian-osetra-karat-black"
-            ]
-          }
-        },
-        "tab_r3nPHA": {
-          "type": "tab",
-          "settings": {
-            "title": "Sale 50%",
-            "products": [
-              "russian-osetra-karat-black"
-            ]
-          }
-        }
-      },
-      "block_order": [
-        "tab_HKmgVB",
-        "tab_3TRVRc",
-        "tab_VwBABb",
-        "tab_EFRTzG",
-        "tab_r3nPHA"
-      ],
+    "main_better_section_fadwMN": {
+      "type": "main-better-section",
       "settings": {
-        "title": "A special offer on your favorite caviar"
+        "title": "Bestsellers in our caviar store",
+        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "products": [
+          "zar-triology-gift-set",
+          "osetra-trio-sampler"
+        ],
+        "show_first_variant": true,
+        "text": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "gift_section_XmMWXC": {
@@ -118,7 +74,7 @@
   "order": [
     "main",
     "banner_section_cVbrzi",
-    "specials_section_p4hwad",
+    "main_better_section_fadwMN",
     "gift_section_XmMWXC",
     "about_reverse_section_wbK3jU"
   ]

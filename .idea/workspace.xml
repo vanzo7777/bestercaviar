@@ -6,15 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0ecf3286-3d95-486f-a108-0d0532101e20" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings_schema.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings_schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/faq-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/faq-section.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/faq-tabs-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/faq-tabs-section.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/main-promo-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-promo-section.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sections/our-slider-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/our-slider-section.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/comlete-cart.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/comlete-cart.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sections/main-better-section.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/sections/main-better-section.liquid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snippets/card-product.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/card-product.liquid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/page.our.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.our.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/snippets/discount-code.liquid" beforeDir="false" afterPath="$PROJECT_DIR$/snippets/discount-code.liquid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/page.specials.json" beforeDir="false" afterPath="$PROJECT_DIR$/templates/page.specials.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,5 +93,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/assets/product-form.js</url>
+          <line>85</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
