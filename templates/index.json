@@ -148,7 +148,7 @@
             "product": "siberian-osetra-caviar"
           }
         },
-        "product_VNpixQ": {
+        "product_Qkafgr": {
           "type": "product",
           "settings": {
             "product": "siberian-osetra-caviar"
@@ -157,7 +157,7 @@
       },
       "block_order": [
         "product_QCXhkd",
-        "product_VNpixQ"
+        "product_Qkafgr"
       ],
       "settings": {
         "title": "Promotional offers",
