@@ -1,17 +1,83 @@
-{% assign cart_product_ids = cart.items | map: 'product_id' %}
-{% assign filtered_product_ids = "" %}
+{% assign caviar_recommendations_types = 'blin,spoon,creme,duck,steak' | split: ',' %}
+{% assign blin_recommendations_types = 'caviar,creme,spoon' | split: ',' %}
+{% assign spoon_recommendations_types = 'caviar,set,creme' | split: ',' %}
+{% assign set_recommendations_types = 'spoon,duck,steak' | split: ',' %}
+{% assign steak_recommendations_types = 'caviar,duck' | split: ',' %}
 
+{% assign cart_product_types = "" %}
 
-{% for product in collections[section.settings.collection].products %}
-  {% unless cart_product_ids contains product.id %}
-    {%- capture product_ids -%}{{- filtered_product_ids -}},{{- product.handle -}}{%- endcapture -%}
-    {% assign filtered_product_ids = product_ids %}
+{%- for item in cart.items -%}
+  {% assign product_type = item.product.type | downcase %}
+  {% if product_type != blank %}
+    {% unless cart_product_types contains product_type %}
+      {% assign cart_product_types = cart_product_types | append: product_type | append: ',' %}
+    {% endunless %}
+  {% endif %}
+{%- endfor -%}
+
+{% assign cart_product_types = cart_product_types | split: ',' | uniq %}
+
+{%- for item in cart.items -%}
+  {% assign product_type = item.product.type | downcase %}
+
+  {% case product_type %}
+    {% when 'caviar' %}
+      {% assign recommended_types = recommended_types | concat: caviar_recommendations_types  %}
+    {% when 'blin' %}
+      {% assign recommended_types = recommended_types | concat: blin_recommendations_types %}
+    {% when 'spoon' %}
+      {% assign recommended_types = recommended_types | concat: spoon_recommendations_types %}
+    {% when 'set' %}
+      {% assign recommended_types = recommended_types | concat: set_recommendations_types %}
+    {% when 'steak' %}
+      {% assign recommended_types = recommended_types | concat: steak_recommendations_types  %}
+  {% endcase %}
+{%- endfor -%}
+
+{%- assign recommended_types = recommended_types | uniq -%}
+
+{%- assign final_recommendations = "" -%}
+
+{%- for recommendation in recommended_types -%}
+  {% unless cart_product_types contains recommendation %}
+    {% assign final_recommendations = final_recommendations | append: recommendation | append: ',' %}
   {% endunless %}
+{%- endfor -%}
+
+{% assign final_recommendations = final_recommendations | split: ',' | uniq %}
+
+<!-- Randomly select products for each type in final_recommendations -->
+{% assign filtered_product_handles = "" %}
+
+{% for final_type in final_recommendations %}
+  {% assign filtered_products = collections.all.products | where: "type", final_type %}
+  {% assign total_products = filtered_products.size %}
+  {% assign max_start = total_products | minus: length %}
+  {% assign start_index = "now" | date: "%S" | modulo: max_start %}
+
+  {% assign filtered_product_handles = filtered_product_handles | append: filtered_products[start_index].handle | append: ',' %}
 {% endfor %}
 
-{% assign filtered_product_ids = filtered_product_ids | remove_first: ',' | split: ',' %}
+{% assign filtered_product_handles = filtered_product_handles | split: ',' | uniq %}
 
-{% if filtered_product_ids.size > 0 %}
+
+{% if filtered_product_handles.size == 0 %}
+  {% assign cart_ids = cart.items | map: 'product_id' %}
+  {% assign filtered_product_handles = '' %}
+
+  {% assign filtered_products = collections.all.products | where: "type", 'Caviar' %}
+
+  {% for product in filtered_products %}
+    {% unless cart_ids contains product.id %}
+      {% assign filtered_product_handles = filtered_product_handles | append: product.handle | append: ',' %}
+    {% endunless %}
+  {% endfor %}
+
+  {% assign filtered_product_handles = filtered_product_handles | split: ',' %}
+{% endif %}
+
+
+{% if filtered_product_handles.size > 0 %}
 
   {{ 'component-card.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -33,7 +99,6 @@
     }
   {%- endstyle -%}
 
-
   <section id="{{ section.id }}" class="section-{{ section.id }}-padding">
     <div class="container">
       {% if section.settings.title != blank %}
@@ -48,8 +113,8 @@
       {% endif %}
       <div class="featured-products__container swiper">
         <div class="featured-products__wrapper swiper-wrapper">
-          {% for product_id in filtered_product_ids %}
-            {% assign product = all_products[product_id] %}
+          {% for handle in filtered_product_handles %}
+            {% assign product = all_products[handle] %}
             {% if product != blank %}
               <div class="swiper-slide featured-products__slide">
                 {% render 'card-product',

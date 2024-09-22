@@ -46,6 +46,7 @@
                     show_rating: false,
                     lazy_load: true,
                     show_quick_add: true,
+                    show_first_variant: section.settings.show_first_variant,
                     section_id: section.id
                 %}
               </div>
@@ -102,6 +103,11 @@
       "type": "product_list",
       "id": "products",
       "label": "Product list"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_first_variant",
+      "label": "Show only first variant"
     },
     {
       "type": "text",
