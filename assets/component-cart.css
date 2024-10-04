@@ -250,13 +250,13 @@ cart-items.is-empty .title-wrapper-with-link,
   width: calc(32% - 40px);
 }
 
-/* .cart-page .cart-content  section.shopify-section.section {
+.cart-page .cart-content  .shopify-section {
   width: 100%;
 }
 
-.cart-page .cart-content  div.shopify-section:last-child {
+.cart-page .cart-content .shopify-section:last-child {
   width: 100%;
-} */
+}
 
 .cart-page .cart-items {
   width: 100%;

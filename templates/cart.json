@@ -32,22 +32,29 @@
         "padding_bottom": 40
       }
     },
-    "comlete_cart_Li3Wgm": {
+    "comlete_cart_7L7Qer": {
       "type": "comlete-cart",
-      "disabled": true,
       "settings": {
-        "title": "complete my card",
+        "title": "Complete my cart",
         "sub_title": "",
-        "collection": "complete-my-cart",
+        "collection": "",
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "newsletter_second_section_N4FRha": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
       }
     }
   },
   "order": [
     "cart-items",
     "cart-footer",
-    "comlete_cart_Li3Wgm"
+    "comlete_cart_7L7Qer",
+    "newsletter_second_section_N4FRha"
   ]
 }

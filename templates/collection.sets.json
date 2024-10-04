@@ -14,7 +14,7 @@
       "settings": {
         "image_mobile": "shopify:\/\/shop_images\/sets-mobile.webp",
         "image_desktop": "shopify:\/\/shop_images\/sets.webp",
-        "title": "<p>CaviarServing Sets<\/p>",
+        "title": "<p>Caviar Serving Sets<\/p>",
         "title_width": 580,
         "button": "",
         "button_url": "",
@@ -80,9 +80,10 @@
         "title": "Royal Gift",
         "subtitle": "",
         "main_title": false,
+        "sub_title": true,
         "mobile_text": "",
-        "left_text": "We created our gift sets to help you give unforgettable experiences and memories to the people who deserve to be treated royally. Whether you want to surprise your partner, your parents, your old-time friends, or your colleague, our caviar sets will provide them with everything they might need to enjoy the exquisite flavor of caviar.",
-        "right_text": "If you are looking for something even more to treat your special people on a regular basis, consider our caviar subscription. The subscribers can acquire our caviar at wholesale prices, while also benefiting from additional offers we provide for the members of our caviar club.",
+        "left_text": "<p>We created our gift sets to help you give unforgettable experiences and memories to the people who deserve to be treated royally. Whether you want to surprise your partner, your parents, your old-time friends, or your colleague, our caviar sets will provide them with everything they might need to enjoy the exquisite flavor of caviar.<\/p>",
+        "right_text": "<p>If you are looking for something even more to treat your special people on a regular basis, consider our <a href=\"\/pages\/caviar-club\" title=\"Caviar Club\">caviar subscription<\/a>. The subscribers can acquire our caviar at wholesale prices, while also benefiting from additional offers we provide for the members of our caviar club.<\/p>",
         "yellow_title": true
       }
     },
@@ -94,6 +95,7 @@
         "products": [
 
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -118,6 +120,7 @@
           "caviar-holder-with-beluga-siberian",
           "caviar-osietra-classic"
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -292,8 +295,8 @@
     "gift_section_LgFXCC": {
       "type": "gift-section",
       "settings": {
-        "title": "caviar Gift cards",
-        "text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
+        "title": "The Caviar Club",
+        "text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit!",
         "sub_title": "Excellence Found Only at BEST CAVIAR"
       }
     },

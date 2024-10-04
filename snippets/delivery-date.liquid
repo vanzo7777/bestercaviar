@@ -17,8 +17,11 @@
             minDate: +1,
             format:'mm/dd/yyyy',
             maxDate: '+2M',
-            beforeShowDay: $.datepicker.noWeekends
-          }).datepicker("setDate",'now');
+            beforeShowDay: function(date) {
+                var day = date.getDay();
+                return [(day != 1 && day != 0)];
+            }
+          });
 
           var formData = new FormData();
           let inputDate = document.querySelector('.delivery-date-container .input-wrapper #date');

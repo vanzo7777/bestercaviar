@@ -33,10 +33,10 @@
             {% if article.tags != blank %}
                 <p class="recipes__category">{{ article.tags | first }}</p>
             {% endif %}
-            <h2 class="recipes__card-title">{{ article.title }}</h2>
-            <p class="description recipes__description">
-                {{ article.content | truncatewords: 16 }}
-            </p>
+            <p class="recipes__card-title">{{ article.title }}</p>
+            <div class="description recipes__description">
+              {{ article.content | strip_html | truncatewords: 16  }}
+            </div>
 
         </div>
     </a>

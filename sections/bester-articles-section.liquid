@@ -26,9 +26,7 @@
       {% endif %}
 
       {% if article.tags != blank %}
-        {% for tag in article.tags %}
-          <p class="recipes__subtitle">{{ tag }}</p>
-        {% endfor %}
+        <p class="recipes__subtitle">{{ article.tags | first }}</p>
       {% endif %}
 
       <div class="recipes__featured-slider blog__slider-page swiper" style="margin-top: 0.625rem;">

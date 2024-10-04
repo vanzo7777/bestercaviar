@@ -1,6 +1,8 @@
 <section class="cert">
+<h1 class="title">{{ page.title }}</h1>
     <div class="container">
         <div class="cert__container">
+        
             {% for block in section.blocks %}
                 <div class="cert__item {% if forloop.first %}active{% endif %}" id="{{ block.id }}">
                   {% if block.settings.title != blank %}
@@ -15,9 +17,9 @@
                 <div class="card-list-mobile">
                   <div class="card-list-item {% if forloop.first %}active{% endif %}" data-id="{{ block.id }}">
                     {% if block.settings.text_title != blank %}
-                      <h2 class="promo__title title mw">
+                      <p class="promo__title title mw">
                           {{ block.settings.text_title }}
-                      </h2>
+                      </p>
                     {% endif %}
                     <div class="promo__wrapper">
                         {% if block.settings.first_text != blank %}

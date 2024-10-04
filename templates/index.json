@@ -38,7 +38,7 @@
             "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/1.jpg",
             "image_desktop": "shopify:\/\/shop_images\/banner1.jpg",
-            "title": "<p>Best caviar online in the USA by Bester Caviar<\/p>",
+            "title": "<p>Best caviar online in the Miami by Bester Caviar<\/p>",
             "text": "<ul><li>Free Overnight Shipping<\/li><li>Never Frozen or Pasteurized<\/li><\/ul>",
             "social": "",
             "top": false,
@@ -51,7 +51,7 @@
             "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/4.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner2.webp",
-            "title": "<p>where smart world-class caviar at the best price<\/p>",
+            "title": "<p>where smart buyers get world  class caviar at a wholesale price <\/p>",
             "text": "",
             "social": "@osetra_caviar",
             "top": true,
@@ -86,6 +86,7 @@
         },
         "slide_GgMAYK": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "is_show_video": true,
             "video_mobile": "shopify:\/\/files\/videos\/cf41031fe9a749bc9c41ccd7533c3097.mov",
@@ -111,8 +112,8 @@
     "main_best_section_9yfiQW": {
       "type": "main-best-section",
       "settings": {
-        "title": "Best Caviar Online in The US by Bester Caviar",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+        "title": "Best caviar online in the USA by Bester Caviar",
+        "text": "<p>Buy the premium authentic sturgeon caviar in the USA. We deliver the best caviar from top eco-friendly fisheries in the world: Karat in Israel, Giaveri in Italy, and Rova in Madagascar.<\/p>"
       }
     },
     "main_better_section_tpgFQP": {
@@ -124,17 +125,13 @@
         "title": "Bestsellers in our caviar store",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
         "products": [
-          "caspian-beluga-hybrid-caviar",
-          "caspian-osetra-baku",
           "russian-osetra-caviar-karat-amber",
-          "copy-of-russian-osetra-karat-amber-br-caspian-sea",
           "russian-osetra-karat-black-caspian-sea",
-          "copy-of-russian-osetra-karat-black-br-caspian-sea",
-          "caviar-butter",
-          "best-caviar-sampler",
-          "royal-osetra-caviar"
+          "royal-osetra-caviar",
+          "siberian-osetra-caviar"
         ],
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate.",
+        "show_first_variant": false,
+        "text": "Get the fresh, crisp sturgeon roes spawned by the fish raised in care and tranquility. Bester Caviar is always ready to deliver top caviar, with bestsellers like Russian Osetra Karat Black caviar and Russian Osetra Karat Amber from the Caspian Sea, as well as Siberian Sturgeon Caviar from the Indian Ocean. Explore our shop, buy caviar to your liking from our assortment, and treat yourself to first-class dishes!",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -151,7 +148,7 @@
         "product_Qkafgr": {
           "type": "product",
           "settings": {
-            "product": "siberian-osetra-caviar"
+            "product": "royal-osetra-caviar"
           }
         }
       },
@@ -162,10 +159,11 @@
       "settings": {
         "title": "Promotional offers",
         "main_title": false,
+        "is_homepage": true,
         "text": "Bester Caviar provides first-class caviar with up to 67% off the price. Still, we preserve the top quality of our product and ensure that it gets fresh to your table thanks to overnight shipping and special packaging. We also offer a discount for our first-time clients, so you can easily try our caviar. Feel free to contact our manager if you have any questions, we would love to help you pick the right product and buy caviar online.",
         "bottom_title": "From caviar lover to the highest quality caviar brand in the US",
-        "bottom_text": "Bester Caviar, founded by the enterprising Inna Polutska, is a business with a remarkable story. Inna's journey began seven years ago when she moved from Ukraine to the US, as she embarked on a mission — to bring the taste of traditional sturgeon caviar, a cherished memory from her childhood, to the American market.",
-        "bottom_second_text": "Thanks to Inna's dedication to quality and accessibility, Bester Caviar has rapidly earned recognition in the culinary world, supplying some of the finest restaurants in Miami, including Casa Tua Cucina, Casa Tua Restaurant, Villa Azur, Marion Miami, W South Beach, Zuma, Alloy Bistro Gourmet, 1 Hotel South Beach, Cantina La Veinte, and other notable establishments."
+        "bottom_text": "Bester Caviar, founded by the enterprising Inna Polutska, is a business with a remarkable story. Inna's journey began seven years ago when she moved from Ukraine to the US, as she embarked on a mission — to bring the taste of traditional sturgeon caviar, a cherished memory from her childhood, to the American market. Thanks to Inna's dedication to quality and accessibility, Bester Caviar has rapidly earned recognition in the culinary world, supplying some of the finest restaurants in Miami, including Casa Tua Cucina, Casa Tua Restaurant, Villa Azur, Marion Miami, W South Beach, Zuma, Alloy Bistro Gourmet, 1 Hotel South Beach, Cantina La Veinte, and other notable establishments.",
+        "bottom_second_text": "The ethos of Bester Caviar is built around sincerity and a family approach, as Inna and the team ensure that every interaction between the brand and customers is warm and personal. This way, Best Caviar has won the hearts of many American connoisseurs, as well as become the company a top Amazon seller."
       }
     },
     "best_products_section_Kqrpht": {
@@ -174,16 +172,13 @@
         "title": "best Caviar Gift Sets",
         "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
         "products": [
-          "caspian-beluga-hybrid-caviar",
-          "russian-osetra-caviar-karat-amber",
-          "russian-osetra-karat-black-caspian-sea",
-          "siberian-osetra-caviar",
-          "royal-beluga-hybrid",
           "river-beluga-caviar-kaluga-hybrid-gift-set",
           "osetra-trio-sampler",
-          "caviar-holder-supported-by-three-silver-plate-sturgeons",
           "caviar-luxury-gourmet-set",
-          "caviar-gift-cards"
+          "russian-osetra-caviar-gift-set",
+          "bester-s-royal-beluga-hybrid",
+          "copy-of-russian-osetra-karat-black-br-caspian-sea",
+          "copy-of-russian-osetra-karat-amber-br-caspian-sea"
         ],
         "centered": false,
         "delivery": false,
@@ -193,10 +188,11 @@
     },
     "more_section_tPweDB": {
       "type": "more-section",
+      "disabled": true,
       "settings": {
         "title": "More and more quality service for our customers",
         "button": "Online Store",
-        "button_url": "",
+        "button_url": "\/collections",
         "call_text": "<p> Order best caviar online with free overnight delivery in the US <br\/> Call now! <a href=\"tel:+1 (813) 510-9892\">+1 (813) 510-9892<\/a> - Your Favorite Caviar Shop<\/p>",
         "first_text": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M",
         "second_text": "magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. M",
@@ -210,9 +206,9 @@
         "image": "shopify:\/\/shop_images\/about.webp",
         "title": "About Us",
         "label": "CAVIAR PRODUCTION",
-        "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Backthen caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ...",
+        "text": "Bester Caviar is owned by Ukrainian woman entrepreneur- Inna Polutska. She has immigrated from Ukraine 10 years ago on her own and now offers to American market a truly good traditional caviar, just like she used to have in her childhood in Ukraine.   Back then Caviar in her country was more affordable, so it was widely used not only for great taste but for  health benefits as well.",
         "button": "MORE",
-        "button_url": ""
+        "button_url": "shopify:\/\/pages\/about-us"
       }
     },
     "services_section_LfYVTB": {
@@ -258,7 +254,7 @@
         "item_tgzQep"
       ],
       "settings": {
-        "title": "More and more quality service for our customers",
+        "title": "More and more quality services for our customers",
         "sub_title": "",
         "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
         "delivery": false
@@ -267,33 +263,88 @@
     "faq_section_Ux8FVA": {
       "type": "faq-section",
       "blocks": {
-        "item_84rBg3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "question": "",
-            "answer": ""
-          }
-        },
-        "item_j7CEzy": {
+        "item_pb7Uqj": {
           "type": "item",
           "settings": {
             "question": "What's the best place to buy caviar online?",
             "answer": "Bester Caviar, a top Amazon caviar seller, is one of the best online caviar stores. We source caviar from top-world fish farms, namely Karat in Israel, Giaveri in Italy, and Rova in Madagascar, where sturgeons live in the natural environment. We also use a special packaging system for overnight shipping, so you get the caviar fresh and ready to be served on your table."
           }
         },
-        "item_FDEAJY": {
+        "item_mwQnXi": {
           "type": "item",
           "settings": {
             "question": "Where is your company's Head Office located?",
             "answer": "We are the main distributor of caviar in Miami, which allows us to cooperate with local well-acclaimed restaurants. At the same time, we ship our products all over the United States. Place your order online, and we will deliver your desired jar to your doorstep overnight. We use a special packaging system that keeps the fish roe fresh and crisp during its travel."
           }
+        },
+        "item_j7CEzy": {
+          "type": "item",
+          "settings": {
+            "question": "When will i receive caviar after placing my order?",
+            "answer": "For Next-Day delivery, please place your order before 2 PM EST Monday – Thursday. You can call 8135109892 for any urgent assistance. We provide Same Day delivery in Miami 7 days a week."
+          }
+        },
+        "item_FDEAJY": {
+          "type": "item",
+          "settings": {
+            "question": "Where do you ship caviar?",
+            "answer": "We ship caviar all over the United States. For Hawaii and Alaska please allow 1 extra business day."
+          }
+        },
+        "item_xE9J4G": {
+          "type": "item",
+          "settings": {
+            "question": "Saturday Delivery :",
+            "answer": "Any order received after 2 PM EST on Thursday  will be shipped the next shipping day (Monday). Orders received Friday-Sunday will be shipped on Monday. We provide Same Day delivery in Miami including weekends. If you require Saturday delivery, please contact us 8135109892 and your order can be shipped on Friday before or upon placing your order. Please notify us no later than 2pm EST Friday."
+          }
+        },
+        "item_6azRmC": {
+          "type": "item",
+          "settings": {
+            "question": "How do you package my order?",
+            "answer": "Your order comes in a styrofoam box with frozen gel packs to ensure it’s freshness. All packages are shipped via UPS Overnight Delivery."
+          }
+        },
+        "item_aQHbVM": {
+          "type": "item",
+          "settings": {
+            "question": "Can you change my order once it is placed?",
+            "answer": "Yes, you can change your order before it was shipped by contacting inna@besterusa.com"
+          }
+        },
+        "item_CNCqyJ": {
+          "type": "item",
+          "settings": {
+            "question": "How long does caviar stay fresh in open and sealed tin?",
+            "answer": "A sealed caviar tin lasts for 6-8 weeks refrigerated under 23-38F.  Open caviar tin lasts up to 5 days in a refrigerator."
+          }
+        },
+        "item_xhgFLC": {
+          "type": "item",
+          "settings": {
+            "question": "How to open caviar tin?",
+            "answer": "Place caviar tin opener or a butter knife horizontally between lid and side. Twist it up to pry lid open."
+          }
+        },
+        "item_Jwab4m": {
+          "type": "item",
+          "settings": {
+            "question": "Can I freeze caviar?",
+            "answer": "We don’t advise freezing sturgeon caviar because caviar loses its texture "
+          }
         }
       },
       "block_order": [
-        "item_84rBg3",
+        "item_pb7Uqj",
+        "item_mwQnXi",
         "item_j7CEzy",
-        "item_FDEAJY"
+        "item_FDEAJY",
+        "item_xE9J4G",
+        "item_6azRmC",
+        "item_aQHbVM",
+        "item_CNCqyJ",
+        "item_xhgFLC",
+        "item_Jwab4m"
       ],
       "settings": {
         "title": "Frequently Asked Questions",

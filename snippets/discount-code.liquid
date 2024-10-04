@@ -44,6 +44,7 @@
   window.shopUrl = '{{ request.origin }}';
   const discountSubmitBtn = document.querySelector('.apply-discount-code'),
     discountCodeInput = document.querySelector('[name="discount"]');
+    let checkoutButton = document.getElementById('checkout');
 
   discountSubmitBtn.addEventListener('click', (event) => {
     event.preventDefault();

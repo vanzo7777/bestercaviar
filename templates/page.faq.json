@@ -53,71 +53,95 @@
           "settings": {
             "category": "shipping",
             "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "answer": "Overnight Shipping on all orders over $100 is Free.Shipping on orders below $100 is $35"
           }
         },
         "item_8hTCDK": {
           "type": "item",
           "settings": {
             "category": "shipping",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "question": "Do you ship Internationally?",
+            "answer": "We only ship orders in the United States."
           }
         },
         "item_aMJdxn": {
           "type": "item",
           "settings": {
             "category": "shipping",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "question": "What is your return policy?",
+            "answer": "All products are guaranteed to be fresh and should be inspected immediately upon arrival.  Please keep all packaging intact for returns. All claims must be made within twenty-four hours of receipt of shipment.Contact inna@besterusa.com  Once a claim is received and accepted by Bester Caviar, we will reship merchandise. Please keep all packaging intact for any returns.All returns must be shipped to:Bester Caviar1000 Brickell PlazaUnit 2812Miami, FL, 33131"
           }
         },
         "item_PttXx6": {
           "type": "item",
           "settings": {
-            "category": "product",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "category": "shipping",
+            "question": "What payment method do you accept?",
+            "answer": "We accept Visa, Mastercard and American Express.   You can also place your order over the phone by calling our toll-free number: +18135109892"
           }
         },
         "item_DBYyGz": {
           "type": "item",
           "settings": {
             "category": "product",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "question": "Will my order stay fresh during shipping?",
+            "answer": "All perishable items are stored at the lowest temperature without freezing it to ensure its freshness and highest quality. Our innovative packaging system keeps perishable  products fresh for 48 hours transit time. All perishable products are delivered in 24 hours packed in styrofoam coolers with frozen gel packs via UPS Overnight. You will receive a tracking number once the product is shipped. Your shipping is monitored by our team all the way to your doorstep! In case of hazardous weather conditions all packages are stored in a refrigerated facility at UPS hub, you can always contact our customer support with any questions regarding shipping."
           }
         },
         "item_eCDcVj": {
           "type": "item",
           "settings": {
             "category": "product",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "question": "How long does caviar stay fresh?",
+            "answer": "Open tin stays fresh for 5 days.Closed tin stays fresh for 6-8 weeks refrigerated."
           }
         },
         "item_NLtUMk": {
           "type": "item",
           "settings": {
-            "category": "brand",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "category": "product",
+            "question": "How do I store caviar?",
+            "answer": "Put caviar in the lowest part of your refrigerator on the lowest settings 28-36F. We don’t advise freezing caviar. After freezing, caviar loses the right texture and flavor."
           }
         },
         "item_DqWVti": {
           "type": "item",
           "settings": {
-            "category": "brand",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "category": "product",
+            "question": "How to open a caviar tin?",
+            "answer": "You can use a table-knife, spoon, a tin opener or even a coin. Any metal object with a thin end will do it. Insert it horizontally between the lip of the lid and the threading of the base and apply light pressure."
           }
         },
         "item_G7kpCy": {
           "type": "item",
           "settings": {
-            "category": "brand",
-            "question": "How much is shipping?",
-            "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et maxime aliquid aliquam ratione similique ab eligendi doloremque excepturi dignissimos tenetur veniam earum pariatur inventore esse reprehenderit, officia sit rem laudantium temporibus quia voluptate eaque obcaecati. Magnam eius debitis voluptate possimus aut. Totam laudantium amet dolor voluptatibus veniam, incidunt doloremque aliquam."
+            "category": "product",
+            "question": "How to serve caviar?",
+            "answer": "Traditionally caviar is served on toasted breads or with blinis (mini pancakes) and creme fraiche as well as chopped onions, crumbled hard-boiled eggs, caviar pairs well with champagne or vodka."
+          }
+        },
+        "item_ft3L3W": {
+          "type": "item",
+          "settings": {
+            "category": "shipping",
+            "question": "Do you ship to P.O. Box?",
+            "answer": "We don’t ship to P.O. Boxes"
+          }
+        },
+        "item_neGyMB": {
+          "type": "item",
+          "settings": {
+            "category": "shipping",
+            "question": "I live in Miami, is there same day delivery?",
+            "answer": "Yes, we provide same day complimentary hand delivery in Miami, for cities near Miami there is 50$ same day delivery fee.We always provide a photo proof of delivered product."
+          }
+        },
+        "item_HyaxrV": {
+          "type": "item",
+          "settings": {
+            "category": "shipping",
+            "question": "Do you ship on weekends and national holidays?",
+            "answer": "We deliver packages Tuesday- Friday. We provide Saturday delivery if requested by a customer. Overnight shipping is closed on weekends and National Holidays : New Year’s Day, President’s Day, Memorial Day, Independence Day, Labor Day, Thanksgiving, and Christmas."
           }
         }
       },
@@ -133,16 +157,12 @@
         "item_eCDcVj",
         "item_NLtUMk",
         "item_DqWVti",
-        "item_G7kpCy"
+        "item_G7kpCy",
+        "item_ft3L3W",
+        "item_neGyMB",
+        "item_HyaxrV"
       ],
       "settings": {
-      }
-    },
-    "newsletter_second_section_6kLdjy": {
-      "type": "newsletter-second-section",
-      "settings": {
-        "title": "stay in touch!",
-        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
       }
     },
     "services_section_jHqmKJ": {
@@ -189,9 +209,16 @@
       ],
       "settings": {
         "title": "More and more quality service for our customers",
-        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "sub_title": "",
+        "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
         "delivery": false
+      }
+    },
+    "newsletter_second_section_6kLdjy": {
+      "type": "newsletter-second-section",
+      "settings": {
+        "title": "stay in touch!",
+        "sub_title": "Sing up for special offers and news form BEST CAVIAR"
       }
     }
   },
@@ -199,7 +226,7 @@
     "main",
     "banner_section_Afebir",
     "faq_tabs_section_XELJ8R",
-    "newsletter_second_section_6kLdjy",
-    "services_section_jHqmKJ"
+    "services_section_jHqmKJ",
+    "newsletter_second_section_6kLdjy"
   ]
 }

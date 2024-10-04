@@ -448,31 +448,30 @@
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
 
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Organization",
-    "name": {{ shop.name | json }},
-    {% if settings.logo %}
-      "logo": {{ settings.logo | image_url: width: 500 | prepend: "https:" | json }},
-    {% endif %}
-    "sameAs": [
-      {{ settings.social_twitter_link | json }},
-      {{ settings.social_facebook_link | json }},
-      {{ settings.social_pinterest_link | json }},
-      {{ settings.social_instagram_link | json }},
-      {{ settings.social_tiktok_link | json }},
-      {{ settings.social_tumblr_link | json }},
-      {{ settings.social_snapchat_link | json }},
-      {{ settings.social_youtube_link | json }},
-      {{ settings.social_vimeo_link | json }}
-    ],
-    "url": {{ request.origin | append: page.url | json }}
-  }
-</script>
-
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = request.origin | append: routes.search_url | append: "?q={search_term_string}" %}
+ <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FoodEstablishment",
+      "@id": "https://bestercaviarstore.com/#local_business_schemaplus",
+      "name": "Bester Caviar",
+      "alternateName": "BesterCaviar",
+      "description": "Buy Caviar Online",
+      "email": "inna@besterusa.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1000 Brickell Plaza, unit 2601, Miami, FL, United States, 33131 ",
+        "addressLocality": "Miami",
+        "addressRegion": "Florida",
+        "postalCode": null,
+        "addressCountry": "US"
+      },
+      "telephone": "+1 (813) 510-9892",
+      "faxNumber": "+1 (813) 510-9892",
+      "priceRange": null
+    }
+  </script>
   <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -486,6 +485,7 @@
       "url": {{ request.origin | append: page.url | json }}
     }
   </script>
+
 {%- endif -%}
 
 {% schema %}

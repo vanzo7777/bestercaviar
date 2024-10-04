@@ -24,11 +24,24 @@
         "top": true
       }
     },
+    "little_promo_section_4MLgjg": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "Special Offer",
+        "subtitle": "We invite you to familiarize yourself with the most popular products",
+        "main_title": true,
+        "sub_title": false,
+        "mobile_text": "",
+        "left_text": "",
+        "right_text": "",
+        "yellow_title": false
+      }
+    },
     "main_better_section_fadwMN": {
       "type": "main-better-section",
       "settings": {
-        "title": "Bestsellers in our caviar store",
-        "sub_title": "We invite you to familiarize yourself with the most popular products",
+        "title": "",
+        "sub_title": "",
         "products": [
           "zar-triology-gift-set",
           "osetra-trio-sampler"
@@ -54,7 +67,7 @@
           "type": "item",
           "settings": {
             "label": "JOIN CAVIAR CLUB TO GET 25% OFF",
-            "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Back then caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ..."
+            "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 10 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Back then caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ..."
           }
         }
       },
@@ -65,7 +78,7 @@
         "image": "shopify:\/\/shop_images\/special1.webp",
         "title": "CAVIAR BESTSELLERS",
         "button": "MORE",
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/about-us",
         "club_section": false,
         "our_section": false
       }
@@ -74,6 +87,7 @@
   "order": [
     "main",
     "banner_section_cVbrzi",
+    "little_promo_section_4MLgjg",
     "main_better_section_fadwMN",
     "gift_section_XmMWXC",
     "about_reverse_section_wbK3jU"

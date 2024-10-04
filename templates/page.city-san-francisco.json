@@ -35,6 +35,7 @@
         "slide_wTcGcH": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/1.jpg",
             "image_desktop": "shopify:\/\/shop_images\/banner1.jpg",
             "title": "<p>Best caviar online in the USA by Bester Caviar<\/p>",
@@ -47,6 +48,7 @@
         "slide_w8V89V": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/4.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner2.webp",
             "title": "<p>where smart world-class caviar at the best price<\/p>",
@@ -59,6 +61,7 @@
         "slide_PCCfE4": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-3-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner3.webp",
             "title": "",
@@ -71,6 +74,7 @@
         "slide_FXWM9n": {
           "type": "slide",
           "settings": {
+            "is_show_video": false,
             "image_mobile": "shopify:\/\/shop_images\/ban-5-mob.webp",
             "image_desktop": "shopify:\/\/shop_images\/banner5.webp",
             "title": "",
@@ -90,11 +94,17 @@
       "settings": {
       }
     },
-    "main_best_section_9yfiQW": {
-      "type": "main-best-section",
+    "little_promo_section_NwFLXy": {
+      "type": "little-promo-section",
       "settings": {
-        "title": "Best Caviar Online in The US by Bester Caviar",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+        "title": "Best caviar online in San Francisco by Bester Caviar",
+        "subtitle": "Buy the premium authentic sturgeon caviar in San Francisco. We deliver the best caviar from top eco-friendly fisheries in the world: Karat in Israel, Giaveri in Italy, and Rova in Madagascar.",
+        "main_title": true,
+        "sub_title": false,
+        "mobile_text": "",
+        "left_text": "",
+        "right_text": "",
+        "yellow_title": false
       }
     },
     "main_better_section_tpgFQP": {
@@ -103,11 +113,19 @@
         "title": "Bestsellers in our caviar store",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
         "products": [
-          "russian-osetra-karat-black",
-          "russian-osetra-karat-amber-caspian-sea-copy",
-          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy"
+          "russian-osetra-caviar-karat-amber",
+          "bester-s-royal-beluga-hybrid",
+          "osetra-trio-sampler",
+          "russian-osetra-karat-black-caspian-sea",
+          "river-beluga-caviar-kaluga-hybrid-gift-set",
+          "royal-osetra-caviar",
+          "siberian-osetra-caviar",
+          "siberian-caviar-classic"
         ],
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate."
+        "show_first_variant": false,
+        "text": "Experience the fresh, crisp sturgeon roe, carefully sourced from fish raised with the utmost care and tranquility. Bester Caviar, a leading caviar store in San Francisco, is ready to deliver the finest selections, including popular options like Russian Osetra Karat Black and Amber from the Caspian Sea, as well as Siberian Sturgeon Caviar from the Indian Ocean. Browse our shop, choose your favorite variety, and enjoy convenient caviar delivery in San Francisco — bringing gourmet indulgence straight to your door. Treat yourself to first-class dishes with our premium assortment!",
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "main_promo_section_jgndEf": {
@@ -116,13 +134,13 @@
         "product_QCXhkd": {
           "type": "product",
           "settings": {
-            "product": "russian-osetra-karat-black"
+            "product": "siberian-osetra-caviar"
           }
         },
         "product_Qkafgr": {
           "type": "product",
           "settings": {
-            "product": "russian-osetra-karat-black"
+            "product": "royal-osetra-caviar"
           }
         }
       },
@@ -133,10 +151,11 @@
       "settings": {
         "title": "Promotional offers",
         "main_title": false,
-        "text": "Bester Caviar provides first-class caviar with up to 67% off the price. Still, we preserve the top quality of our product and ensure that it gets fresh to your table thanks to overnight shipping and special packaging. We also offer a discount for our first-time clients, so you can easily try our caviar. Feel free to contact our manager if you have any questions, we would love to help you pick the right product and buy caviar online.",
+        "is_homepage": true,
+        "text": "Bester Caviar offers first-class caviar with discounts of up to 67% while maintaining top quality. We ensure that your caviar arrives fresh to your table through overnight shipping and special packaging. As a provider of the best caviar in San Francisco, we also offer a discount for first-time clients, making it easy to try our premium selections. If you have any questions or need assistance, feel free to contact our manager—we're here to help you select the perfect product and make your online purchase seamless.",
         "bottom_title": "From caviar lover to the highest quality caviar brand in the US",
-        "bottom_text": "Bester Caviar, founded by the enterprising Inna Polutska, is a business with a remarkable story. Inna's journey began seven years ago when she moved from Ukraine to the US, as she embarked on a mission — to bring the taste of traditional sturgeon caviar, a cherished memory from her childhood, to the American market.",
-        "bottom_second_text": "Thanks to Inna's dedication to quality and accessibility, Bester Caviar has rapidly earned recognition in the culinary world, supplying some of the finest restaurants in Miami, including Casa Tua Cucina, Casa Tua Restaurant, Villa Azur, Marion Miami, W South Beach, Zuma, Alloy Bistro Gourmet, 1 Hotel South Beach, Cantina La Veinte, and other notable establishments."
+        "bottom_text": "Bester Caviar, founded by the enterprising Inna Polutska, has a remarkable story. Seven years ago, Inna moved from Ukraine to the US with a mission to introduce the taste of traditional sturgeon caviar—a cherished memory from her childhood—to the American market",
+        "bottom_second_text": "Thanks to Inna's dedication to quality and accessibility, Bester Caviar has quickly gained recognition in the culinary world. Her esteemed caviar company in San Francisco supplies some of Miami's finest restaurants, including Casa Tua Cucina, Casa Tua Restaurant, Villa Azur, Marion Miami, and many others. The ethos of company is rooted in sincerity and a family-oriented approach, ensuring that every interaction with their customers is warm and personal. This commitment has earned Bester Caviar the loyalty of American connoisseurs and made it a top seller on Amazon. For those seeking premium caviar in SF, Bester Caviar is the ultimate destination."
       }
     },
     "best_products_section_Kqrpht": {
@@ -145,16 +164,24 @@
         "title": "best Caviar Gift Sets",
         "sub_title": "Each Caviar gift set comes with a mini cooler, set of blinis, mother of pearl spoons.",
         "products": [
-          "russian-osetra-karat-black",
-          "russian-osetra-karat-amber-caspian-sea-1-variant-copy-copy",
-          "russian-osetra-karat-amber-caspian-sea-copy"
+          "copy-of-russian-osetra-karat-amber-br-caspian-sea",
+          "copy-of-russian-osetra-karat-black-br-caspian-sea",
+          "best-caviar-sampler",
+          "caviar-luxury-gourmet-set",
+          "bester-s-royal-beluga-hybrid",
+          "river-beluga-caviar-kaluga-hybrid-gift-set",
+          "osetra-trio-sampler",
+          "russian-osetra-caviar-gift-set"
         ],
         "centered": false,
-        "delivery": false
+        "delivery": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "more_section_tPweDB": {
       "type": "more-section",
+      "disabled": true,
       "settings": {
         "title": "More and more quality service for our customers",
         "button": "Online Store",
@@ -174,7 +201,7 @@
         "label": "CAVIAR PRODUCTION",
         "text": "Bester Caviar is owned by a young woman entrepreneur - Inna Polutska. She immigrated from Ukraine 7 years ago and now offers traditional sturgeon caviar to the American market, just like she used to have in her childhood.Backthen caviar in her country was more affordable, so it was widely used not only for great taste but for health benefits as well.Now Bester’s founder is sourcing and bringing the same traditional and very delicious black caviar at a ...",
         "button": "MORE",
-        "button_url": ""
+        "button_url": "shopify:\/\/pages\/about-us"
       }
     },
     "services_section_LfYVTB": {
@@ -232,8 +259,8 @@
         "item_j7CEzy": {
           "type": "item",
           "settings": {
-            "question": "What's the best place to buy caviar online?",
-            "answer": "Bester Caviar, a top Amazon caviar seller, is one of the best online caviar stores. We source caviar from top-world fish farms, namely Karat in Israel, Giaveri in Italy, and Rova in Madagascar, where sturgeons live in the natural environment. We also use a special packaging system for overnight shipping, so you get the caviar fresh and ready to be served on your table."
+            "question": "Where to buy caviar in San Francisco?",
+            "answer": "If you're wondering where to buy caviar in San Francisco, Bester Caviar is an excellent choice. This reputable online store offers a wide variety of premium caviar, including Russian Osetra Karat Black and Siberian Sturgeon Caviar. With their focus on quality and freshness, Bester Caviar provides fast and reliable delivery straight to your San Francisco doorstep. Explore their online selection and enjoy the finest caviar without leaving home."
           }
         },
         "item_FDEAJY": {
@@ -252,6 +279,23 @@
         "title": "Frequently Asked Questions",
         "menu": "faq-home-menu",
         "image": "shopify:\/\/shop_images\/faq.webp"
+      }
+    },
+    "17260973204ea7992d": {
+      "type": "apps",
+      "blocks": {
+        "air_product_reviews_app_carousel_review_list_wNPrdU": {
+          "type": "shopify:\/\/apps\/air-product-reviews\/blocks\/app-carousel-review-list\/c4e1e9ca-4d46-4e76-bc39-7e42417cb327",
+          "settings": {
+            "air_carouselreviews_carouselHeading": "See what our customers said"
+          }
+        }
+      },
+      "block_order": [
+        "air_product_reviews_app_carousel_review_list_wNPrdU"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "partners_section_j8tLBV": {
@@ -290,12 +334,33 @@
       ],
       "settings": {
       }
+    },
+    "1726097422c1ee61c8": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_X3CXF3": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
+            "background_color": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_X3CXF3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "featured_collection",
     "main_hero_section_ED3dxx",
-    "main_best_section_9yfiQW",
+    "little_promo_section_NwFLXy",
     "main_better_section_tpgFQP",
     "main_promo_section_jgndEf",
     "best_products_section_Kqrpht",
@@ -303,6 +368,8 @@
     "about_section_fUJtYd",
     "services_section_LfYVTB",
     "faq_section_Ux8FVA",
-    "partners_section_j8tLBV"
+    "17260973204ea7992d",
+    "partners_section_j8tLBV",
+    "1726097422c1ee61c8"
   ]
 }

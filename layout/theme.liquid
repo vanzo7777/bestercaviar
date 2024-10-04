@@ -300,21 +300,6 @@
     </script>
 
     {% if template.name == "index" %}
-      <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Organization",
-          "name": "Bester Caviar",
-          "alternateName": "BesterCaviar",
-          "url": "{{ shop.url }}",
-          "logo": "{{ settings.logo | image_url }}",
-          "sameAs": [
-        	"https://www.facebook.com/osetracaviar/",
-        	"https://www.instagram.com/osetra_caviar/"
-          ]
-        }
-        </script>
-
     {% else %}
       {%- assign og_title = page_title -%}
       {%- assign og_url = canonical_url -%}
@@ -385,13 +370,15 @@
           {%- assign og_description = shop.description | default: shop.name -%}
       
       {%- endcase -%}
+
+      
       
       <meta property="og:site_name" content="{{ shop.name }}">
       <meta property="og:url" content="{{ og_url }}">
       <meta property="og:title" content="{{ og_title }}">
       <meta property="og:type" content="{{ og_type }}">
-      <meta property="og:description" content="{{ og_description }}">
-      
+      <meta property="og:description" content="{{ og_description }}">   
+    
       {%- if template.name == 'product' -%}
         <meta property="og:price:amount" content="{{ product.price | money_without_currency | strip_html }}">
         <meta property="og:price:currency" content="{{ shop.currency }}">
@@ -626,5 +613,41 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+    <script>
+      (function ($) {
+        $.fn.equalHeights = function () {
+          var $items = $(this);
+          function equalize() {
+            $items.height('initial');
+            var maxH = $items.eq(0).height();
+            $items.each(function () {
+              maxH = ($(this).height() > maxH) ? $(this).height() : maxH;
+            });
+            $items.height(maxH);
+          }
+          equalize();
+          $(window).bind('resize', function () {
+            equalize();
+          });
+        };
+      })(jQuery);
+      let cardTitle = $('.card__title');
+      let cardImg = $('.card__inner');
+      let cardContent = $('.card--standard .card__inner');
+      let aboutArticleText = $('.about__slide-text p');
+      let aboutArticleTitle = $('.recipes__card-title');
+
+      if(cardTitle.length > 0) {
+        $('.card__title').equalHeights();
+      }
+
+      if(cardImg.length > 0) {
+        $('.product-grid-container .card--standard .card__inner').equalHeights();
+      }
+
+      if(aboutArticleTitle.length > 0) {
+        $('.recipes__card-title').equalHeights();
+      }
+    </script>
   </body>
 </html>

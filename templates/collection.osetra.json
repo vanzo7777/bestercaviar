@@ -14,7 +14,7 @@
       "settings": {
         "image_mobile": "shopify:\/\/shop_images\/5.webp",
         "image_desktop": "shopify:\/\/shop_images\/osetra.webp",
-        "title": "<p>Premium black Caviar Buy online in the USA Bester Caviar Store<\/p>",
+        "title": "<p>Premium black Caviar Buy online in the Miami Bester Caviar Store<\/p>",
         "title_width": 580,
         "button": "",
         "button_url": "",
@@ -77,20 +77,37 @@
         "title": "Osetra Caviar",
         "subtitle": "",
         "main_title": false,
+        "sub_title": false,
         "mobile_text": "",
-        "left_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed",
-        "right_text": "fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa..",
+        "left_text": "<p>Osetra caviar is the epitome of indulgence with its creamy, walnut-like taste and mesmerizing popping texture. Through Bester Caviar, you can access premium black sturgeon caviar from sturgeons raised under the best care. We offer the highest quality, so you can fully enjoy the finest taste.<\/p><p>Osetra caviar will become a great addition to your table, whether you are preparing for a special occasion or just want to treat yourself to a unique delicacy.<\/p>",
+        "right_text": "<p>Osetra roes show the pick of its tasting capabilities when paired with appropriate toppings, e.g., crêpes, crème fraiche, white bread, or boiled potatoes. The choice of tableware is also essential: to experience the authentic caviar flavor, choose spoons made from mother-of-pearl, horn, wood, or plastic, and serve it in holders crafted from glass, porcelain, silver, acrylic, or plastic.<\/p>",
+        "yellow_title": false
+      }
+    },
+    "little_promo_section_GYK7KX": {
+      "type": "little-promo-section",
+      "disabled": true,
+      "settings": {
+        "title": "Why Choose Bester Caviar",
+        "subtitle": "",
+        "main_title": false,
+        "sub_title": true,
+        "mobile_text": "",
+        "left_text": "<p>Bester Caviar is the leading Russian osetra caviar distributor in the United States. We have gathered a vast community of caviar connoisseurs around us, from occasional admirers to top Miami-based restaurants that have added refined caviar dishes to their menus.<\/p>",
+        "right_text": "<p>We prioritize quality and customer experience. Every jar we deliver includes top caviar produced on top eco-friendly aquafarms in Israel, Italy, and Madagascar. Sturgeons there live in the natural environment and receive the finest care, which ensures the high quality of their roes. Thanks to our special packaging system, caviar gets to you fresh and untainted, setting you up for a fine dining experience. We deliver overnight to any point in the US, so you can enjoy the product as soon as possible. We also offer a caviar subscription — a regular delivery of the product with special compliments.<\/p>",
         "yellow_title": false
       }
     },
     "main_better_section_TVJ3R6": {
       "type": "main-better-section",
+      "disabled": true,
       "settings": {
         "title": "CAVIAR BESTSELLERS",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
         "products": [
 
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -102,8 +119,6 @@
         "title": "caviar bestsellers",
         "sub_title": "We invite you to familiarize yourself with the most popular products",
         "products": [
-          "caspian-beluga-hybrid-caviar",
-          "caspian-osetra-baku",
           "russian-osetra-caviar-karat-amber",
           "copy-of-russian-osetra-karat-amber-br-caspian-sea",
           "russian-osetra-karat-black-caspian-sea",
@@ -111,116 +126,41 @@
           "caviar-gift-cards",
           "best-caviar-sampler",
           "caviar-luxury-gourmet-set",
-          "caviar-holder-supported-by-three-silver-plate-sturgeons",
-          "caviar-holder-with-beluga-siberian",
-          "caviar-osietra-classic"
+          "royal-osetra-caviar",
+          "siberian-osetra-caviar"
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "featured_collection_VN3kfh": {
-      "type": "featured-collection",
+    "little_promo_section_X6cmxN": {
+      "type": "little-promo-section",
       "disabled": true,
       "settings": {
-        "title": "caviar bestsellers",
-        "heading_size": "h1",
-        "description": "<p>We invite you to familiarize yourself with the most popular products<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "osetra",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "black sturgeon caviar",
+        "subtitle": "",
+        "main_title": false,
+        "sub_title": true,
+        "mobile_text": "",
+        "left_text": "<p>Caviar, a refined delicacy, offers significant health benefits. It's a rich source of omega-3 fatty acids, which support heart health, reduce inflammation, and promote brain function. Black Russian caviar also contains vitamins and minerals, including vitamin B12, which aids in energy production, and selenium, a potent antioxidant. Moreover, it provides amino acids vital for tissue repair and overall well-being<\/p>",
+        "right_text": "<p>While caviar is best enjoyed in moderation due to its high salt content, this delicacy can give more than just gastronomic pleasure — it can contribute to a healthier lifestyle when savored wisely.<\/p>",
+        "yellow_title": false
       }
     },
-    "subscription_section_qKBgHV": {
-      "type": "subscription-section",
-      "blocks": {
-        "link_FmbwUG": {
-          "type": "link",
-          "settings": {
-            "title": "CAVIAR GIFT SETS",
-            "image": "shopify:\/\/shop_images\/rect-2_80f0d5d3-04e3-4b82-9e2e-367146d1772a.webp",
-            "url": "shopify:\/\/collections\/osetra"
-          }
-        },
-        "link_hJN7ND": {
-          "type": "link",
-          "settings": {
-            "title": "caviar subscription",
-            "image": "shopify:\/\/shop_images\/rect-1_495c3e08-574c-415a-8be4-1f1b269d9cf4.webp",
-            "url": ""
-          }
-        },
-        "item_jVD8Xq": {
-          "type": "item",
-          "settings": {
-            "title": "WHY CHOOSE BESTER CAVIAR?",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,<\/p>",
-            "mobile_text": "",
-            "seo": false,
-            "desktop": false
-          }
-        },
-        "item_TPnrDn": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "image": "shopify:\/\/shop_images\/osetra_article.webp",
-            "text": "",
-            "mobile_text": "",
-            "seo": false,
-            "desktop": false
-          }
-        },
-        "item_3q9ghb": {
-          "type": "item",
-          "settings": {
-            "title": "CREATE A HEADLINE WITH “BLACK STURGEON CAVIAR”",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
-            "mobile_text": "",
-            "seo": false,
-            "desktop": false
-          }
-        },
-        "item_WTRUzt": {
-          "type": "item",
-          "settings": {
-            "title": "LOW PRICE FOR OSETRA CAVIAR BUT NOT QUALITY - A MANIFESTATION OF LOVE FOR OUR CUSTOMERS",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu,<\/p>",
-            "mobile_text": "",
-            "seo": false,
-            "desktop": false
-          }
-        }
-      },
-      "block_order": [
-        "link_FmbwUG",
-        "link_hJN7ND",
-        "item_jVD8Xq",
-        "item_TPnrDn",
-        "item_3q9ghb",
-        "item_WTRUzt"
-      ],
+    "little_promo_section_qPPzVn": {
+      "type": "little-promo-section",
       "disabled": true,
       "settings": {
-        "gift": false
+        "title": "Low price for osetra caviar but not quality - a manifestation of love for our customers",
+        "subtitle": "",
+        "main_title": false,
+        "sub_title": true,
+        "mobile_text": "",
+        "left_text": "<p>Bester Caviar dedicates itself to creating a balance between affordability and high quality. While sourcing the best caviar on the planet from top eco-friendly environments, we keep the price of osetra caviar moderate, allowing everyone to try this product. We also focus on providing added value to our clients through special offers like a caviar subscription, carefully crafted caviar gift sets, a selection of matching toppings and tableware, and a custom approach and compliments to every order.<\/p>",
+        "right_text": "<p>Feel free to contact our team if you have any questions regarding our product or if you need help selecting the caviar jar to match your taste or the menu you prepare for your special occasion. Buy osetra caviar with Bester Caviar, and let’s travel to the world of caviar delight together<\/p>",
+        "yellow_title": false
       }
     },
     "subscription_section_z9GNeh": {
@@ -245,8 +185,8 @@
         "item_Cper78": {
           "type": "item",
           "settings": {
-            "title": "Make your business profitable",
-            "text": "<p>Caviar, a unique and luxurious product, can offer a powerful addition to your current business or even turn into a cornerstone to build your brand around. So, what are the benefits of using sturgeon caviar for sale?<\/p><p>First, the caviar market has a strong profit potential, promising high margins and opportunities for further development and expansion. Second, the demand for caviar is also growing, as more and more people receive a chance to appreciate the exquisite flavors. It is also worth mentioning that caviar appeals to diverse consumer segments, from high-end restaurants and hotels to individual consumers celebrating special occasions. This diversity opens various revenue streams you can harness for the benefit of your entrepreneurial initiative. <\/p><p>Caviar sale is a promising endeavor. However, to achieve real success, you need a strong backup for sourcing quality caviar and figuring out the processes. Apply to our <a href=\"https:\/\/bestercaviarstore.com\/pages\/caviar-club\"><span style=\"text-decoration:underline\">caviar subscription<\/span><\/a>, and we will gladly become your caviar wholesaler!<\/p>",
+            "title": "Why Choose Bester Caviar",
+            "text": "<p>Bester Caviar is the leading Russian osetra caviar distributor in the United States. We have gathered a vast community of caviar connoisseurs around us, from occasional admirers to top Miami-based restaurants that have added refined caviar dishes to their menus. <\/p><p>We prioritize quality and customer experience. Every jar we deliver includes top caviar produced on top eco-friendly aquafarms in Israel, Italy, and Madagascar. Sturgeons there live in the natural environment and receive the finest care, which ensures the high quality of their roes. Thanks to our special packaging system, caviar gets to you fresh and untainted, setting you up for a fine dining experience. We deliver overnight to any point in the US, so you can enjoy the product as soon as possible. We also offer a caviar subscription — a regular delivery of the product with special compliments.<\/p>",
             "mobile_text": "",
             "seo": true,
             "desktop": false
@@ -256,18 +196,28 @@
           "type": "item",
           "settings": {
             "title": "",
-            "image": "shopify:\/\/shop_images\/eat.webp",
+            "image": "shopify:\/\/shop_images\/09a1cbd518c96f9cabc0daed45b4d997_b1f774f1-34ae-415f-b142-69c621f21176.png",
             "text": "<p>When negotiating the purchase, we will consult you on specifics and help you choose the caviar type that will match your objectives the best. For all our caviar wholesale clients, we offer additional support and training in business growth and caviar expertise, so your entrance into the world of caviar distribution will be seamless.<\/p>",
             "mobile_text": "",
             "seo": false,
             "desktop": true
           }
         },
+        "item_FbraKN": {
+          "type": "item",
+          "settings": {
+            "title": "Low price for osetra caviar but not quality - a manifestation of love for our customers",
+            "text": "<p>Bester Caviar dedicates itself to creating a balance between affordability and high quality. While sourcing the best caviar on the planet from top eco-friendly environments, we keep the price of osetra caviar moderate, allowing everyone to try this product. We also focus on providing added value to our clients through special offers like a <a href=\"https:\/\/bestercaviarstore.com\/pages\/caviar-club\"><span style=\"text-decoration:underline\">caviar subscription<\/span><\/a>, carefully crafted <a href=\"https:\/\/bestercaviarstore.com\/collections\/caviar-collection\"><span style=\"text-decoration:underline\">caviar gift sets<\/span><\/a>, a selection of matching toppings and tableware, and a custom approach and compliments to every order. <\/p><p>Feel free to contact our team if you have any questions regarding our product or if you need help selecting the caviar jar to match your taste or the menu you prepare for your special occasion. <\/p>",
+            "mobile_text": "",
+            "seo": false,
+            "desktop": false
+          }
+        },
         "item_Cj8wjQ": {
           "type": "item",
           "settings": {
-            "title": "How to make a bulk purchase of black caviar?",
-            "text": "<p>Contact Bester Caviar to order a bulk purchase of the first-class sturgeon caviar! Through our supply chain, you can access the best product in the US market, acclaimed by a big community of connoisseurs and top restaurants. Just leave us a message on our website, and we will contact you shortly.<\/p>",
+            "title": "Black Sturgeon Caviar: The Source of Pleasure and Health",
+            "text": "<p>Caviar, a refined delicacy, offers significant health benefits. It's a rich source of omega-3 fatty acids, which support heart health, reduce inflammation, and promote brain function. Black Russian caviar also contains vitamins and minerals, including vitamin B12, which aids in energy production, and selenium, a potent antioxidant. Moreover, it provides amino acids vital for tissue repair and overall well-being. While caviar is best enjoyed in moderation due to its high salt content, this delicacy can give more than just gastronomic pleasure — it can contribute to a healthier lifestyle when savored wisely.<\/p><p><\/p><p>Buy osetra caviar with Bester Caviar, and let’s travel to the world of caviar delight together!<\/p>",
             "mobile_text": "",
             "seo": false,
             "desktop": false
@@ -279,6 +229,7 @@
         "link_WkPBcm",
         "item_Cper78",
         "item_ezFqba",
+        "item_FbraKN",
         "item_Cj8wjQ"
       ],
       "settings": {
@@ -300,10 +251,11 @@
     "collection_products_section_QHNLnp",
     "1724881621e1b5cf0e",
     "little_promo_section_eKrymi",
+    "little_promo_section_GYK7KX",
     "main_better_section_TVJ3R6",
     "main_better_section_Br9Jpz",
-    "featured_collection_VN3kfh",
-    "subscription_section_qKBgHV",
+    "little_promo_section_X6cmxN",
+    "little_promo_section_qPPzVn",
     "subscription_section_z9GNeh",
     "newsletter_second_section_xGBqda"
   ]

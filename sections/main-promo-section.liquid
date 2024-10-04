@@ -18,7 +18,7 @@
         {% endif %}
     </div>
 </section>
-<section class="promo">
+<section class="promo {% if section.settings.is_homepage %} homepage {% endif %}">
     <div class="container">
         <div class="promo__container">
             {% for block in section.blocks %}
@@ -65,6 +65,11 @@
         "type": "checkbox",
         "id": "main_title",
         "label": "Main Title"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_homepage",
+        "label": "Is section homepage? "
       },
       {
         "type": "text",

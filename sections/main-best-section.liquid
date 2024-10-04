@@ -6,9 +6,9 @@
             </{% if template == "index" %}h1{% else %}h2{% endif %}>
           {% endif %}
           {% if section.settings.text != blank %}
-            <p class="best__description description">
+            <div class="best__description description">
                 {{ section.settings.text }}
-            </p>
+            </div>
           {% endif %}
       </div>
   </section>
@@ -24,10 +24,10 @@
         "default": "Best Caviar Online in The US by Bester Caviar"
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "text",
         "label": "Text",
-        "default": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p"
+       
       }
     ],
     "presets": [

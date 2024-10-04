@@ -153,28 +153,6 @@
   });
 </script>
 
-
-<script>
-  document.addEventListener("DOMContentLoaded ",function() {
-    var formData = new FormData();
-    let inputDate = document.querySelector('.delivery-date-container .input-wrapper #date');
-    console.log(inputDate);
-    inputDate.addEventListener('change', function() {
-      formData.append("attributes[Delivery date]", inputDate.value);
-      fetch(window.Shopify.routes.root + 'cart/update.js', {
-        method: 'POST',
-        body: formData
-      })
-      .then(response => response.json())
-      .then(data => console.log(data));
-    });
-
-  })
-  
-  
-  
-</script>
-
 {% schema %}
 {
   "name": "t:sections.main-cart-footer.name",

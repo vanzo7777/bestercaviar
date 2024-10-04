@@ -61,10 +61,11 @@
 <section class="promo">
       <div class="container">
           {% if section.settings.title != blank %}
-            <{% if section.settings.main_title %}h1{% else %}h1{% endif %} class="promo__title title mw {% if section.settings.yellow_title %}title__yellow{% endif %}">
+            <{% if section.settings.main_title %}h1{% else if section.settings.sub_title %}h2{% else %}p{% endif %} class="promo__title title mw {% if section.settings.yellow_title %}title__yellow{% endif %}">
                 {{ section.settings.title }}
-            </{% if section.settings.main_title %}h1{% else %}h1{% endif %}>
+            </{% if section.settings.main_title %}h1{% else if section.settings.sub_title %}h2{% else %}p{% endif %}>
           {% endif %}
+
           {% if section.settings.subtitle != blank %}
             <div class="promo__subtitle">
               {{ section.settings.subtitle }}
@@ -72,9 +73,9 @@
           {% endif %}
           <div class="promo__wrapper">
               {% if section.settings.left_text != blank %}
-                <p class="promo__description description">
+                <div class="promo__description description">
                   {{ section.settings.left_text }}
-                </p>
+                </div>
               {% endif %}
               {% if section.settings.right_text != blank %}
                 <div class="promo__description description">
@@ -107,18 +108,23 @@
         "label": "Main Title"
       },
       {
+        "type": "checkbox",
+        "id": "sub_title",
+        "label": "SubTitle"
+      },
+      {
         "type": "richtext",
         "id": "mobile_text",
         "label": "Mobile Text"
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "left_text",
         "label": "Left Text",
        
       },
       {
-        "type": "text",
+        "type": "richtext",
         "id": "right_text",
         "label": "Right Text",
        

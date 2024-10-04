@@ -60,9 +60,10 @@
         "title": "",
         "subtitle": "",
         "main_title": false,
+        "sub_title": false,
         "mobile_text": "",
-        "left_text": "Caviar tasting is a sophisticated process at its core, but the right caviar pairings and tableware will only enhance your experience and emphasize the exquisite flavor of the delicacy. Savor your caviar as a true connoisseur just by adding a few simple accessories.",
-        "right_text": "Using the right accessories is essential for saving the untempered taste of caviar and proper serving. Our caviar food pairings will become a great addition to your caviar tasting. You don't need to prepare anything else, just add our mini blinis and creme fraiche to your caviar order, combine the product together and enjoy the perfect match they create.Our team has prepared the basics you need to serve the caviar properly, and you can easily purchase them in our caviar shop alongside premium quality osetra caviar and gift sets.",
+        "left_text": "<p>Caviar tasting is a sophisticated process at its core, but the right caviar pairings and tableware will only enhance your experience and emphasize the exquisite flavor of the delicacy. Savor your caviar as a true connoisseur just by adding a few simple accessories. Our team has prepared the basics you need to serve the caviar properly, and you can easily purchase them in our <a href=\"https:\/\/bestercaviarstore.com\/\" title=\"https:\/\/bestercaviarstore.com\/\">caviar shop<\/a> alongside premium quality osetra caviar and gift sets.<\/p>",
+        "right_text": "<p>Using the right accessories is essential for saving the untempered taste of caviar and proper serving. Our caviar food pairings will become a great addition to your caviar tasting. You don't need to prepare anything else, just add our mini blinis and creme fraiche to your caviar order, combine the product together and enjoy the perfect match they create.<\/p>",
         "yellow_title": false
       }
     },
@@ -74,6 +75,7 @@
         "products": [
 
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -98,6 +100,7 @@
           "caviar-holder-with-beluga-siberian",
           "caviar-osietra-classic"
         ],
+        "show_first_variant": false,
         "text": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -324,7 +327,7 @@
       ],
       "settings": {
         "title": "More and more quality service for our customers",
-        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "sub_title": "",
         "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
         "delivery": false
       }

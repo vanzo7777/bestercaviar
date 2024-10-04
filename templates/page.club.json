@@ -11,11 +11,10 @@
     "banner_section_TTdJce": {
       "type": "banner-section",
       "custom_css": [
-        "@media (max-width: 993px) {.banner__list {display: none; }}",
-        "@media (max-width: 498px) {.banner {margin-top: 130px; }}"
+
       ],
       "settings": {
-        "image_mobile": "shopify:\/\/shop_images\/iPhone_14_Plus_-_1.png",
+        "image_mobile": "shopify:\/\/shop_images\/faq.webp",
         "image_desktop": "shopify:\/\/shop_images\/club.webp",
         "title": "<p>Premium Caviar Club Bester Caviar<\/p>",
         "title_width": 400,
@@ -24,19 +23,20 @@
         "bottom_button": false,
         "sub_title": "",
         "sub_title_sets": false,
-        "text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium<br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
+        "text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium <br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
         "top": true
       }
     },
     "little_promo_section_c8wmNr": {
       "type": "little-promo-section",
       "settings": {
-        "title": "Caviar Club Subscription  <br>For True Gourmets",
+        "title": "Caviar Club Subscription  For True Gourmets",
         "subtitle": "You have tried our caviar, and now you don’t want to stop. You seek to have this exquisite flavor and elegant rituals associated with this magnetic product. Luckily, we have good news for you: we have a special offer for real caviar connoisseurs — the Caviar Club.",
-        "main_title": false,
+        "main_title": true,
+        "sub_title": false,
         "mobile_text": "<ul><li>Join the premium Caviar Club<\/li><li>Our goal is to make premium<br\/>Black Caviar more available and allow <br\/>you to enjoy high-quality caviar in wholesale<\/li><li>Pay a membership subscription to receive <br\/>all benefits<\/li><\/ul>",
-        "left_text": "The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! Our caviar",
-        "right_text": "subscription makes the product from our caviar shop more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique wholesale offer, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.",
+        "left_text": "",
+        "right_text": "",
         "yellow_title": false
       }
     },
@@ -57,6 +57,19 @@
         "include_margins": true
       }
     },
+    "little_promo_section_AVhAKR": {
+      "type": "little-promo-section",
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "main_title": false,
+        "sub_title": false,
+        "mobile_text": "",
+        "left_text": "<p>The Caviar Club’s goal is to make caviar more available while offering uncompromised high quality and great service to its members. The Caviar Club is created for caviar lovers who would like to enjoy caviar monthly without overpaying for it. As a member of the club, you receive the best wholesale prices on premium quality black caviar and other perks such as free gifts for the finest caviar experience. Make caviar tasting your monthly habit! <\/p>",
+        "right_text": "<p>Our caviar subscription makes the product from our <a href=\"https:\/\/bestercaviarstore.com\/\" title=\"https:\/\/bestercaviarstore.com\/\">caviar shop<\/a> more accessible, while your experience with Bester Caviar becomes richer and more varied. Get the freshest and finest caviar cultivated by experienced specialists on a regular basis and add new flavors to your everyday life. With our unique <a href=\"\/pages\/caviar-wholesaler\" title=\"Wholesale\">wholesale offer<\/a>, you will be able to enter the market of caviar reselling easily and discover an interesting and promising business niche.<\/p>",
+        "yellow_title": false
+      }
+    },
     "about_reverse_section_9f9eUL": {
       "type": "about-reverse-section",
       "blocks": {
@@ -75,9 +88,16 @@
         "image": "shopify:\/\/shop_images\/club2.webp",
         "title": "CAVIAR BESTSELLERS",
         "button": "MORE",
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/about-us",
         "club_section": true,
         "our_section": false
+      }
+    },
+    "contact_section_CRNkYP": {
+      "type": "contact-section",
+      "settings": {
+        "title": "Contact us",
+        "sub_title": ""
       }
     },
     "services_section_9KE9dn": {
@@ -95,7 +115,7 @@
           "type": "item",
           "settings": {
             "image": "shopify:\/\/shop_images\/service-2.svg",
-            "title": "PERSONALIZE YOUR ORDERWITH A GIFT CARD",
+            "title": "PERSONALIZE YOUR ORDER WITH A GIFT CARD",
             "text": "Send someone special Bester Caviar Gift Card so they can receive their fresh caviar when they are ready to indulge."
           }
         },
@@ -124,8 +144,8 @@
       ],
       "settings": {
         "title": "More and more quality service for our customers",
-        "sub_title": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-        "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "sub_title": "",
+        "text": "We work hard to make the caviar experience an exciting, satisfying event for you and your loved ones. Order caviar from us and enjoy the marvelous taste of top-class roes!",
         "delivery": false
       }
     }
@@ -135,7 +155,9 @@
     "banner_section_TTdJce",
     "little_promo_section_c8wmNr",
     "1724886132914028a9",
+    "little_promo_section_AVhAKR",
     "about_reverse_section_9f9eUL",
+    "contact_section_CRNkYP",
     "services_section_9KE9dn"
   ]
 }
